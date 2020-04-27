@@ -1,6 +1,6 @@
 # Site
 repository: erikpillon/erikpillon.github.io 
-favicon: images/pic.png 
+# favicon: images/pic.png 
 
 # Personal info
 name: Erik Pillon
@@ -43,7 +43,7 @@ google_analytics: "UA-164665020-1"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/pic.png 
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics. 
   My scientific activity ranges from the field of Chemical Physics to Electrodynamics; 

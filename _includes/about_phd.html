@@ -1,5 +1,5 @@
 <div class="container more-container">
-  <h3>{{ site.about_phd | default: "About my Academic Experience" }}</h3>
+  <h3>{{ site.about_phd_title | default: "About my Academic Experience" }}</h3>
   <div class="row clearfix">
     <div class="col-md-12">
       {{ site.about_phd | strip | markdownify }}

@@ -70,8 +70,11 @@ about_phd: | # this will include new lines to allow paragraphs
     Below you can find a map with the places that I visited during my (Master and) PhD experience.
     
     <div>
-    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
     </div>
+    <figure>
+      <img src="/images/social_media.png" alt="Social media impact">
+    </figure>
 
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in physics and science outreaching some of my other interests and hobbies are:

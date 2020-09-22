@@ -9,7 +9,7 @@ email: erik.pillon @ gmail.com
 phone:
 website: ErikPillon.github.com
 
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -47,11 +47,18 @@ about_profile_image: images/pic.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics. 
   My scientific activity ranges from the field of Chemical Physics to Electrodynamics; 
-  in particular I'm trying to develop efficient numerical methods for the modelization of the (molecular) Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. 
+  in particular I'm involved in the development of efficient numerical methods for the modelization of the (molecular) Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. 
 
   I am most skilled in: <mark>non-adiabatic dynamics</mark> and <mark>non-Abelian treatments</mark> of quantum mechanics.
   
-  In my free time I like to [read](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) and watch Formula 1/MotoGP.
+  In my free time I like [reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read), play chess and watch Formula 1 and MotoGP.
+
+  Personal Projects:
+  - I'm a self taught html coder: this website,for example, has been created by myself with jekyll and this (adapted) package.
+  - I'm in the top 6% users of [Project Euler](https://projecteuler.net). If you're a member as well and would like to get in contact, kere's my own key <code>1651656_Iz5GGTJixRj9kIs1XWypzgi8xs14opse</code>
+  - I like to create and share pop-science contents: checkout the projects I'm involved [Phi6 Passion](https://www.facebook.com/Phi6Passion), [La Gaia Scienza](https://www.facebook.com/LaGaiaScienzaF) (Italian only) 
+    and [Mathone](https://www.facebook.com/math0ne) (mainly Italian)
+
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -67,6 +74,71 @@ about_content: | # this will include new lines to allow paragraphs
 
 about_phd_title: About my Academic Experience
 about_phd: | # this will include new lines to allow paragraphs
+    <style type="text/css">
+      img.rounded-corners {
+         border-radius: 50%;
+      }
+    </style>
+
+    <table style="font-size:14px;text-align:center">
+    <colgroup>
+    <col width="5%" />
+    <col width="30%" />
+    <col width="15%" />
+    <col width="15%" />
+    <col width="15%" />
+    <col width="20%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align:center">Logo</th>
+    <th style="text-align:center">Name</th>
+    <th style="text-align:center">Likes</th>
+    <th style="text-align:center">Followers</th>
+    <th style="text-align:center">Likes</th>
+    <th style="text-align:center">Role</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
+    <td markdown="span">900</td>
+    <td markdown="span">1000</td>
+    <td markdown="span"></td>
+    <td markdown="span">Co-Founder and Admin</td>
+    </tr>
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
+    <td markdown="span">900</td>
+    <td markdown="span">1000</td>
+    <td markdown="span"></td>
+    <td markdown="span">Co-Founder and Admin</td>
+    </tr>
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
+    <td markdown="span">900</td>
+    <td markdown="span">1000</td>
+    <td markdown="span"></td>
+    <td markdown="span">Co-Founder and Admin</td>
+    </tr>
+    </tbody>
+    </table>
+
     Below you can find a map with the places that I visited during my (Master and) PhD experience.
     
     <div>
@@ -75,6 +147,7 @@ about_phd: | # this will include new lines to allow paragraphs
     <figure>
       <img src="/images/social_media.png" alt="Social media impact">
     </figure>
+
 
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in physics and science outreaching some of my other interests and hobbies are:
@@ -88,9 +161,9 @@ more_content: | # this will include new lines to allow paragraphs
   some other languages apart from Italian; in particuar I have some knowledge in:
     - **Italian**: modertongue
     - **English**: fluent
-    - **French**: fluent (those accents still confuse me a lot though ;) )
-    - **German**: ständige persönliche Herausforderung
-    - **Spanish**: lo entiendo cuando me hablan ma non lo hablo fluentemente...
+    - **French**: fluent, but those accents still confuse me a lot though ;)
+    - **German**: beginner
+    - **Spanish**: beginner
 
 # Footer
 footer_show_references: true

@@ -43,20 +43,21 @@ google_analytics: "UA-164665020-1"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
+
+# Missing: associations I'm involved (LuxDoc, Almath, Debug...) 
 about_profile_image: images/pic.png 
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics. 
+  Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics @ University of Luxembourg. 
   My scientific activity ranges from the field of Chemical Physics to Electrodynamics; 
-  in particular I'm involved in the development of efficient numerical methods for the modelization of the (molecular) Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. 
+  in particular I'm involved in the development of efficient numerical methods for the modelization of the (molecular) Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. My other scientific interests cover the development and improvements of Machine Learning techniques for the prediction of molecular and chemical properties.
 
-  I am most skilled in: <mark>non-adiabatic dynamics</mark> and <mark>non-Abelian treatments</mark> of quantum mechanics.
+  I am most skilled in: <mark>non-adiabatic dynamics</mark>, <mark>non-Abelian geometry</mark>, efficient and parallelized <mark>numerical techniques</mark> for quantum systems.
   
-  In my free time I like [reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read), play chess and watch Formula 1 and MotoGP.
-
-  Physics olympiads team (highschool) and mathematical games competition (middle school)
-  Personal Projects:
+  **Achievements**:
+  - Physics olympiads team (highschool) 
+  - Mathematical Games ("Giochi matematici") competition (middle school)
   - I'm a self taught html coder: this website,for example, has been created by myself with jekyll and this (adapted) package.
-  - I'm in the top 6% users of [Project Euler](https://projecteuler.net). If you're a member as well and would like to get in contact, kere's my own key <code>1651656_Iz5GGTJixRj9kIs1XWypzgi8xs14opse</code>
+  - Top 4% users of [Project Euler](https://projecteuler.net). If you're a member as well and would like to get in contact, kere's my own key <code>1651656_Iz5GGTJixRj9kIs1XWypzgi8xs14opse</code>
   - I like to create and share pop-science contents: checkout the projects I'm involved [Phi6 Passion](https://www.facebook.com/Phi6Passion), [La Gaia Scienza](https://www.facebook.com/LaGaiaScienzaF) (Italian only) 
     and [Mathone](https://www.facebook.com/math0ne) (mainly Italian)
 
@@ -101,6 +102,7 @@ about_phd: | # this will include new lines to allow paragraphs
     </tr>
     </thead>
     <tbody>
+    
     <tr>
     <td markdown="span">
       <figure>
@@ -108,34 +110,36 @@ about_phd: | # this will include new lines to allow paragraphs
       </figure>
     </td>
     <td style="text-align:center" markdown="span">La Gaia Scienza</td>
-    <td markdown="span">900</td>
-    <td markdown="span">1000</td>
+    <td markdown="span">1800</td>
+    <td markdown="span">1900</td>
     <td markdown="span"></td>
     <td markdown="span">Co-Founder and Admin</td>
     </tr>
+    
     <tr>
     <td markdown="span">
       <figure>
-        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+        <img src="/images/mathone.png" alt="Logo Mathone" class="rounded-corners">
       </figure>
     </td>
-    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
-    <td markdown="span">900</td>
-    <td markdown="span">1000</td>
-    <td markdown="span"></td>
-    <td markdown="span">Co-Founder and Admin</td>
+    <td style="text-align:center" markdown="span">Mathone</td>
+    <td markdown="span">3100</td>
+    <td markdown="span">3200</td>
+    <td markdown="span">12,5k</td>
+    <td markdown="span">Content Editor</td>
     </tr>
+
     <tr>
     <td markdown="span">
       <figure>
-        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+        <img src="/images/Phi6_white.png" alt="Logo Phi6" class="rounded-corners">
       </figure>
     </td>
-    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
-    <td markdown="span">900</td>
-    <td markdown="span">1000</td>
-    <td markdown="span"></td>
-    <td markdown="span">Co-Founder and Admin</td>
+    <td style="text-align:center" markdown="span">Phi6 Passion</td>
+    <td markdown="span">4300</td>
+    <td markdown="span">4500</td>
+    <td markdown="span">130</td>
+    <td markdown="span">Founder and Admin</td>
     </tr>
     </tbody>
     </table>
@@ -145,26 +149,20 @@ about_phd: | # this will include new lines to allow paragraphs
     <div>
       <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
     </div>
-    <figure>
-      <img src="/images/social_media.png" alt="Social media impact">
-    </figure>
 
 
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in physics and science outreaching some of my other interests and hobbies are:
+  Alongside my science outreaching sctivities, my interests include:
    - Formula 1/MotoGP and motorsports in general
    - Gaming
    - Stamps and coins collecting
    - Running and cycling
    - Playing chess  
-  
-  (Also) thanks to my experiences abroad, I had the opportunity of learning 
-  some other languages apart from Italian; in particuar I have some knowledge in:
-    - **Italian**: modertongue
-    - **English**: fluent
-    - **French**: fluent, but those accents still confuse me a lot though ;)
-    - **German**: beginner
-    - **Spanish**: beginner
+   - [Reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) 
+   Languages:
+   - **Italian**: modertongue
+   - **English**: fluent
+   - **French**: fluent
 
 # Footer
 footer_show_references: true

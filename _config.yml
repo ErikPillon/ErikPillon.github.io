@@ -76,6 +76,14 @@ about_content: | # this will include new lines to allow paragraphs
 
 about_phd_title: About my Academic Experience
 about_phd: | # this will include new lines to allow paragraphs
+    Below you can find a map with the places that I visited during my (Master and) PhD experience.
+    
+    <div>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
+    </div>
+
+    Summary of social projects I created or I'm actively involved:
+
     <style type="text/css">
       img.rounded-corners {
          border-radius: 50%;
@@ -144,11 +152,6 @@ about_phd: | # this will include new lines to allow paragraphs
     </tbody>
     </table>
 
-    Below you can find a map with the places that I visited during my (Master and) PhD experience.
-    
-    <div>
-      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
-    </div>
 
 
 more_content: | # this will include new lines to allow paragraphs
@@ -159,7 +162,8 @@ more_content: | # this will include new lines to allow paragraphs
    - Running and cycling
    - Playing chess  
    - [Reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) 
-   Languages:
+  
+  Languages:
    - **Italian**: modertongue
    - **English**: fluent
    - **French**: fluent

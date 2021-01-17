@@ -48,19 +48,6 @@ google_analytics: "UA-164665020-1"
 about_profile_image: images/pic.png 
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics @ University of Luxembourg. 
-  My scientific activity ranges from the field of Chemical Physics to Electrodynamics; 
-  in particular I'm involved in the development of efficient numerical methods for the modelization of the (molecular) Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. My other scientific interests cover the development and improvements of Machine Learning techniques for the prediction of molecular and chemical properties.
-
-  I am most skilled in: <mark>non-adiabatic dynamics</mark>, <mark>non-Abelian geometry</mark>, efficient and parallelized <mark>numerical techniques</mark> for quantum systems.
-  
-  **Achievements**:
-  - Physics olympiads team (highschool) 
-  - Mathematical Games ("Giochi matematici") competition (middle school)
-  - I'm a self taught html coder: this website,for example, has been created by myself with jekyll and this (adapted) package.
-  - Top 4% users of [Project Euler](https://projecteuler.net). If you're a member as well and would like to get in contact, kere's my own key <code>1651656_Iz5GGTJixRj9kIs1XWypzgi8xs14opse</code>
-  - I like to create and share pop-science contents: checkout the projects I'm involved [Phi6 Passion](https://www.facebook.com/Phi6Passion), [La Gaia Scienza](https://www.facebook.com/LaGaiaScienzaF) (Italian only) 
-    and [Mathone](https://www.facebook.com/math0ne) (mainly Italian)
-
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -76,97 +63,11 @@ about_content: | # this will include new lines to allow paragraphs
 
 about_phd_title: About my Academic Experience
 about_phd: | # this will include new lines to allow paragraphs
-    Below you can find a map with the places that I visited during my (Master and) PhD experience.
-    
-    <div>
-      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
-    </div>
-
-    Summary of social projects I created or I'm actively involved:
-
-    <style type="text/css">
-      img.rounded-corners {
-         border-radius: 50%;
-      }
-    </style>
-
-    <table style="font-size:14px;text-align:center">
-    <colgroup>
-    <col width="5%" />
-    <col width="30%" />
-    <col width="15%" />
-    <col width="15%" />
-    <col width="15%" />
-    <col width="20%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="text-align:center">Logo</th>
-    <th style="text-align:center">Name</th>
-    <th style="text-align:center">Likes</th>
-    <th style="text-align:center">Followers</th>
-    <th style="text-align:center">Likes</th>
-    <th style="text-align:center">Role</th>
-    </tr>
-    </thead>
-    <tbody>
-    
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
-    <td markdown="span">1800</td>
-    <td markdown="span">1900</td>
-    <td markdown="span"></td>
-    <td markdown="span">Co-Founder and Admin</td>
-    </tr>
-    
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/mathone.png" alt="Logo Mathone" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">Mathone</td>
-    <td markdown="span">3100</td>
-    <td markdown="span">3200</td>
-    <td markdown="span">12,5k</td>
-    <td markdown="span">Content Editor</td>
-    </tr>
-
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/Phi6_white.png" alt="Logo Phi6" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">Phi6 Passion</td>
-    <td markdown="span">4300</td>
-    <td markdown="span">4500</td>
-    <td markdown="span">130</td>
-    <td markdown="span">Founder and Admin</td>
-    </tr>
-    </tbody>
-    </table>
-
-
+  Something
 
 more_content: | # this will include new lines to allow paragraphs
   Alongside my science outreaching sctivities, my interests include:
-   - Formula 1/MotoGP and motorsports in general
-   - Gaming
-   - Stamps and coins collecting
-   - Running and cycling
-   - Playing chess  
-   - [Reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) 
   
-  Languages:
-   - **Italian**: modertongue
-   - **English**: fluent
-   - **French**: fluent
 
 # Footer
 footer_show_references: true

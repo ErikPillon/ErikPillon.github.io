@@ -9,7 +9,7 @@ email: erik.pillon @ gmail.com
 phone:
 website: ErikPillon.github.com
 
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
@@ -76,7 +76,81 @@ about_content: | # this will include new lines to allow paragraphs
 
 about_phd_title: About my Academic Experience
 about_phd: | # this will include new lines to allow paragraphs
-  Something
+  Below you can find a map with the places that I visited during my (Master and) PhD experience.
+    
+    <div>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
+    </div>
+
+    Summary of social projects I created or I'm actively involved:
+
+    <style type="text/css">
+      img.rounded-corners {
+         border-radius: 50%;
+      }
+    </style>
+
+    <table style="font-size:14px;text-align:center">
+    <colgroup>
+    <col width="5%" />
+    <col width="30%" />
+    <col width="15%" />
+    <col width="15%" />
+    <col width="15%" />
+    <col width="20%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align:center">Logo</th>
+    <th style="text-align:center">Name</th>
+    <th style="text-align:center">Likes</th>
+    <th style="text-align:center">Followers</th>
+    <th style="text-align:center">Likes</th>
+    <th style="text-align:center">Role</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
+    <td markdown="span">1800</td>
+    <td markdown="span">1900</td>
+    <td markdown="span"></td>
+    <td markdown="span">Co-Founder and Admin</td>
+    </tr>
+    
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/mathone.png" alt="Logo Mathone" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">Mathone</td>
+    <td markdown="span">3100</td>
+    <td markdown="span">3200</td>
+    <td markdown="span">12,5k</td>
+    <td markdown="span">Content Editor</td>
+    </tr>
+
+    <tr>
+    <td markdown="span">
+      <figure>
+        <img src="/images/Phi6_white.png" alt="Logo Phi6" class="rounded-corners">
+      </figure>
+    </td>
+    <td style="text-align:center" markdown="span">Phi6 Passion</td>
+    <td markdown="span">4300</td>
+    <td markdown="span">4500</td>
+    <td markdown="span">130</td>
+    <td markdown="span">Founder and Admin</td>
+    </tr>
+    </tbody>
+    </table>
 
 more_content: | # this will include new lines to allow paragraphs
   Alongside my science outreaching sctivities, my interests include:

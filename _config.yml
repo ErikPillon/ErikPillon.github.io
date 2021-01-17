@@ -154,7 +154,17 @@ about_phd: | # this will include new lines to allow paragraphs
 
 more_content: | # this will include new lines to allow paragraphs
   Alongside my science outreaching sctivities, my interests include:
+   - Formula 1/MotoGP and motorsports in general
+   - Gaming
+   - Stamps and coins collecting
+   - Running and cycling
+   - Playing chess  
+   - [Reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) 
   
+  Languages:
+   - **Italian**: modertongue
+   - **English**: fluent
+   - **French**: fluent  
 
 # Footer
 footer_show_references: true

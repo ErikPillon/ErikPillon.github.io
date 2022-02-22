@@ -1,194 +1,117 @@
-# Site
-repository: erikpillon/erikpillon.github.io 
-# favicon: images/pic.png 
+# WhatATheme
+markdown: kramdown
 
-# Personal info
-name: Erik Pillon
-title: PhD Student @ University of Luxembourg
-email: erik.pillon @ gmail.com
-phone:
-website: ErikPillon.github.com
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
 
-darkmode: false
+# Title of the Site
+title: Erik Pillon 
+# Description of the Site
+description: Mathematician, Physics enthusiast, Pizza lover
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/nerdy
+# Keywords of the Site
+site-keywords: Erik Pillon, ErikPillon
+# URL for the Image of custom Favicon
+favicon-url: 
 
-# Social links
-# twitter_username: jekyllrb
-github_username:  ErikPillon
-# stackoverflow_username: ""
-# dribbble_username: jekyll
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: ../images/nerdy.jpeg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: erik.pillon@gmail.com
 facebook_username: pi.ErikPillon
-# flickr_username: jekyll
+twitter_username: 
 instagram_username: erikpillon
-linkedin_username: ErikPillon
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+linkedin_username: erikpillon
+github_username:  erikpillon
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# Google Analytics
+google-analytics: G-TVDC8TKG2W
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-google_analytics: "UA-164665020-1"
+# Disqus
+disqus-shortname: erikpillon
 
-# About Section
-# about_title: About Me (Use this to override about section title)
+  # Name of the Author
+author-name: Erik Pillon
+# URL for the Image of the Author
+author-image: ../images/pic.png
+# 60 Words About the Author
+author-about: I’m a Mathematician by training, I focused as a postgraduate student in the modelization of the (molecular) Aharonov-Bohm effect in simple molecular systems. 
+              Particular emphasys was devoted to the development of efficient numerical techniques based on the rigorous mathematical threatment of non-abelian gauge structures 
+              underlying non-adiabatic phenomena in physics and chemistry. My other scientific interests cover the development and improvements of Machine Learning techniques 
+              for the prediction of molecular and chemical properties.</br>
+              </br>
+              <b>Outreaching</b></br>
+              I started cultivating my passion fort Science Communication during my Bachelor Studies in 2016, when I started sharing my interests in pop science books 
+              through series of articles on <a href="www.mathone.it">Mathone.it</a>, on my Facebook pages (<a href="https://www.facebook.com/Phi6Passion">Phi6 Passion</a> and 
+              <a href="https://www.facebook.com/LaGaiaScienzaF">La Gaia Scienza</a>) and on the platform Quora. 
+              More recently, I joined the PhD Students Association <a href="https://luxdoc.uni.lu">LuxDoc</a>, where I also had the pleasure of serving many roles in the committee board.
+              As President, I had the opportunity of supervising and co-organize several outreaching activities that involved either Private and Public Stakeholders, 
+              from the Luxembourgish ScienceSlam to the "3 Minutes Thesis" Competition. 
+              Feel free to visit my Projects page for further details.</br> 
+              <br>
+              </br>
+              <b>Additional Interests and Free Time</b><br>
+              In my free time I like reading popular science, philosophy and history books; I’m a great Formula1 fan and I cultivate my passion for numismatic. 
+              I’m a former cyclist and cycling coach, but now I simply enjoy discovering Luxembourgish landscapes with my bike. 
+              I enjoy challenging myself with some computational/mathematical puzzle, I often play board games and I’m a chess amateur player.
 
-# Missing: associations I'm involved (LuxDoc, Almath, Debug...) 
-about_profile_image: images/pic.png 
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Erik and I'm a PhD Student in theoretical and computational physics @ University of Luxembourg. 
-  My scientific activity ranges from the field of Chemical Physics to Electrodynamics; 
-  in particular I'm involved in the development of efficient numerical methods for the modelization of the (molecular) 
-  Aharonov-Bohm effect in molecules and crystals with mathematically rigorous treatments. My other scientific interests 
-  cover the development and improvements of Machine Learning techniques for the prediction of molecular and chemical properties.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/erikpillon
 
-  I am most skilled in: <mark>non-adiabatic dynamics</mark>, <mark>non-Abelian geometry</mark>, efficient and parallelized <mark>numerical techniques</mark> for quantum systems.
-  
-  **Achievements**:
-  - Physics olympiads team (highschool) 
-  - Mathematical Games ("Giochi matematici") competition (middle school)
-  - I'm a self taught html coder: this website,for example, has been created by myself with jekyll and this (adapted) package.
-  - Top 4% users of [Project Euler](https://projecteuler.net). If you're a member as well and would like to get in contact, kere's my own key <code>1651656_Iz5GGTJixRj9kIs1XWypzgi8xs14opse</code>
-  - I like to create and share pop-science contents: checkout the projects I'm involved [Phi6 Passion](https://www.facebook.com/Phi6Passion), [La Gaia Scienza](https://www.facebook.com/LaGaiaScienzaF) (Italian only) 
-    and [Mathone](https://www.facebook.com/math0ne) (mainly Italian)
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
-
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-# education_title: Education #(Use this to override about education section title)
-
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-
-about_phd_title: About my Academic Experience
-about_phd: | # this will include new lines to allow paragraphs
-  Below you can find a map with the places that I visited during my (Master and) PhD experience.
-    
-    <div>
-      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GXvcffwv8jleXn4XI9BTlnoVmjhMJGVy" width="640" height="480"></iframe>
-    </div>
-
-    Summary of social projects I created or I'm actively involved:
-
-    <style type="text/css">
-      img.rounded-corners {
-         border-radius: 50%;
-      }
-    </style>
-
-    <table style="font-size:14px;text-align:center">
-    <colgroup>
-    <col width="5%" />
-    <col width="30%" />
-    <col width="15%" />
-    <col width="15%" />
-    <col width="15%" />
-    <col width="20%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="text-align:center">Logo</th>
-    <th style="text-align:center">Name</th>
-    <th style="text-align:center">Likes</th>
-    <th style="text-align:center">Followers</th>
-    <th style="text-align:center">Likes</th>
-    <th style="text-align:center">Role</th>
-    </tr>
-    </thead>
-    <tbody>
-    
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/gaia.png" alt="Logo La Gaia Scienza" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">La Gaia Scienza</td>
-    <td markdown="span">1800</td>
-    <td markdown="span">1900</td>
-    <td markdown="span"></td>
-    <td markdown="span">Co-Founder and Admin</td>
-    </tr>
-    
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/mathone.png" alt="Logo Mathone" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">Mathone</td>
-    <td markdown="span">3100</td>
-    <td markdown="span">3200</td>
-    <td markdown="span">12,5k</td>
-    <td markdown="span">Content Editor</td>
-    </tr>
-
-    <tr>
-    <td markdown="span">
-      <figure>
-        <img src="/images/Phi6_white.png" alt="Logo Phi6" class="rounded-corners">
-      </figure>
-    </td>
-    <td style="text-align:center" markdown="span">Phi6 Passion</td>
-    <td markdown="span">4300</td>
-    <td markdown="span">4500</td>
-    <td markdown="span">130</td>
-    <td markdown="span">Founder and Admin</td>
-    </tr>
-    </tbody>
-    </table>
-
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my science outreaching sctivities, my interests include:
-   - Formula 1/MotoGP and motorsports in general
-   - Gaming
-   - Stamps and coins collecting
-   - Running and cycling
-   - Playing chess  
-   - [Reading](https://www.goodreads.com/review/list/91605767-erik-pillon?shelf=read) 
-  
-  Languages:
-   - **Italian**: modertongue
-   - **English**: fluent
-   - **French**: fluent  
-
-# Footer
-footer_show_references: true
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
+# SASS
 sass:
   sass_dir: _sass
   style: compressed
 
+# Build settings
 plugins:
- - jekyll-seo-tag
+  - jekyll-admin
+  - jekyll-feed
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

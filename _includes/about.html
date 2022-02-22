@@ -1,13 +1,30 @@
-<div class="container intro-container">
-  <h3>{{ site.about_title | default: "About Me" }}</h3>
-  <div class="row clearfix">
-    {%- if site.about_profile_image -%}
-      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
-      </div>
-    {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      {{ site.about_content | strip | markdownify }}
-    </div>
-  </div>
-</div>
+<section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                    <figure class="image">
+                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                    </figure>
+                </div>
+                <div class="columnabout">
+                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                    <p>{{site.author-about}}</p>
+                    <br>
+                    <div class="container columns is-centered">
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/#contact"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
+                                Me</a>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/project"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Projects</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

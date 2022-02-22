@@ -1,9 +1,36 @@
-## Project template
-#- layout: top-middle
-#  name: Project name
-#  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-#  quote: >
-#    Short overview of the project (optional)
-#  description: | # this will include new lines to allow paragraphs
-#    Description about the work on/with the project
+- name: Science Slam
+  label: Sci-comm
+  image: assets/images/scienceslam.jpeg
+  link: https://scienceslam.uni.lu
+  description: Biggest Science communication Contest in Luxembourg
+
+- name: 3MT
+  label: Sci-comm
+  link: https://luxdoc.uni.lu/3mt/
+  image: assets/images/3mt_2021.jpeg
+  description: Explain your PhD Thesis in 3 minutes!
+
+- name: FestaScience @UniVR
+  label: Sci-comm
+  link: http://www.festascienzeunivr.it
+  image: assets/images/festascienze.jpeg
+  description: Main Organizer of the end year event of the Science Faculty at University of Verona
+
+- name: Exact Quantum Dynamics Symulation
+  label: Programming
+  link:
+  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  description: Fortran implementation of multilevel exact quantum dynamics for simple arbitrary low dimensional molecular systems.
+
+- name: Non-Adiabatic Dynamics Simulation
+  label: Programming
+  link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
+  image: 
+  description: Implementation of different semiclassical numerical methods for non-adiabatic dynamics in molecular systems.
+
+- name: Instagram Bot
+  label: Programming
+  link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
+  image: 
+  description: Python implementation of a minimalistic Instagram Bot 
+

@@ -2,7 +2,7 @@
   label: Sci-comm
   image: assets/images/scienceslam.jpeg
   link: https://scienceslam.uni.lu
-  description: Biggest Science communication Contest in Luxembourg
+  description: Biggest Science Communication Contest in Luxembourg
 
 - name: 3MT
   label: Sci-comm
@@ -18,8 +18,8 @@
 
 - name: Exact Quantum Dynamics Symulation
   label: Programming
-  link:
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  link: 
+  image: assets/WP_dynamics.gif
   description: Fortran implementation of multilevel exact quantum dynamics for simple arbitrary low dimensional molecular systems.
 
 - name: Non-Adiabatic Dynamics Simulation
@@ -30,7 +30,7 @@
 
 - name: Instagram Bot
   label: Programming
-  link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
+  link: https://github.com/ErikPillon/Instagram-Bot
   image: 
   description: Python implementation of a minimalistic Instagram Bot 
 

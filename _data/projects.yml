@@ -18,7 +18,7 @@
 
 - name: Exact Quantum Dynamics Symulation
   label: Programming
-  link: 
+  link: https://github.com/ErikPillon/WP_QuantumDynamics
   image: assets/WP_dynamics.gif
   description: Fortran implementation of multilevel exact quantum dynamics for simple arbitrary low dimensional molecular systems.
 

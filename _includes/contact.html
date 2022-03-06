@@ -61,6 +61,12 @@
                 {% unless site.dribbble_username ==  %}
                 <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i class="fab fa-dribbble"></i></a>
                 {% endunless %}
+                {% unless site.quora_username ==  %}
+                <a href="http://www.quora.com/{{site.quora_username}}" target="_blank" class="has-text-black"><i class="fa-brands fa-quora"></i></a>
+                {% endunless %}
+                {% unless site.stackexchange_username ==  %}
+                <a href="http://www.https://physics.stackexchange.com/users/{{site.stackexchange_username}}" target="_blank" class="has-text-black"><i class="fa-brands fa-stack-exchange"></i></a>
+                {% endunless %}
                 {% unless site.spotify_username ==  %}
                 <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
                 {% endunless %}

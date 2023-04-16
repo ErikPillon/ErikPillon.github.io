@@ -1,6 +1,6 @@
 ---
 title: "Science and Complexity: a XXI century perspecive"
-layout: blog
+layout: post
 post-image: ../assets/images/Science_and_Complexity.png
 description: Review of one of the most influential papers in the history of science.
 tags:

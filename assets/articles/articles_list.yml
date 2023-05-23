@@ -1,0 +1,149 @@
+- author: Nicolaus Copernicus
+  year: 1543
+  article_title: On the Revolutions of the Celestial Spheres
+  field_of_study: Astronomy
+  minimal_abstract_of_the_article: Proposed heliocentric model, challenging the geocentric view.
+
+- author: Thomas Jefferson
+  year: 1776
+  article_title: The Declaration of Independence
+  field_of_study: Politics
+  minimal_abstract_of_the_article: Declares U.S. independence and outlines principles of liberty and equality.
+
+- author: Karl Marx and Friedrich Engels
+  year: 1848
+  article_title: The Communist Manifesto
+  field_of_study: Political Philosophy
+  minimal_abstract_of_the_article: Advocates for workers' rights, social equality, and a classless society.
+
+- author: Sigmund Freud
+  year: 1899
+  article_title: The Interpretation of Dreams
+  field_of_study: Psychology
+  minimal_abstract_of_the_article: Explores the unconscious mind, dreams, and human psychology.
+
+- author: Albert Einstein
+  year: 1915
+  article_title: The Theory of General Relativity
+  field_of_study: Physics
+  minimal_abstract_of_the_article: Presents a new framework for understanding gravity, space, and time.
+
+- author: James Watson and Francis Crick
+  year: 1953
+  article_title: The Structure of DNA
+  field_of_study: Molecular Biology
+  minimal_abstract_of_the_article: Describes the double helix structure of DNA, revolutionizing genetics.
+
+- author: Alan Turing
+  year: 1950
+  article_title: Computing Machinery and Intelligence
+  field_of_study: Artificial Intelligence
+  minimal_abstract_of_the_article: Introduces the Turing test and raises questions about machine intelligence.
+
+- author: John Rawls
+  year: 1971
+  article_title: A Theory of Justice
+  field_of_study: Political Philosophy
+  minimal_abstract_of_the_article: Proposes principles of justice as fairness and equal opportunities.
+
+- author: Intergovernmental Panel on Climate Change (IPCC)
+  year: 2014
+  article_title: "Global Climate Change: Evidence and Causes"
+  field_of_study: Climate Science
+  minimal_abstract_of_the_article: Provides a comprehensive overview of climate change science.
+
+- author: Satoshi Nakamoto
+  year: 2008
+  article_title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+  field_of_study: Cryptocurrency
+  minimal_abstract_of_the_article: Introduces the concept of Bitcoin and blockchain technology.
+
+- author: Claude Shannon
+  year: 1948
+  article_title: Information Theory and Coding
+  field_of_study: Information Theory
+  minimal_abstract_of_the_article: Lays the foundation for information theory, data compression, and communication.
+
+- author: Garrett Hardin
+  year: 1968
+  article_title: The Tragedy of the Commons
+  field_of_study: Environmental Science, Economics
+  minimal_abstract_of_the_article: Explores the problem of overexploitation of shared resources and the role of self-interest.
+
+- author: Yoshua Bengio, Ian Goodfellow, and Aaron Courville
+  year: 2015
+  article_title: Deep Learning
+  field_of_study: Machine Learning, Artificial Intelligence
+  minimal_abstract_of_the_article: Provides an overview of deep learning techniques and their applications.
+
+- author: Peter Sterling and Joseph Eyer
+  year: 1988
+  article_title: Allostasis and Allostatic Load
+  field_of_study: Physiology, Stress Research
+  minimal_abstract_of_the_article: Introduces the concept of allostasis and explores the impact of chronic stress on health.
+
+- author: Jennifer Earl and Katrina Kimport
+  year: 2011
+  article_title: The Structure of Online Activism
+  field_of_study: Sociology, Digital Activism
+  minimal_abstract_of_the_article: Examines the dynamics and structures of online activism and social movements.
+
+- author: Peter Drucker
+  read: yes
+  year: 1994
+  article_title: The Age of Social Transformation
+  field_of_study: Sociology, Management
+  minimal_abstract_of_the_article: Discusses the profound social changes brought about by the rise of the knowledge society.
+
+- author: Mark Granovetter
+  year: 1973
+  article_title: The Strength of Weak Ties
+  field_of_study: Sociology, Social Networks
+  minimal_abstract_of_the_article: Explores the role of weak social ties in information diffusion and social mobility.
+
+- author: Judith Butler
+  year: 1990
+  article_title: "Gender Trouble: Feminism and the Subversion of Identity"
+  field_of_study: Gender Studies, Philosophy
+  minimal_abstract_of_the_article: Challenges traditional notions of gender and explores the performative nature of identity.
+
+- author: Sudhir Kakar and Rada Ivekovic
+  year: 1997
+  article_title: "The Colours of Violence: Cultural Identities, Religion, and Conflict"
+  field_of_study: Anthropology, Sociology
+  minimal_abstract_of_the_article: Explores the relationship between cultural identities, religion, and societal conflicts.
+
+- author: Rita Charon
+  year: 2001
+  article_title: "Narrative Medicine: A Model for Empathy, Reflection, Profession, and Trust"
+  field_of_study: Medicine, Narrative Studies
+  minimal_abstract_of_the_article: Advocates for the integration of storytelling and empathetic communication in healthcare.
+
+- author: Eugene Wigner
+  read: yes
+  year: 1960
+  article_title: The Unreasonable Effectiveness of Mathematics in the Natural Sciences
+  field_of_study: Mathematics, Physics
+  minimal_abstract_of_the_article: Explores the surprising effectiveness of mathematics in describing and predicting natural phenomena.
+
+- author: Nicholas Carr
+  read: yes
+  year: 2008
+  article_title: Is Google Making Us Stupid?
+  field_of_study: Technology, Psychology
+  minimal_abstract_of_the_article: Examines the impact of internet usage, particularly search engines, on cognition and human thinking.
+
+- author: Abraham Maslow
+  read: yes
+  year: 1943
+  article_title: A Theory of Human Motivation
+  field_of_study: Psychology
+  minimal_abstract_of_the_article: Proposes the hierarchy of needs theory, outlining human motivation and self-actualization.
+
+- author: Warren Weaver
+  read: yes
+  year: 1948
+  article_title: Science and Complexity
+  field_of_study: Complex Systems, Biology
+  minimal_abstract_of_the_article: Explores the role of complexity and self-organization in various scientific disciplines, emphasizing biology.
+

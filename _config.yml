@@ -46,25 +46,28 @@ author-name: Erik Pillon
 # URL for the Image of the Author
 author-image: ../images/pic.png
 # 60 Words About the Author
-author-about: I’m a Mathematician by training, I focused as a postgraduate student in the modelization of the (molecular) Aharonov-Bohm effect in simple molecular systems. 
-              Particular emphasys was devoted to the development of efficient numerical techniques based on the rigorous mathematical threatment of non-abelian gauge structures 
-              underlying non-adiabatic phenomena in physics and chemistry. My other scientific interests cover the development and improvements of Machine Learning techniques 
-              for the prediction of molecular and chemical properties. You can find an accessible introduction to my work in <a href="/assets/forum_EP.pdf">this article</a>.</br> 
-              </br>
-              <b>Outreaching</b></br>
-              I started cultivating my passion fort Science Communication during my Bachelor Studies in 2016, when I started sharing my interests in pop science books 
-              through series of articles on <a href="www.mathone.it">Mathone.it</a>, on my Facebook pages (<a href="https://www.facebook.com/Phi6Passion">Phi6 Passion</a> and 
-              <a href="https://www.facebook.com/LaGaiaScienzaF">La Gaia Scienza</a>) and on the platform Quora. 
-              More recently, I joined the PhD Students Association <a href="https://luxdoc.uni.lu">LuxDoc</a>, where I also had the pleasure of serving many roles in the committee board.
-              As President, I had the opportunity of supervising and co-organize several outreaching activities that involved either Private and Public Stakeholders, 
-              from the Luxembourgish ScienceSlam to the "3 Minutes Thesis" Competition. 
-              Feel free to visit my Projects page for further details.</br> 
-              <br>
-              </br>
-              <b>Additional Interests and Free Time</b><br>
-              In my free time I like reading popular science, philosophy and history books; I’m a great Formula1 fan and I cultivate my passion for numismatic. 
-              I’m a former cyclist and cycling coach, but now I simply enjoy discovering Luxembourgish landscapes with my bike. 
-              I enjoy challenging myself with some computational/mathematical puzzle, I often play board games and I’m a chess amateur player.
+author-about: Hi, and thanks for passing by! I’m a Backend Developer with a background in pure Mathematics and Theoretical Physics.
+            As a former scientist and actual software developer with a passion for science and technology, 
+            I have spent the last several years developing software applications and tools that help scientists and researchers to collect, visualize and understand data.
+            </br>
+            In my free time I like to read everything that goes from pop science to philosophy, economics and history (check out my 
+            <a href="https://the52ndbook.github.io">blog</a>); 
+            I'm a great Ferrari fan and I love analyzing GP data (check out <a href="https://f1analytics.github.io">F1 Analytics</a> and let me know what you think)
+            </br>
+            </br>
+            <b>Outreaching</b></br>
+            In my previous life as researcher, I focused on the development of efficient numerical techniques based on the rigorous mathematical threatment of non-abelian gauge structures 
+            underlying non-adiabatic phenomena in physics and chemistry, namely the (molecular) Aharonov-Bohm effect. 
+            You can find an accessible introduction to my work in <a href="/assets/forum_EP.pdf">this article</a>.</br> 
+            Alongside my doctoral studies, I took part to several science communcation projects, both online and offline. 
+            I've been writing pop science articles since 2016 on <a href="www.mathone.it">Mathone.it</a>, on my Facebook pages (<a href="https://www.facebook.com/Phi6Passion">Phi6 Passion</a> and 
+            <a href="https://www.facebook.com/LaGaiaScienzaF">La Gaia Scienza</a>) and on the platform Quora. 
+            More recently, I joined the PhD Students Association <a href="https://luxdoc.uni.lu">LuxDoc</a>, where I also had the pleasure of serving many roles in the committee board.
+            As President, I had the opportunity of supervising and co-organize several outreaching activities that involved either Private and Public Stakeholders, 
+            from the 
+            <a href="https://www.youtube.com/watch?v=1I_873Sr14o&t=14s">Luxembourgish ScienceSlam</a>
+            to the "3 Minutes Thesis" Competition. 
+            Feel free to visit my Projects page for further details. 
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/erikpillon

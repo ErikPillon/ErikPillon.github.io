@@ -8,7 +8,7 @@
   label: Sci-comm
   link: https://luxdoc.uni.lu/3mt/
   image: assets/images/3mt_2021.jpeg
-  description: Explain your PhD Thesis in 3 minutes!
+  description: Graduate students present their research in just 3 minutes, competing for the ultimate prize of academic fame and fortune.
 
 - name: FestaScience @UniVR
   label: Sci-comm
@@ -18,19 +18,31 @@
 
 - name: Exact Quantum Dynamics Symulation
   label: Programming
-  link:
+  link: https://github.com/ErikPillon/WP_QuantumDynamics
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
   description: Fortran implementation of multilevel exact quantum dynamics for simple arbitrary low dimensional molecular systems.
 
 - name: Non-Adiabatic Dynamics Simulation
-  label: Programming
+  label: Old-Programming
   link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
-  image: 
+  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
   description: Implementation of different semiclassical numerical methods for non-adiabatic dynamics in molecular systems.
+
+- name: F1 Analytics
+  label: Programming
+  link: https://f1analytics.github.io
+  image: assets/images/f1analytics.png
+  description: Exploring the world of F1 through data-driven insights and data visualization - uncovering the stories behind the stats.
+
+- name: The 52nd Book
+  label: Programming
+  link: https://the52ndbook.github.io
+  image: assets/images/the52ndbook.png
+  description: My personal blog with insights and reviews on the latest books, authors, and genres I read.
 
 - name: Instagram Bot
   label: Programming
   link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
-  image: 
+  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
   description: Python implementation of a minimalistic Instagram Bot 
 

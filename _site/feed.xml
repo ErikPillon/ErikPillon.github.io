@@ -1,4 +1,342 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-23T15:58:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">Sample Post</title><link href="http://localhost:4000/blog/sample-post" rel="alternate" type="text/html" title="Sample Post" /><published>2020-04-24T00:00:00+02:00</published><updated>2020-04-24T00:00:00+02:00</updated><id>http://localhost:4000/blog/sample-post</id><content type="html" xml:base="http://localhost:4000/blog/sample-post"><![CDATA[<p>This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-24T00:23:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">Think Again | The Art of Changing Idea</title><link href="http://localhost:4000/blog/Think-Again" rel="alternate" type="text/html" title="Think Again | The Art of Changing Idea" /><published>2024-05-22T00:00:00+02:00</published><updated>2024-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Think-Again</id><content type="html" xml:base="http://localhost:4000/blog/Think-Again"><![CDATA[<p>It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
+I was honestly not familiar with any of the work but it was an absolute pleasure to dig into all the amazing material available online. Albeit being an extremely proficient writer, Adam Grant is also a (multiple times) TEDx speaker and a true polymath: while having a background in social psychology the author can connect a lot of different branches of human knowledge and provide a unified holistic personal view of the world.</p>
+
+<h1 id="synopsis">Synopsis</h1>
+<p>The manuscript is a long essay about making ideas and changing them: it is often the case that while a few elements allow us to make an opinion, the same number of elements is not enough to let us change it. The entire book is devoted to explaining why and the consequences that we face if we indeed do change our mind or not.
+Intro</p>
+
+<p>The book is divided into three parts, that abstract the three levels where rethinking acts: personal level, interpersonal level, and sociological level. The book builds from the fundamental principle that being human, not only do we fall trapped constantly in several biases, but most importantly we even experience the “I’m not biased” bias. It is therefore important to not only be aware of the fact that what we consider universally true might be wrong but also that what used to be true in the past might not be true in the future. Knowledge is a never-ending building process and as such, needs to be constantly built, challenged, destroyed, and rebuilt.</p>
+
+<p><strong>“Arrogance is ignorance plus conviction”</strong></p>
+
+<p>Chapter 2 demystifies the effects of self-confident attitudes towards problems and unknowns. The two extremes of the behaviors that we can adopt while facing something new and difficult are from one side the “armchair quarterback syndrome” (i.e., being too arrogant and self-confident), while on the other we have the impostor syndrome, leading to chronic immobilism and insecure behavior. Finding the right balance in the middle, what the author calls the “confident humility zone”, is our goal.
+We receive from society constant explicit encouragement to always adopt a more self-confident approach to problems and tasks in life (after all, all the successful people that we see every day appear to be extremely self-confident) but the author argues that there’s plenty of evidence in the academic literature that confidence is often the results of achieving results, not the cause of it.</p>
+
+<blockquote>
+  <p>Arrogance leaves us blind to our weaknesses. Humility is a reflective lens: it helps us see them. Confident humility is a corrective lens, it enables us to overcome those weaknesses.</p>
+</blockquote>
+
+<p><img src="../images/Think%20again.png" alt="Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant &quot;I know everything&quot;" /></p>
+
+<p>Chapter 3 helps us understand how we can take a proactive approach to rethinking and challenging our positions. Discovering ourselves wrong should not be a painful moment, but instead a joyful and positive one: we just learned something new after all! Overcoming the sense of ignorance and conviction employing the pleasure that we get from our recent discovery should be the driving factor in challenging the small “dictator” that we have in our head that keeps us anchored to our old position (see also “Think fast and slow” by Daniel Kahneman in these regards). Chapter 4 follows immediately on this topic and shows us how to overcome a conflicting position not only with ourselves but also with other people, thus opening the topic of conflict resolution and collective thinking. As Hegel said, the ideal synthetic process always comes from the solved conflict between an idea and its antithesis.</p>
+
+<p>Chapter 5 is about debating and convincing your audience or your interlocutor. Convincing someone is not a matter of being better documented (falling trap of the argument dilution) or having a longer list of scientific pieces of evidence (and thus alienating your audience), but of having the best argument and the best attitude. When documenting yourself and trying to make an opinion, don’t forget to also train yourself in conveying that idea and that opinion.
+The second section ends with a discussion about prejudices and stereotypes and the role of mediators in debates. Motivational interviewing is also discussed and is shown how an active listener can help decision makers to get to a “yes”.</p>
+
+<p>Section 3 is a beautiful investigation into accepting inconvenient truths, accepting the cyclic nature of the (re-)learning process, and overcoming the “we always did this way” attitude. There’s no such dangerous thing in associations and companies as these 5 words. Being open to improvements, adjustments and changes is the key to success in the long term. The author claims that a fundamental step in this direction must be taken by teachers and educators: already from the early school years, students should be not taught to learn concepts, but rather to rethink concepts and to appreciate the rediscovery of an old concept in a new way or under a new perspective.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>All in all, this is a wonderful book that made me think a lot, both on how I make my own opinions and on how I change them (either individually or as part of a society). Unlike many others, this book puts at the center not the knowledge itself but the learning process, emphasizing the importance of rethinking and unlearning, while always keeping a flexible, humble, and open mindset.</p>
+
+<p>I was not particularly familiar with Adam Grant, the author of this book, but after checking him out on the web I discovered tons of amazing material that investigates different and collateral topics of this manuscript.</p>]]></content><author><name></name></author><category term="articles" /><summary type="html"><![CDATA[It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece. I was honestly not familiar with any of the work but it was an absolute pleasure to dig into all the amazing material available online. Albeit being an extremely proficient writer, Adam Grant is also a (multiple times) TEDx speaker and a true polymath: while having a background in social psychology the author can connect a lot of different branches of human knowledge and provide a unified holistic personal view of the world.]]></summary></entry><entry><title type="html">Some of the most influential articles ever written</title><link href="http://localhost:4000/blog/Most_influential_articles" rel="alternate" type="text/html" title="Some of the most influential articles ever written" /><published>2023-05-22T00:00:00+02:00</published><updated>2023-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Most_influential_articles</id><content type="html" xml:base="http://localhost:4000/blog/Most_influential_articles"><![CDATA[<ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li> <b>The Age of Social Transformation</b>, <i>Peter Drucker (1994)</i> <br />
+            Discusses the profound social changes brought about by the rise of the knowledge society. <br />
+            Field: Sociology, Management </li>
+            Link to the article: <a href="assets/articles/peter_drucker_1994.pdf">pdf</a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li> <b>The Unreasonable Effectiveness of Mathematics in the Natural Sciences</b>, <i>Eugene Wigner (1960)</i> <br />
+            Explores the surprising effectiveness of mathematics in describing and predicting natural phenomena. <br />
+            Field: Mathematics, Physics </li>
+            Link to the article: <a href="assets/articles/eugene_wigner_1960.pdf">pdf</a>
+        
+    
+        
+            <li> <b>Is Google Making Us Stupid?</b>, <i>Nicholas Carr (2008)</i> <br />
+            Examines the impact of internet usage, particularly search engines, on cognition and human thinking. <br />
+            Field: Technology, Psychology </li>
+            Link to the article: <a href="assets/articles/nicholas_carr_2008.pdf">pdf</a>
+        
+    
+        
+            <li> <b>A Theory of Human Motivation</b>, <i>Abraham Maslow (1943)</i> <br />
+            Proposes the hierarchy of needs theory, outlining human motivation and self-actualization. <br />
+            Field: Psychology </li>
+            Link to the article: <a href="assets/articles/abraham_maslow_1943.pdf">pdf</a>
+        
+    
+        
+            <li> <b>Science and Complexity</b>, <i>Warren Weaver (1948)</i> <br />
+            Explores the role of complexity and self-organization in various scientific disciplines, emphasizing biology. <br />
+            Field: Complex Systems, Biology </li>
+            Link to the article: <a href="assets/articles/warren_weaver_1948.pdf">pdf</a>
+        
+    
+</ul>]]></content><author><name></name></author><category term="articles" /><summary type="html"><![CDATA[The Age of Social Transformation, Peter Drucker (1994) Discusses the profound social changes brought about by the rise of the knowledge society. Field: Sociology, Management Link to the article: pdf The Unreasonable Effectiveness of Mathematics in the Natural Sciences, Eugene Wigner (1960) Explores the surprising effectiveness of mathematics in describing and predicting natural phenomena. Field: Mathematics, Physics Link to the article: pdf Is Google Making Us Stupid?, Nicholas Carr (2008) Examines the impact of internet usage, particularly search engines, on cognition and human thinking. Field: Technology, Psychology Link to the article: pdf A Theory of Human Motivation, Abraham Maslow (1943) Proposes the hierarchy of needs theory, outlining human motivation and self-actualization. Field: Psychology Link to the article: pdf Science and Complexity, Warren Weaver (1948) Explores the role of complexity and self-organization in various scientific disciplines, emphasizing biology. Field: Complex Systems, Biology Link to the article: pdf]]></summary></entry><entry><title type="html">Eichmann in Jerusalem</title><link href="http://localhost:4000/blog/Eichmann-in-Jerusalem" rel="alternate" type="text/html" title="Eichmann in Jerusalem" /><published>2023-05-13T00:00:00+02:00</published><updated>2023-05-13T00:00:00+02:00</updated><id>http://localhost:4000/blog/Eichmann-in-Jerusalem</id><content type="html" xml:base="http://localhost:4000/blog/Eichmann-in-Jerusalem"><![CDATA[<h1 id="eichmann-in-jerusalem">Eichmann in Jerusalem</h1>
+<h2 id="a-report-on-the-banality-of-evil">A Report on the Banality of Evil</h2>
+<h5 id="hannah-arendt">Hannah Arendt</h5>
+
+<p>Eichmann in Jerusalem was, and to some extent still is, a quite controversial book written by the German-American philosopher Hannah Arendt.
+Already by the time of its publication, as written in the postscript, the book attracted many criticisms from different sides but that covers mainly Arent’s criticisms of the Jewish religious leaders and the reasons of the trial of the infamous nazi leader Adolf Eichmann.
+This book, despite its historical importance, must be considered for what it is, i.e., a trial report.
+The author goes in great detail through the entire trial documenting witnesses, arguments and defense arguments for one of the most famous trials in history where the crime has no precedents and does not appear in any law book. The following article focuses especially in the last two sections of the book, the Epilogue and the Postscript, where the author gives her personal opinion on the entire trial and its outcome.</p>
+
+<p>What follows is mainly inspired (and in some sections is a fairly detailed reproduction of the transcript) of an extremely inspiring resource that I found online. Feel free to check it out if you want.</p>
+
+<div class="embed-container">
+    <iframe width="640" height="390" src="https://www.youtube.com/embed/2LjAESuTW-U" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<p>The entire message that Arendt want to give to the reader is a matter of political agency and responsibility; Eichmann was on trial in 1961 for his participation in the holocaust, since he was instrumental to the systematic extermination of millions of jews as well as other persecuted peoples in nazi Germany.</p>
+
+<p>Throughout her work, Arendt consistently arguments against the prosecution’s portrait of Eichmann as some kind of monster or criminal mastermind. Despite all the efforts of the prosecution, everybody could see that this man was not a monster, but it was difficult indeed not to suspect that he was a clown; it’s this characterization of Eichmann as a clown that drew a lot of criticism.</p>
+
+<p><img src="/assets/images/fool.jpg" alt="Fool" /></p>
+
+<p>One could argue that in portraying Eichmann as a fool, portraying him as a living joke, Arendt goes too far and there is debate about whether her characterization of Eichmann is accurate or not: one of the crucial things for you to recognize as you’re reading this book is that Arendt is not persuaded that Eichmann is some kind of criminal mastermind.</p>
+
+<p>The question that especially in the last chapter Arentd put forward is: what if Eichmann is not a monster? Eichmann is clearly guilty of committing horrible crimes, but does categorizing him as a monster actually obscure what happened in nazi germany?</p>
+
+<p>Monsters by definition are unusual or atypical creatures and Arendt’s concern is that if we categorize Eichmann and his colleagues as monsters then we might be tempted to understand the horrors of the holocaust as acts perpetrated by a select number of wicked individuals. In the first pages of the work the author explains really well the fact that Eichmann seems an absolutely ordinary person and half a dozen psychiatrists didn’t detect and sign out of the ordinary after interacting with Eichmann.</p>
+
+<p>The entire defense of Eichmann relies indeed on the fact that his only guilt was to be a law abiding citizen and everything he did was simply the implementation of a direct request from one of his superiors. Every other citizen, he argues, would have behaved in exactly the same way if put in his position.</p>
+
+<p>Arendt suggests this is the fundamental key to the whole case, but she says no one in the courtroom really seems notice this point. The problem to her mind was that a normal person neither feeble-minded, nor indoctrinated, nor cynical, could be perfectly incapable of telling right from wrong (like instead seems to be the case of this trial).</p>
+
+<p>So let’s think about this:</p>
+
+<p><img src="/assets/images/Eichmann_guiltiness.jpg" alt="Logical Fallacy" /></p>
+
+<p>So what explains that? was he insane? was he a monster?</p>
+
+<p>Arendt argues that this theory is a red herring, it’s a distraction; if we want to categorize him as as someone abnormal or monstrous, then we have to face the problem that this explanation can’t be used over and over again to account for mass participation in nazi programs. What Arendt draws our attention to is the fact that these extraordinary unprecedented crimes, like the holocaust, 
+can’t be perpetrated by a few evil people that in order for them to happen they require the participation and the support of many many ordinary people. 
+It’s deeply comforting for us to believe that things like nazi Germany happen because there’s some kind of super tyrant like Hitler who forces people to act against their will, against their better judgment, but Arendt argues that’s not the way it works. And so the real philosophical and political theoretical question becomes</p>
+
+<blockquote>
+  <p>“how do ordinary people commit extraordinary crimes?”</p>
+</blockquote>
+
+<p>or perhaps even more precisely</p>
+
+<blockquote>
+  <p>“what explains widespread participation in totalitarian evil?”</p>
+</blockquote>
+
+<p>Arendt argues we should not be looking for a psychological profile, but we should
+instead be looking for the political process that makes unthinkable actions
+possible. She argues that to blame the holocaust on the moral failures of nazi
+leaders is just insufficient: we need to focus on the totalitarian regime that makes it possible for large numbers of otherwise normal people to kill millions of innocents. The regime, or political order, matters so much because the question of ordinary people committing extraordinary crimes isn’t just about one person, it’s about many people!</p>
+
+<p>Conventional portraits of unjust regimes focus on the extraordinary appetites of
+a tyrant or maybe a tyrannical class. Arendt says that what happened in nazi Germany is something profoundly different.</p>
+
+<p>We can trace our understanding of the way that a regime shapes the character
+of its citizens back to Plato and Aristotle: the basic idea is that different regimes produce different characters (or souls, as the ancients might have
+said). So while for example a democracy might produce citizens who love freedom, a tyranny produces slaves. Ironically enough also the tyrant itself is a kind of
+slave, because he himself is controlled by his own appetites (as we see when we look at the works of Plato or Aristotle all the way up through Macchiavelli and Locke). 
+This is the portrait of political injustice that we get and traditionally we think this kind of political evil is motivated by appetites, by greed, by fear, by ambition. But according to Arendt desire and fear do not seem to be the forces driving citizens of totalitarian regimes.</p>
+
+<p>The biggest claim, not only in this book but also in, for example, previous works like “The original of totalitarianisms”, is that nazi Germany is not a tyranny rather it’s a new kind of regime: a totalitarian regime, and to understand totalitarianism we can think about a factory: the totalitarian regime seems to turn people into machines without will, reason, or freedom.</p>
+
+<p>And here we come to the central point of the issue with respect to agency and responsibility. If the totalitarian state reimagines political life as a kind of factory, a series of machines and mechanisms, to what extent do citizens simply become cogs in those machines unthinking automatons? To what extent does the
+citizen of a totalitarian regime have political agency?</p>
+
+<p>Arendt is occasionally criticized people sometimes read her as suggesting that nazis aren’t responsible for their actions and in saying that Eichmann’s conscience his ability to tell right from wrong does not function in the conventional way, Arendt comes perilously close to saying that we can’t hold Eichmann responsible for his actions. According to the traditional sense of guiltiness, there needs to be in the original action the intention of doing evil. If one person simply doesn’t realize what is he doing, can we really blame him?</p>
+
+<p>BUT that’s not what Arendt believes: this is where the image of the fool becomes extraordinarily important. She claims repeatedly that Eichmann’s problem is a thinking problem! She says for example that he suffers from an almost total inability to look at anything from the other fellow’s point of view; similarly he was genuinely incapable of uttering a single sentence that was not a cliche and that the longer one listened to him the more obvious it became that his inability to speak was closely connected with an inability to think!</p>
+
+<p>Arendt’s claim in this work is going to be that Eichmann’s key problem is that he stopped thinking; he essentially abdicated his rational capacity and sees this as characteristic of citizens living within a totalitarian regime. Totalitarian regimes seem to specialize in preventing rational thought in subverting it and confusing it.
+From Arendt’s perspective they quite literally become an inhuman regime the moment when a person, a citizen, abdicates the reason and opts not to think.
+Exactly that is a moment of great moral failure.</p>
+
+<p>In Chapter VIII, Arendt is even surprised when Eichmann summons the Kantian definition of duty and moral precepts. The author says that quite impressively the accused goes really close to the true meaning of Kant’s duty idea, that is, “my will must always be such that it can become the principle of general laws”. What really bothers the author is not that Eichamnn dared to invoke one of the greatest philosophers in history, but the fact that he completely ignored the monumental work that Kant did in the definition of ethical and moral decisions and acts.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>So reading Annah Arendt, we are reminded to be vigilant: we need to pay attention to laws, policies, programs, technologies that reduce or limit our agency and our political will; essentially anything that seeks to subvert or diminish our capacity for political decision-making is dangerous.</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>I am profoundly indebted to Prof. Dr. Andrew Moore for his Youtube video and for his work that inspired this entire blog post and review. His clarity and effectiveness has been of great help in writing this work.</p>]]></content><author><name></name></author><category term="Holocaust" /><category term="Nazi Germany" /><category term="Philosophy" /><category term="Politics" /><category term="War Crimes" /><summary type="html"><![CDATA[Eichmann in Jerusalem A Report on the Banality of Evil Hannah Arendt]]></summary></entry><entry><title type="html">Science and Complexity: a XXI century perspecive</title><link href="http://localhost:4000/blog/Science_and_complexity" rel="alternate" type="text/html" title="Science and Complexity: a XXI century perspecive" /><published>2023-04-16T00:00:00+02:00</published><updated>2023-04-16T00:00:00+02:00</updated><id>http://localhost:4000/blog/Science_and_complexity</id><content type="html" xml:base="http://localhost:4000/blog/Science_and_complexity"><![CDATA[<h1 id="science-and-complexity">Science and Complexity</h1>
+<h3 id="author-warren-weaver">Author: Warren Weaver</h3>
+
+<p>I stumbled upon this article while reading the amazing book of Kate Raworth “<a href="https://www.amazon.com/Doughnut-Economics-Seven-21st-Century-Economist/dp/1603587969?crid=2934OKO7ZWZ0Q&amp;keywords=doughnut+economics&amp;qid=1681659986&amp;sprefix=doughnut+economic%2Caps%2C406&amp;sr=8-1&amp;returnFromLogin=1&amp;linkCode=ll1&amp;tag=the52ndbook-20&amp;linkId=de8898214f6653904c2edf217c1f88b3&amp;language=en_US&amp;ref_=as_li_ss_tl">Doughnut Economics</a>“(that btw I’m recommending to everyone) and was quoting extremely interesting paragraph and reproposing visionaries theories. I founded a free version of <a href="https://fernandonogueiracosta.files.wordpress.com/2015/08/warren-weaver-science-and-complexity-1948.pdf">the article</a> and here’s what I learnt.</p>
+
+<h2 id="background">Background</h2>
+
+<ul>
+  <li>While in the paper is never mentioned, the XXI century reader will recognize easily the connections between what Weaver call <em>complexity</em> and what we know call “<strong>chaos theory</strong>”. As the concept of chaos theory had not yet been developed at the time of his writing, the idea of “chaotic” behaviours in complex systems, where the modification of one parameters generates unpredictable outcomes in the bigger system, is already laid off. Overall, Weaver’s perspective suggests that there is a close <em>relationship between complexity and unpredictability</em>, which could be considered similar to chaos in modern terms.</li>
+  <li>This paper is almost contemporary to the first article about <strong>information theory</strong> (of which Weaver is one of the authors, together with Shannon). It is incredible to notice how many of the ideas that will be presented in that paper are already rudimentary present here; He notes that the concept of entropy, which is a measure of the amount of disorder or randomness in a system, is closely related to the concept of information. Weaver proposes that information theory can be used to deal with the limitations of traditional scientific methods in dealing with complex systems. He suggests that new methods and approaches (coming for example from statistical mechanics, mathematical models or computer simulations) can help to deal with the increasing complexity of systems. Overall, Weaver’s perspective suggests that there is a close relationship between complexity and information theory and suggests that information theory will help in overcoming that shortfall of traditional methods.</li>
+</ul>
+
+<h2 id="synopsys">Synopsys</h2>
+
+<p>“Science and Complexity” is an influential paper written by Warren Weaver in 1948 (i.e., more than 70 years ago, that gives quite an idea about how visionary this article was), which explores the concept of complexity and its implications for scientific research.</p>
+
+<p>In the paper, Weaver attempts to give a definition of “complexity”: for the author complexity is a measure of the number of variables involved (e.g., number of particles and their spacetime coordinates) in a system, as well as the interactions between those variables. It is shown that while traditional methods have been extremely effective and useful for “few variables systems”, the same methods can’t be employed anymore while dealing with modern problems, like the studies of gas (hence molecular problems), meteorology, macro economical problems, sociological problems, etc. As the famous saying goes, “modern problems requires modern solutions”!</p>
+
+<p>Weaver suggests that new methods and approaches are needed to deal with complex systems, including the use of mathematical models, computer simulations (what he still calls “electronic calculators”), and interdisciplinary collaboration between experts from different fields. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<ul>
+  <li>In the first section, Weaver defines complexity as a measure of the number of variables involved in a system and the interactions between those variables. He suggests that complexity is a fundamental property of the world we live in and that many of the most important problems facing humanity are complex in nature. Weaver also notes that the traditional scientific method, which involves breaking down complex systems into simpler parts and studying them in isolation, is not always effective in dealing with complex systems (a criticism of reductionism). A classification that separates simple, few-variable problems from the “disorganized complexity” of numerous-variable problems suitable for probability analysis. The problems in the middle are “organized complexity” with a moderate number of variables and interrelationships that cannot be fully captured in probability statistics.</li>
+  <li>In the second section, Weaver discusses the limitations of traditional scientific methods in dealing with complex systems. He argues that as the complexity of a system increases, it becomes increasingly difficult to understand and predict the behavior of the system.</li>
+</ul>
+
+<p><img src="../assets/images/Science_and_Complexity.png" alt="alt_text" /></p>
+
+<p>To overcome these limitations, Weaver proposes new approaches to studying complex phenomena. He suggests that new methods and approaches are needed to deal with complex systems, including the use of mathematical models, computer simulations, and interdisciplinary collaboration between experts from different fields. He also emphasizes the importance of recognizing the limitations of scientific knowledge in the face of complexity, and the need for scientists to remain humble and open to new ideas.</p>
+
+<p>Overall, “Science and Complexity” is a thought-provoking paper that challenged the traditional view of science and had a significant impact on the development of complex systems theory and interdisciplinary research. It emphasizes the need for new approaches to studying complex phenomena and the importance of recognizing the limitations of scientific knowledge in the face of complexity.</p>
+
+<h2 id="summary">Summary</h2>
+
+<ol>
+  <li>Complexity is a fundamental property of the world we live in.</li>
+  <li>Traditional scientific methods are not always effective in dealing with complex systems. The limitations of traditional scientific methods in dealing with complex systems include:
+    <ul>
+      <li>Limitations of measurement and observation</li>
+      <li>Limitations of mathematical analysis</li>
+      <li>Limitations of reductionism</li>
+    </ul>
+
+    <p>New approaches are needed to study complex systems, including:</p>
+    <ul>
+      <li>Mathematical models</li>
+      <li>Computer simulations</li>
+      <li>Interdisciplinary collaboration between experts from different fields.</li>
+    </ul>
+  </li>
+  <li>Recognizing the limitations of scientific knowledge in the face of complexity is important.</li>
+  <li>Scientists should remain humble and open to new ideas in the study of complex phenomena.</li>
+</ol>
+
+<h2 id="further-bibliography-and-additional-resources">Further Bibliography and additional resources:</h2>
+
+<ul>
+  <li>
+    <p><a href="https://fernandonogueiracosta.files.wordpress.com/2015/08/warren-weaver-science-and-complexity-1948.pdf">Science and Complexity</a>: the original article by Weaver published in 1948</p>
+  </li>
+  <li>
+    <p><a href="https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557?crid=36LM7R2E5AEVX&amp;keywords=thinking+in+systems&amp;qid=1681660859&amp;sprefix=thinking+in+syste%2Caps%2C280&amp;sr=8-1&amp;linkCode=ll1&amp;tag=the52ndbook-20&amp;linkId=a545a5adf70cd292b1a6b13420020cf9&amp;language=en_US&amp;ref_=as_li_ss_tl">Thinking in systems</a> by Donella Meadow: A comprehensive introduction to systems thinking, a way of understanding and analyzing complex systems.</p>
+  </li>
+  <li>
+    <p><a href="https://www.amazon.com/Doughnut-Economics-Seven-21st-Century-Economist/dp/1603587969?crid=2934OKO7ZWZ0Q&amp;keywords=doughnut+economics&amp;qid=1681659986&amp;sprefix=doughnut+economic%2Caps%2C406&amp;sr=8-1&amp;returnFromLogin=1&amp;linkCode=ll1&amp;tag=the52ndbook-20&amp;linkId=de8898214f6653904c2edf217c1f88b3&amp;language=en_US&amp;ref_=as_li_ss_tl">Doughnut Economics</a>: In this book is presented a new economical model based on the fact that we need to understand the economy as a complex system that is embedded within society and the environment.</p>
+  </li>
+</ul>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>it is indeed in this period that the field of applied mathematics was born. After realizing the importance of a multidisciplinary approach to complex problems (i.e., the Enigma machine during WWII), scientists started realizing how mixing people with different backgrounds created a synergetic loop where ideas can reproduce easily generating new original tools and approaches. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="post" /><category term="article" /><category term="review" /><summary type="html"><![CDATA[Review of one of the most influential papers in the history of science.]]></summary></entry><entry><title type="html">Why Citizen Kane is Still Relevant Today: A Non-Specialist’s Perspective</title><link href="http://localhost:4000/blog/Citizen_Kane" rel="alternate" type="text/html" title="Why Citizen Kane is Still Relevant Today: A Non-Specialist’s Perspective" /><published>2023-04-01T00:00:00+02:00</published><updated>2023-04-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/Citizen_Kane</id><content type="html" xml:base="http://localhost:4000/blog/Citizen_Kane"><![CDATA[<h1 id="why-citizen-kane-is-still-relevant-today-a-non-specialists-perspective">Why Citizen Kane is Still Relevant Today: A Non-Specialist’s Perspective</h1>
+
+<p>I recentely joined some friends of mine to a Retro Cynemateque where the legendary <em>Citizen Kane</em> (a.k.a. <em>Quarto Potere</em>, for Italians speakers like me) was projected. Attracted mainly its fame, I decided to join this journey and <em>oh booooy</em> if it was worth it.</p>
+
+<blockquote>
+  <p>Little disclaimer: I am neither a film critic nor do I claim to be one; this is simply a personal opinion of the movie, taking inspiration from the short discussion that followed the projection.</p>
+</blockquote>
+
+<h2 id="themes">Themes</h2>
+<ul>
+  <li>The very first theme that we encounter is the different perception that people might have about the same topic and multi-faced nature of reality. Reality is often different from what we think and from what we <em>might</em> have seen and experienced.</li>
+  <li>Memory and nostalgia is another ever present topic in the movie: The film is structured as a series of flashbacks where the linearity of time is broken leaving the stage to a “spezzatino” flashback, as characters remember and reflect on Kane’s life. Once again characters remember different pasts and they have a different perception about what actually happened (connected to the first theme). The film explores how memory and nostalgia can distort our perceptions of the past. This effect is particularly evident and enhanced by the genius of Orson Wells, by the use of the “Deep Focus Cinematography”, where by keeping both the foreground and background in sharp focus, characters are allowed to move within the scene and create complex and layered compositions. Particularly famous remains the scene where Orson Wells walks close to the house fire, where the viewer is purposedly mislead to miss the actual size of the object present on the scene.</li>
+  <li>Power, corruption and the manipulative nature of human beings: The film’s central character, Charles Foster Kane, is a wealthy newspaper magnate who uses his power to manipulate and control others. The film explores how his quest for power ultimately leads to his downfall, while also remembering sveral dystopic moments from 1984 where reality is not what people believe but what they’re told to believe (especially during Kane’s political campaign).</li>
+  <li>Isolation and loneliness: Despite his wealth and power, Kane is unable to form genuine connections with others. The film shows how his isolation and loneliness contribute to his unhappiness.</li>
+  <li>The American Dream: The film critiques the idea of the American Dream, which holds that anyone can achieve success through hard work and determination. The film shows how Kane’s pursuit of success and wealth ultimately leads to his unhappiness and loneliness.</li>
+  <li>Love and relationships: The film explores Kane’s relationships with the women in his life, including his wives and his childhood friend, and shows how his inability to connect with them contributes to his unhappiness. It is often explored in the movie the incapacity of Charles Kane to actual love; what he truly seeks his the desired of being loved and love and admiration is simply something that can be bought (tell me what you want and I’ll buy it for you, provided that you’ll love me). The theme of love is actual the main fil rouge of the movie and unconsciously the main quest of the characters involved in the re-discovery of Kane’s personal life. Rose Bottom is nothing but the name of his childhood sledding, hence closing the circle of the origin of Kane’s main desire: the will to fill the gap of the missed love from his parents.</li>
+</ul>
+
+<h2 id="further-comments">Further comments</h2>
+<p>While remain quite difficult to exactly state the importance and the role that this movie played in the development of modern cynematography for an amateur like me, it is quite obvious why this movie is a timeless classic and a cynematographic masterpiece. Do not forget that Orson Wells comes from a background in audio (and not in video!) and this is particularly evident by the film’s use of sound, with the soundtrack and dialogue being carefully crafted to create a rich and immersive audio experience.</p>
+
+<p>Also, Citizen Kane is a mild biographical story of the newspapers magnate William Randolph Hearst. Hearst was an American newspaper publisher who built up the nation’s largest newspaper chain and whose methods significantly influenced the practice of American journalism.
+At the Oscar ceremony, Citizen Kane, that was a critic success but a boxoffice disaster, won the the prize for the screenplay; at the ceremony though that there was no one from the film cast to receive the prize, since no one considered the movie to be actually seriously considered given the mediatic campaign that was created against the movie.</p>
+
+<h2 id="concluding-remarks">Concluding remarks</h2>
+<p>Finally, “Citizen Kane” has had a lasting impact on the film industry and popular culture. The film’s innovative techniques and themes have inspired generations of filmmakers, and its influence can be seen in countless films that have followed in its wake. The film’s enduring popularity and critical acclaim are a testament to its lasting impact and its status as one of the greatest films ever made.</p>]]></content><author><name></name></author><category term="post" /><category term="movie" /><category term="review" /><summary type="html"><![CDATA[Citizen Kane, some personal considerations]]></summary></entry><entry><title type="html">Why I started my own blog… and why you should do it too!</title><link href="http://localhost:4000/blog/Why_I_started_blogging" rel="alternate" type="text/html" title="Why I started my own blog… and why you should do it too!" /><published>2023-03-21T00:00:00+01:00</published><updated>2023-03-21T00:00:00+01:00</updated><id>http://localhost:4000/blog/Why_I_started_blogging</id><content type="html" xml:base="http://localhost:4000/blog/Why_I_started_blogging"><![CDATA[<h1 id="why-i-started-my-own-blog">Why I started my own blog</h1>
+<h2 id="and-why-you-should-do-it-too">And why you should do it too!</h2>
+
+<p>I had the idea of starting my own blog already several years ago, but back in the days I kept asking myself “<em>what should I write about? I am no expert in anything!</em>”. I realized much later, though, that blogging is not actually showing how much you know about a specific topic or field, but is more <strong>a path that you want to have with your reader</strong>, and, most of the times, the reader doesn’t even need to be “real”! <strong>The reader might also be yourself, your younger self or even your older self.</strong></p>
+
+<p>Explaining something you discovered and that you found interesting, a shower thought that made you reflecting or an image, a movie you watched, a short essay or a small personal creation are all great sources for starting a blog article; thinking about what you know and what you discovered is a great way to organize your thought, checking if you really understood something and perhaps also teaching something cool to someone else!</p>
+
+<p>So there you go! That’s what it is all about!</p>
+
+<h2 id="what-ive-been-writing-about">What I’ve been writing about</h2>
+<p>I asked myself: What truly pushes me to get of bed in the morning? What truly passionates me? What would I spend a countless number of hours doing or talking about? The answer is below.</p>
+
+<h3 id="f1-analytics"><a href="https://f1analytics.github.io/">F1 Analytics</a></h3>
+<p>As a great Ferrari fan (a true “tifoso” as we say in Italian) and as a true geek with the passion for coding, I decided, after reading a countless number of articles and analysis, to try and make some analysis by myself. I made some Google searches and I discovered the amazing F1 ergast API, an API offering free telemetry data of every F1 car. Well, I got the data, I got the passion, I got the tools, this is what came out!</p>
+
+<h3 id="the-52nd-book"><a href="https://the52ndbook.github.io/">The 52nd Book</a></h3>
+<p>Encouraged by the release of endorphins of my first project, I decided to finally put some order on my shelf and I said “I remember reading somewhere that super cool psychological experiment where they proved X” or “I know that scientist Y said Z, but I don’t remember in which book I read that…” and so I said <em>“why not start writing some notes about what I read? Why not also writing short summaries about the book that I finish reading?”</em>;</p>
+
+<p>The result was my reading (b)log and my amazing (?) Zettelkasten system. (I’ll write a later post about it)</p>
+
+<h2 id="so-say-again-why-should-you-do-it">So, say again, why should you do it?</h2>
+<p>Well, for many reasons actually…</p>
+
+<ul>
+  <li><strong>Let people to know you</strong>. Blogging allows yourself to step out your comfort zone, telling some people something about you and letting others discover something about you. 
+…and letting yourself discovering something about yourself too! As Socrates said: know yourself!</li>
+  <li><strong>Develop new skills</strong>: from storytelling, to communication skills, to hardcore skills like programming, data science and data visualization; moreover I got familiar with a lot of new topics and tools like SEO analytics and traffic redirection etc…</li>
+  <li><strong>blogging creates opportunities</strong> and make it easier to connect with and meet other people (aligned with the idea od serendipity)</li>
+  <li>Blogging forces you to t<strong>each yourself what you don’t know and to articulate what you do know</strong>. When you begin writing a blog post, you are forced to organize your thoughts. If there are any gaps in the topic that you are writing about, you will have to learn about it. Writing out and articulating your thoughts is a great way to internalize something you’ve learned or experienced.</li>
+  <li>Writing helps you become more familiar with the topic you’re writing about. Blogging helped (better say, forced) me to think about what I know, what I read and what I’m saying and ultimately even pushed me to develop a new organization system for all my knowledge. Luckily a close friend of me came to my rescue and introduced me to the concept of the <strong>Zettelkasten</strong>. I’ll probably talk about the Zettelkasten system later in this series of posts, but for the moment it will suffice to say that is a note taking system designed to allow yourself to develop new ideas and connect different concepts and topics. I couldn’t have asked for more.</li>
+  <li>Last but not least, might generate a second passive income!</li>
+</ul>]]></content><author><name></name></author><category term="post" /><category term="blogging" /><category term="reading" /><category term="coding" /><category term="zettelkasten" /><category term="f1-analytics" /><category term="the-52nd-book" /><category term="data-visualization" /><summary type="html"><![CDATA[Some considerations after my first few weeks of Blogging]]></summary></entry><entry><title type="html">Sample Post</title><link href="http://localhost:4000/blog/sample-post" rel="alternate" type="text/html" title="Sample Post" /><published>2020-04-24T00:00:00+02:00</published><updated>2020-04-24T00:00:00+02:00</updated><id>http://localhost:4000/blog/sample-post</id><content type="html" xml:base="http://localhost:4000/blog/sample-post"><![CDATA[<p>This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
 For more information about writing markdown you can checkout the following markdown cheatsheets:</p>
 <ul>
   <li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>

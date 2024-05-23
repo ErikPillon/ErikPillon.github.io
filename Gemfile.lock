@@ -90,6 +90,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -100,7 +101,7 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm
-  webrick (~> 1.7)
+  webrick
 
 BUNDLED WITH
-   2.2.15
+   2.5.10

@@ -1,10 +1,12 @@
 ---
 title:  Think Again | The Art of Changing Idea
 layout: post
-post-image: 
-description: 
+post-image: ../assets/images/Think_again.png
+description: Personal summary of the book "Think Again", by Adam Grant
 tags: 
-- articles
+- article
+- post
+- review
 ---
 
 It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
@@ -23,7 +25,7 @@ We receive from society constant explicit encouragement to always adopt a more s
 
 > Arrogance leaves us blind to our weaknesses. Humility is a reflective lens: it helps us see them. Confident humility is a corrective lens, it enables us to overcome those weaknesses.
 
-![Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant "I know everything"](../images/Think%20again.png)
+![Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant "I know everything"](../assets/images/Think_again.png)
 
 Chapter 3 helps us understand how we can take a proactive approach to rethinking and challenging our positions. Discovering ourselves wrong should not be a painful moment, but instead a joyful and positive one: we just learned something new after all! Overcoming the sense of ignorance and conviction employing the pleasure that we get from our recent discovery should be the driving factor in challenging the small “dictator” that we have in our head that keeps us anchored to our old position (see also “Think fast and slow” by Daniel Kahneman in these regards). Chapter 4 follows immediately on this topic and shows us how to overcome a conflicting position not only with ourselves but also with other people, thus opening the topic of conflict resolution and collective thinking. As Hegel said, the ideal synthetic process always comes from the solved conflict between an idea and its antithesis.
 

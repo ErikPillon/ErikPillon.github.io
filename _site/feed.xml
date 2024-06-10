@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-24T00:37:09+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">Think Again | The Art of Changing Idea</title><link href="http://localhost:4000/blog/Think-Again" rel="alternate" type="text/html" title="Think Again | The Art of Changing Idea" /><published>2024-05-22T00:00:00+02:00</published><updated>2024-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Think-Again</id><content type="html" xml:base="http://localhost:4000/blog/Think-Again"><![CDATA[<p>It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-10T23:51:05+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">Doughnut Economics | Seven Ways to Think Like a 21st-Century Economist</title><link href="http://localhost:4000/blog/doughnut-economics" rel="alternate" type="text/html" title="Doughnut Economics | Seven Ways to Think Like a 21st-Century Economist" /><published>2024-06-09T00:00:00+02:00</published><updated>2024-06-09T00:00:00+02:00</updated><id>http://localhost:4000/blog/doughnut-economics</id><content type="html" xml:base="http://localhost:4000/blog/doughnut-economics"><![CDATA[<p>Doughnut Economics, by Kate Raworth, is probably the most interesting and clear book that I’ve come across in economic sciences. The author, often considered to be the “Keynes of the XXI century”, challenges the current traditional economic thinking and shows how a model focused solely on growth led to inequalities, market inefficiencies, environmental degradation, and social exclusion.</p>
+
+<p>Highly influenced by seminal works like <em>“Thinking in Systems”</em>, by Donella Meadows, Kate Raworth not only provides a way to visualize the concepts and the ideas she’s describing, thus putting forward the idea of the “doughnut”, but also leads the way to a general rethinking the problems and the models themselves.
+The doughnut in particular is a new way to reconsider economics in general, where both economic and ecological factors are taken into account. The doughnut model consists of two concentric rings: the inner ring represents the social foundation that all humans need to thrive, including access to food, water, healthcare, and education. The outer ring represents the ecological ceiling beyond which we cannot safely go, including climate change, biodiversity loss, and pollution.
+The space between the two rings represents the “safe and just space for humanity” - a space where we can meet the needs of all people without overshooting the planet’s ecological limits. How to achieve this goal, is the main question of the book: prioritizing human well-being and environmental sustainability becomes central while models focusing on growth alone must be finally retired. Several examples of actions and initiative are present in the book and many concrete strategies to put in place these ideas are listed.
+Overall this book can be considered a “call to action” or even the manifesto of XXI century economics, for a new, more sustainable, and equitable economic system that prioritizes the well-being of people and the planet.</p>
+
+<p>authors: Erik Pillon, the52ndbook@gmail.com</p>
+
+<h2 id="one-sentence-summary">One Sentence Summary</h2>
+<p>Doughnut Economics presents a new economic model that takes into account both planetary boundaries and social foundations to create a sustainable and just future.</p>
+
+<h2 id="best-quote-from-the-book">Best quote from the book</h2>
+<blockquote>
+  <p>“The challenge we now face is to create economies that are regenerative and distributive by design, and are capable of providing us with health and prosperity for all, within the means of the living planet, for generations to come.”</p>
+</blockquote>
+
+<h2 id="extended-summary-and-personal-opinion">Extended Summary and Personal Opinion</h2>
+
+<h3 id="chapter-1-setting-the-stage">Chapter 1: Setting the stage</h3>
+
+<p>Raworth begins by describing the concept of economics as a system of rules and assumptions that govern our lives and explains why traditional economics is no longer fit for purpose.
+An important part of this chapter is devoted to the importance of pictures in our society and for human understanding. The author is then able to justify her effort to visualize as much as possible every concept in the book, hence the visual title of the “doughnut”.</p>
+
+<h3 id="chapter-2-see-the-big-picture">Chapter 2: See the big picture</h3>
+
+<p>Elaborating on the seminal work of Donella Meadow, this chapter explains how the economy is not a standalone entity completely decoupled from society and environment, but is one of the several factors that act in synergy in a much more complicated system. Model that ignores the complexity of this system, are doomed to increase some metrics (like GDP) at the expense of other factors (like social justice and environment). Acknowledging that resources are limited and that we need to offer the next generations the same opportunities that we had, we are forced to develop and pursue an economical system where human beings and the environment live in harmony.
+The “manifesto” of the project is then depicted. Starting from what was later called the “neoliberal agenda”, the author put forward a new adapted, and improved set of principles: these include societal and environmental needs, a redefinition of the role of the state and the financial sectors, a new equilibrium between trade, power and business. In particular, the concept of the “triumph of the commons” (as opposed to the tragedy of the commons) is introduced as a new leading principle. Following the famous work of Mariana Mazzucato, a new vision of state-driven development and innovation is also discussed.</p>
+
+<h3 id="chapter-3-nurture-the-human-nature">Chapter 3: Nurture the Human Nature</h3>
+
+<p>To accomplish a full revolution, we must focus on what the economy is really about, i.e., people. People and their values must be therefore the first thing to change. In an economy where people must compromise between profits and ideals, the corruption of principles and moral values can’t be avoided. Even the best-intentioned person who wants to contribute to society in a financially sustainable way constantly feels like the current system erodes good principles with financial motivation.</p>
+
+<h3 id="chapter-4-get-savvy-with-systems">Chapter 4: Get Savvy with Systems</h3>
+
+<p>A holistic attempt of view of the economic system is attempted. The famous paper of science and complexity is introduced and a lot of mathematical concepts ranging from equilibrium theory to dynamical chaos are viewed from a sociological perspective. The author argues that the current capitalistic system suffers the major flaw of the “winner takes all” syndrome. Like in a monopoly game, everyone who starts with a small advantage will keep and increase this advantage until a major event reshuffles the ground again, thus affecting the capabilities and interest in creating innovation and improving social standards. A more ethical perspective is therefore necessary for leveraging the field and introducing modern and sustainable success measures.</p>
+
+<h3 id="chapter-5-design-to-distribute">Chapter 5: Design to distribute</h3>
+
+<p>In this chapter one of the most difficult topics is introduced: the redistribution of wealth. In particular, the Kuznets curve is introduced, i.e., the economical equivalent of “no pain no gain”.</p>
+
+<p><img src="/assets/images/Kuznets_curve.png" alt="Kuznets curve" /></p>
+
+<p>The author shows how the Kuznets curve misled economists and policymakers away from moral values: accepting that social sacrifices are necessary to achieve a greater later common good, induced economists to shift away their interest from social principles.</p>
+
+<h3 id="chapter-6-create-to-regenerate">Chapter 6: Create to regenerate</h3>
+
+<p>Following from the previous chapter, the author shows how the widely and wrongly adopted Kuznets curve was adopted even during the implementation of environmental policies, thus moving away from the center of the doughnut. This chapter explores how the doughnut model can be applied in practice, and offers examples of organizations and cities that have successfully adopted this new economic framework. This chapter explores the role of economics in driving social and environmental change and discusses the importance of taking a holistic and collaborative approach.</p>
+
+<h3 id="chapter-7-be-agnostic-about-growth">Chapter 7: Be agnostic about Growth</h3>
+
+<p>This chapter introduces the Rostow Stages of economic growth and the limits of an infinite growth model.</p>
+
+<p><img src="/assets/images/Rostow_stages_of_economic_growth.png" alt="Rostow's stages of economic growth" /></p>
+
+<p>A system where wealth will keep increasing is essentially impossible by employing the limited resources that are given to us; the goal should focus therefore on an infinite growth model, where there’s no end, the S-curve model, where society can thrive while not being affected by stagnant economic values.</p>
+
+<p><img src="/assets/images/Infinite_growth.png" alt="An inroth model must give way to an &quot;S growth&quot; model" /></p>
+
+<h2 id="books-i-will-read-afterward">Books I will read afterward</h2>
+
+<p>“Doughnut Economics” is a relatively recent and influential book that has sparked much discussion and debate around the world. As such, there is a decent amount of literature that is relevant and that I wish to read afterward</p>
+<ul>
+  <li>“The Limits to Growth” by Donella Meadows, Jorgen Randers, and Dennis Meadows (1972) — This influential book explores the implications of exponential growth in a finite world, and has inspired many subsequent works on sustainability and environmentalism.</li>
+  <li>“Planetary Boundaries: Exploring the Safe Operating Space for Humanity” by Johan Rockstrom et al. (2009) — This paper introduced the concept of planetary boundaries, which provides a framework for understanding the environmental limits within which human societies must operate to maintain a safe and stable planet.</li>
+  <li>“The Economics of Enough: How to Run the Economy as if the Future Matters” by Diane Coyle (2011) — This book argues that the current economic system is unsustainable, and proposes a new economic model that considers social and environmental concerns.</li>
+  <li>“Ecological Economics: Principles and Applications” by Herman Daly and Joshua Farley (2004) — This book provides an introduction to ecological economics, which is a field that seeks to integrate ecological and economic thinking to create a more sustainable and just world.</li>
+  <li>“Prosperity without Growth: Foundations for the Economy of Tomorrow” by Tim Jackson (2009) — This book argues that economic growth cannot continue indefinitely on a finite planet, and proposes a new economic model that emphasizes sustainability and social justice.</li>
+</ul>
+
+<h3 id="personal-literature-and-connections-i-made-to-the-book">Personal Literature and Connections I made to the book</h3>
+<ul>
+  <li>Thinking in systems: a primer, by Donella Meadow</li>
+  <li>Think Fast and Slow, Daniel Kahneman</li>
+  <li>Science and complexity, by Warren Weaver</li>
+  <li>Capital in the XXI century, by Thomas Piketty</li>
+  <li>Dambisa Mojo: Economics growth has stallen</li>
+</ul>]]></content><author><name></name></author><category term="article" /><category term="post" /><category term="review" /><summary type="html"><![CDATA[Summary of Doughnut Economics, by by Kate Raworth]]></summary></entry><entry><title type="html">Think Again | The Art of Changing Idea</title><link href="http://localhost:4000/blog/Think-Again" rel="alternate" type="text/html" title="Think Again | The Art of Changing Idea" /><published>2024-05-22T00:00:00+02:00</published><updated>2024-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Think-Again</id><content type="html" xml:base="http://localhost:4000/blog/Think-Again"><![CDATA[<p>It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
 I was honestly not familiar with any of the work but it was an absolute pleasure to dig into all the amazing material available online. Albeit being an extremely proficient writer, Adam Grant is also a (multiple times) TEDx speaker and a true polymath: while having a background in social psychology the author can connect a lot of different branches of human knowledge and provide a unified holistic personal view of the world.</p>
 
 <h1 id="synopsis">Synopsis</h1>
@@ -16,7 +93,7 @@ We receive from society constant explicit encouragement to always adopt a more s
   <p>Arrogance leaves us blind to our weaknesses. Humility is a reflective lens: it helps us see them. Confident humility is a corrective lens, it enables us to overcome those weaknesses.</p>
 </blockquote>
 
-<p><img src="../assets/images/Think_again.png" alt="Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant &quot;I know everything&quot;" /></p>
+<p><img src="/assets/images/Think_again.png" alt="Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant &quot;I know everything&quot;" /></p>
 
 <p>Chapter 3 helps us understand how we can take a proactive approach to rethinking and challenging our positions. Discovering ourselves wrong should not be a painful moment, but instead a joyful and positive one: we just learned something new after all! Overcoming the sense of ignorance and conviction employing the pleasure that we get from our recent discovery should be the driving factor in challenging the small “dictator” that we have in our head that keeps us anchored to our old position (see also “Think fast and slow” by Daniel Kahneman in these regards). Chapter 4 follows immediately on this topic and shows us how to overcome a conflicting position not only with ourselves but also with other people, thus opening the topic of conflict resolution and collective thinking. As Hegel said, the ideal synthetic process always comes from the solved conflict between an idea and its antithesis.</p>
 

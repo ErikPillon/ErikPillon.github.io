@@ -3,3 +3,4 @@
 .sass-cache
 *.code-workspace
 vendor
+_site/

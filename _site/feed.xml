@@ -1,4 +1,286 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-24T00:28:06+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">Think Again | The Art of Changing Idea</title><link href="http://localhost:4000/blog/Think-Again" rel="alternate" type="text/html" title="Think Again | The Art of Changing Idea" /><published>2024-05-22T00:00:00+02:00</published><updated>2024-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Think-Again</id><content type="html" xml:base="http://localhost:4000/blog/Think-Again"><![CDATA[<p>It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T22:09:44+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erik Pillon</title><subtitle>Mathematician, Physics enthusiast, Pizza lover</subtitle><entry><title type="html">The Champion’s Mind</title><link href="http://localhost:4000/blog/the-champions-mind" rel="alternate" type="text/html" title="The Champion’s Mind" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/blog/the-champions-mind</id><content type="html" xml:base="http://localhost:4000/blog/the-champions-mind"><![CDATA[<h2 id="the-how-to-guide-for-your-mental-game">The how-to guide for your mental game</h2>
+
+<p>I approached this game as a former athlete and as a current amateur wannabe triathlete. I was looking for something that helped me face the long months ahead of me and the book didn’t disappoint, or, at least, not at all.</p>
+
+<p>This is a typical self-help book that could have been condensed into a way shorter version where the main message(s) is diluted into 250 pages that could have been easily 80.</p>
+
+<p>The book remains nonetheless a relaxing and entertaining book, guiding through the psychological steps to achieve the so-called “peak performance”.</p>
+
+<p>The book is divided into 10 chapters and every chapter provides a somehow similar piece of advice for preparing for whichever adversity life puts forward, be it a competition, an exam, or simply a personal grind.</p>
+
+<h2 id="main-takeaways">Main Takeaways</h2>
+
+<p>The main takeaways of the book are:</p>
+
+<ul>
+  <li><strong>Goal Setting</strong></li>
+  <li><strong>Mental Imagery</strong>: visualize in your mind yourself performing</li>
+  <li><strong>Self-talk</strong>: positively and effectively talk to yourself</li>
+  <li><strong>Confidence</strong>: assume an “I can do it” attitude</li>
+  <li><strong>Focus</strong>: stay in the moment, not on later, not on the past. Do your best in the moment.</li>
+  <li><strong>Breath Control</strong></li>
+  <li><strong>Mental Toughness</strong>: especially in adversity remember to not skip the difficult choices</li>
+  <li><strong>Anxiety Management</strong>: stress and anxiety are not negative, they’re the feelings that help you perform and tell you that what you’re doing is important</li>
+  <li><strong>Enjoyment</strong>: remember to have fun while you train</li>
+  <li><strong>Body</strong> Language: you’re carrying with you the future champion</li>
+  <li><strong>Intensity</strong>: face every situation with the right body energy</li>
+  <li><strong>Personal Affirmation</strong>: repeat your motivational routine speech</li>
+</ul>
+
+<p>authors: Erik Pillon, the52ndbook@gmail.com</p>]]></content><author><name></name></author><category term="Peak Performance" /><category term="Mental Training" /><category term="Book review" /><summary type="html"><![CDATA[The how-to guide for your mental game]]></summary></entry><entry><title type="html">Accelerate</title><link href="http://localhost:4000/blog/accelerate" rel="alternate" type="text/html" title="Accelerate" /><published>2024-08-29T00:00:00+02:00</published><updated>2024-08-29T00:00:00+02:00</updated><id>http://localhost:4000/blog/accelerate</id><content type="html" xml:base="http://localhost:4000/blog/accelerate"><![CDATA[<p><img src="/assets/images/agile_meeting.jpeg" alt="Agile meeting" /></p>
+
+<blockquote>
+  <p>Accelerate is not a book about IT; Accelerate is a book about culture and the best work methodologies to effectively deliver business value while also fostering innovation in an ever-changing world.</p>
+</blockquote>
+
+<p>This work is a scientific approach to optimizing software development and ultimately how to leverage technology to deliver business value.</p>
+
+<p>The backbone of the entire book is a massive multi-year social study, covering more than 23000 survey responses from over 2000 different organizations, spanning from small startups to IT behemoths.</p>
+
+<p>All in all, this book is a work about “<em>culture</em>”; the fundamental underlying principle is that “organizational culture predicts performance outcome” (p. 31) and the entire book is about defining and implementing the culture that yields the best results in the field of IT.</p>
+
+<p>Thanks to an extensive survey, the authors come to the hypothesis that not only the best work culture affects the way of working, but also the IT best practices, the relationships between teams and individuals and the right prioritization of outcomes ultimately affects the culture itself.</p>
+
+<p>It is then the main hypothesis of the book that</p>
+
+<blockquote>
+  <p>“lean management, along with a set of other other technical practices known collectively as continuous delivery, do in fact impact culture”.</p>
+</blockquote>
+
+<p>It is therefore to you to adopt and implement the principles and the lessons of the study to change the culture of your organization.</p>
+
+<h2 id="westrum-organizational-typologies">Westrum Organizational Typologies</h2>
+
+<p>Building on the seminal work of the sociologist Ron Westrum (see below for a more detailed bibliography), we can summarize the different work cultures into 3 distinct categories, or types:</p>
+
+<ul>
+  <li>Organizations that are power-oriented have a <strong>pathological</strong> culture: these are organizations ruled by fear and threat. Problems are solved by finding a scapegoat, and employees often hoard information for political reasons or distort it to look better.</li>
+  <li><strong>Bureaucratic</strong> organizations instead are rules-oriented: departments defend themselves and maintain their “turf”, insist on their own rules, and generally do things by the book.</li>
+  <li><strong>Generative</strong> are performance-oriented organizations that focus on the mission. Everything is subordinated to good performance and the main driving principle is the ideal of effectively delivering business value.
+Westrum then insight that organization culture further affects the information flow within an organization and that good information flow is critical for the safety and effectiveness of high-tempo environments, including technology organization.</li>
+</ul>
+
+<p><em>Ça va sans dire</em>, generative culture is the ideal goal that we should achieve in order to maximize our organization’s performance.</p>
+
+<h2 id="book-structure-and-key-takeaways">Book Structure and Key Takeaways</h2>
+
+<p>The book is divided into 3 parts: part I talks about the findings of the study, part II deals with the rigorous scientific methods that led to the results in Part I and the final Part III is the summary of a case study that two of the authors performed while working at the multinational leading organization in the banking sector.</p>
+
+<h3 id="key-takeaways">Key Takeaways</h3>
+
+<p>Maximum productivity and consistent delivery rate are reached when there’s good information flow, high cooperation and trust, bridging between teams, and conscious inquiry. We can achieve this by either working on the culture of the organization or focusing on some technological good practices. The majority of all these principles are concentrated in the main chapters of the book, namely:</p>
+
+<ul>
+  <li>Chapter 4: <strong>Technical Practices</strong></li>
+  <li>Chapter 5: <strong>Architecture</strong></li>
+  <li>Chapter 8: <strong>Production Development</strong></li>
+</ul>
+
+<h4 id="continuous-delivery-capabilities">Continuous Delivery Capabilities</h4>
+
+<ul>
+  <li>Use versioning control systems for all your artifacts;</li>
+  <li>Automate your deployment process: automation reduces the cognitive load, reduces burnout, and increase deployment rate;</li>
+  <li>Implement Continuous Integration: the development practice where code is regularly checked in and each check-in triggers a series of tests to discover regressions;</li>
+  <li>Use trunk-based development methods: try to keep less than 3 active branches and keep the life span of each branch really short (less than a day);</li>
+  <li>Implement test automation: let tests run automatically and often</li>
+</ul>
+
+<h4 id="support-test-data-management">Support test data management:</h4>
+
+<ul>
+  <li>Shift left on security: implement security practices into the designing and testing phase of the software development;</li>
+  <li>Implement Continuous Delivery:</li>
+  <li>Architecture Capabilities</li>
+  <li>Use a loosely coupled architecture: tests and deployments can be made indipendently; teams can work in parallel. which in turn allows them to work faster and deliver more value to the organization.</li>
+  <li>Architect for empowered teams: allow each team to use their preferred tools and frameworks</li>
+</ul>
+
+<h4 id="product-and-process-capabilities">Product and process capabilities</h4>
+<ul>
+  <li>Gather and implement customer feedback</li>
+  <li>Make the flow of work visible though the value stream: teams should have a good understanding and visibility into the flow of work of their product within the bigger picture.</li>
+  <li>Work in small batches: decompose work into small features that allow for faster development and feedback gathering</li>
+  <li>Foster and enable team experimentation: allow teams to test and try out new ideas without requiring approval from outside of the team.</li>
+</ul>
+
+<h4 id="lean-management-and-monitoring-capabilities">Lean management and monitoring capabilities</h4>
+
+<ul>
+  <li>Have a lightweight change approval processes</li>
+  <li>Monitor across applications and infrastructure to inform business decisions</li>
+  <li>Check system health proactively</li>
+  <li>Improve processes and manage work with work-in-process limits</li>
+  <li>visualize work to monitor quality and communicate throughout the team</li>
+</ul>
+
+<h4 id="cultural-capabilities">Cultural capabilities</h4>
+
+<ul>
+  <li>Support a generative culture</li>
+  <li>Encourage and support learning</li>
+  <li>Support and facilitate collaboration among teams</li>
+  <li>Provide resources and tools that make work meaningful</li>
+  <li>Support or embody transformational leadership</li>
+</ul>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ol>
+  <li>Westrum, R. (2004). <strong>A typology of organisational cultures.</strong> <em>BMJ Quality &amp; Safety</em>, 13(suppl 2), ii22-ii27.</li>
+  <li>Westrum, R. (2014). <strong>The study of information flow: A personal journey.</strong> <em>Safety Science</em>, 67, 58–63.</li>
+</ol>
+
+<p>authors: Erik Pillon, the52ndbook@gmail.com</p>]]></content><author><name></name></author><category term="IT" /><category term="DevOps" /><category term="Software Development" /><category term="Agile" /><category term="Book review" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Database Normalization Forms and all that Jazz</title><link href="http://localhost:4000/blog/database-normalization-and-all-that-jazz" rel="alternate" type="text/html" title="Database Normalization Forms and all that Jazz" /><published>2024-07-18T00:00:00+02:00</published><updated>2024-07-18T00:00:00+02:00</updated><id>http://localhost:4000/blog/database-normalization-and-all-that-jazz</id><content type="html" xml:base="http://localhost:4000/blog/database-normalization-and-all-that-jazz"><![CDATA[<p>While developing software, is difficult not to acknowledge the central role that data (and databases in general) play in the overall architectural design of the system. Now more than ever, in the era of Big Data, data-intensive applications, and Data Lakes, this principle remains a cornerstone for every developer willing to design any type of application or software. It is therefore fundamental to create and organize data in a way that preserves integrity and avoids redundancy, allowing scalability and efficiency.</p>
+
+<p>In Relational Databases, these principles go under the name of normalization forms, i.e., a set of principles and best practices that prevent data redundancy, operational anomalies, and inconsistency through systematic and standardized techniques governing database relationships and dependencies.</p>
+
+<p>Normalization forms build upon each other in progressive steps, meaning that a database cannot be in a, let’s say, 3rd normalization form without being first in the 2nd normalization form.</p>
+
+<p><img src="../assets/images/db_nf_list.png" alt="Database Normalization Forms Hierarchy" /></p>
+
+<p>While the schema above shows only until the 5th normalization form, it must be noted that the diagram could extend even beyond, but quite often all normalization forms that go beyond the 3rd normalization forms don’t offer any practical utility and are mostly interesting for academic purposes only.</p>
+
+<h2 id="first-normalization-form">First Normalization Form</h2>
+
+<p>1st Normalization Form (1NF) is about the atomicity of the entries and their unique identification. This eliminates repeating groups and ensures each field contains only one piece of information. 1NF is essentially telling us how (not to) use the principal keys (PK) in our database.</p>
+
+<p>Let’s consider the case in which we have a table of Formula 1 drivers and their teams. A non-optimal usage of the unique key can lead to the following mispractice: a driver drives in the year X for a team, but the team can change with time. Specifying only the DriverId is therefore not enough for accessing the Team property.</p>
+
+<p><img src="../assets/images/driver_table_2.png" alt="First Normalization Form and its failure" /></p>
+
+<p>We would like essentially to hold true the following</p>
+
+<p>’’’
+{ DriverId } -&gt; { Team }
+‘’’</p>
+
+<p>but unfortunately is not the case (a driver can be driving a Ferrari in 2024 and a McLaren in 2022). The solution to this problem is the redefinition of the unique key constraint (in this case DriverId AND Year).</p>
+
+<p>Let’s consider now a second scenario, where the order in which data are presented yields secondary information about the drivers. In the following table, we see that the order in which the drivers are stored is implicitly ordered already by their championship ranking. This cannot happen and must always be fixed by simply defining a principal key in the table.</p>
+
+<p><img src="../assets/images/driver_table_1.png" alt="Also in the first table we fail to adhere to the First Normalization Form. The second table fix this issue" /></p>
+
+<h2 id="second-normalization-form">Second Normalization Form</h2>
+
+<p>2nd Normalization Form builds on 1NF by ensuring that all non-key attributes are fully functionally dependent on the primary key. This means that there are no partial dependencies of any column on the primary key, eliminating redundancy.</p>
+
+<p>Let’s consider the following case where we have in the same column information about the driver’s GP result of a given year and also information about the nationality of the driver. Driver nationality has indeed an explicit dependency on the Driver ID but has nothing to do with the GP in which the race was held. This creates a problem in case there’s a so-called insertion anomaly or deletion anomaly of an entry, allowing the possibility of a data inconsistency!</p>
+
+<p><img src="../assets/images/driver_ranking_table_2.png" alt="" /></p>
+
+<h2 id="third-normal-form">Third Normal Form</h2>
+
+<p>3rd Normal Form (3NF) requires that all the attributes are not only fully dependent on the primary key but also non-transitively dependent. This means there are no transitive dependencies, where non-key attributes depend on other non-key attributes.</p>
+
+<p><img src="../assets/images/3NF_1.png" alt="Third Normal Form and its failure on the last column. No transitive dependency is allowed." /></p>
+
+<p>The problem, in this case, is that the last column (GPWinnerTeam) has an evident dependency on the column (GpWinner), creating the risk of data inconsistency in case of insertion or deletion anomaly. The above-mentioned problem can be fixed by simply splitting the two tables into their respective data structures, like in the following:</p>
+
+<p><img src="../assets/images/3NF.png" alt="Schema comparison between a non-3rd-form normalized table and its improvement." /></p>
+
+<h2 id="beyond-the-3nf">Beyond the 3NF</h2>
+
+<p>As I anticipated in the beginning, normal forms go way beyond the 3NF, but they’re mostly of academic interest and there’s little to none interest in normal database development to keep this order of normalization. But for the sake of curiosity, let’s anyway have a look to what we can find beyond the 3NF.</p>
+
+<h3 id="boyce-codd-normalization-form">Boyce-Codd Normalization Form</h3>
+
+<p>BCNF is a stricter version of 3NF where every determinant is a candidate key. It ensures that functional dependencies are resolved more rigorously, even in complex scenarios.</p>
+
+<h3 id="fourth-and-fifth-normalization-forms">Fourth and Fifth Normalization Forms</h3>
+
+<p>4th Normalization Form deals with multi-valued dependencies while the 5th Normalization Forms define a standardized way to work with joined tables.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>When I first entered the world of database management, I was completely new to best practices, including the intricate world of normalization forms. Fortunately, a supportive work environment allowed me to dig into these concepts and encouraged me to share my findings. For people who know my background, will be no surprise the fact that most IT best practices and enterprise-level common solutions are still somehow obscure. Surprisingly to me, this is also the case for many young developers grinding their way into the dynamic world of startups. Unlike many other sectors, though, startups are renowned for their knowledge-sharing spirit and flat structure; I was, therefore, able to contribute significantly to my team’s efforts in better designing database schema changes. This journey has not only enhanced my skills but also enabled me to support my colleagues in creating optimized and high-performing RDBM environments.</p>
+
+<h2 id="bibliography-and-additional-resources">Bibliography and Additional Resources</h2>
+<p>I collect here below some interesting resources that I stumbled upon</p>
+
+<ul>
+  <li>Refactoring Database: Evolutionary Databases Design; like the code that we use, also databases need to be refactored and adapted to the ever-changing specs and requirements. Unlike the code base, though, databases need to be handled with extra care, especially in the case the database is shared across different actors and services. This book provides a practical and concrete set of strategies to apply in the presence of different refactoring needs.</li>
+  <li>Database Internals: A Deep Dive into How Distributed Data Systems Work; The book is divided into two parts; The first part deals with B*-trees, LSM-trees, differences between locks and latches, memory VS disk optimizations, rebalancing, concurrency models for transactions, etc. The second part is more about distributed systems (Paxos algorithms, replication, byzantine fault, etc). All in all an essential vademecum for anyone who wants a refresher on the pros and cons of the enormous plethora of different solutions that are available out there when talking about databases.</li>
+  <li>Software Architecture: the hard parts. A comprehensive overview of best practices and ideas to apply when there are no design patterns that match our use case. Moving from a monolithic to a microservice structure, while refactoring team structure and database usage is one of the most difficult steps to take in modern IT. This book is an essential vademecum to survive this challenging process.</li>
+  <li><a href="https://www.youtube.com/watch?v=GFQaEYEc8_8">This</a> beautiful YouTube video introduces all the normalization forms.</li>
+</ul>]]></content><author><name></name></author><category term="article" /><category term="post" /><category term="review" /><summary type="html"><![CDATA[Personal introduction to RDBMS Normalization Forms with a taste of Formula 1]]></summary></entry><entry><title type="html">Doughnut Economics | Seven Ways to Think Like a 21st-Century Economist</title><link href="http://localhost:4000/blog/doughnut-economics" rel="alternate" type="text/html" title="Doughnut Economics | Seven Ways to Think Like a 21st-Century Economist" /><published>2024-06-09T00:00:00+02:00</published><updated>2024-06-09T00:00:00+02:00</updated><id>http://localhost:4000/blog/doughnut-economics</id><content type="html" xml:base="http://localhost:4000/blog/doughnut-economics"><![CDATA[<p>Doughnut Economics, by Kate Raworth, is probably the most interesting and clear book that I’ve come across in economic sciences. The author, often considered to be the “Keynes of the XXI century”, challenges the current traditional economic thinking and shows how a model focused solely on growth led to inequalities, market inefficiencies, environmental degradation, and social exclusion.</p>
+
+<p>Highly influenced by seminal works like <em>“Thinking in Systems”</em>, by Donella Meadows, Kate Raworth not only provides a way to visualize the concepts and the ideas she’s describing, thus putting forward the idea of the “doughnut”, but also leads the way to a general rethinking the problems and the models themselves.
+The doughnut in particular is a new way to reconsider economics in general, where both economic and ecological factors are taken into account. The doughnut model consists of two concentric rings: the inner ring represents the social foundation that all humans need to thrive, including access to food, water, healthcare, and education. The outer ring represents the ecological ceiling beyond which we cannot safely go, including climate change, biodiversity loss, and pollution.
+The space between the two rings represents the “safe and just space for humanity” - a space where we can meet the needs of all people without overshooting the planet’s ecological limits. How to achieve this goal, is the main question of the book: prioritizing human well-being and environmental sustainability becomes central while models focusing on growth alone must be finally retired. Several examples of actions and initiative are present in the book and many concrete strategies to put in place these ideas are listed.
+Overall this book can be considered a “call to action” or even the manifesto of XXI century economics, for a new, more sustainable, and equitable economic system that prioritizes the well-being of people and the planet.</p>
+
+<p>authors: Erik Pillon, the52ndbook@gmail.com</p>
+
+<h2 id="one-sentence-summary">One Sentence Summary</h2>
+<p>Doughnut Economics presents a new economic model that takes into account both planetary boundaries and social foundations to create a sustainable and just future.</p>
+
+<h2 id="best-quote-from-the-book">Best quote from the book</h2>
+<blockquote>
+  <p>“The challenge we now face is to create economies that are regenerative and distributive by design, and are capable of providing us with health and prosperity for all, within the means of the living planet, for generations to come.”</p>
+</blockquote>
+
+<h2 id="extended-summary-and-personal-opinion">Extended Summary and Personal Opinion</h2>
+
+<h3 id="chapter-1-setting-the-stage">Chapter 1: Setting the stage</h3>
+
+<p>Raworth begins by describing the concept of economics as a system of rules and assumptions that govern our lives and explains why traditional economics is no longer fit for purpose.
+An important part of this chapter is devoted to the importance of pictures in our society and for human understanding. The author is then able to justify her effort to visualize as much as possible every concept in the book, hence the visual title of the “doughnut”.</p>
+
+<h3 id="chapter-2-see-the-big-picture">Chapter 2: See the big picture</h3>
+
+<p>Elaborating on the seminal work of Donella Meadow, this chapter explains how the economy is not a standalone entity completely decoupled from society and environment, but is one of the several factors that act in synergy in a much more complicated system. Model that ignores the complexity of this system, are doomed to increase some metrics (like GDP) at the expense of other factors (like social justice and environment). Acknowledging that resources are limited and that we need to offer the next generations the same opportunities that we had, we are forced to develop and pursue an economical system where human beings and the environment live in harmony.
+The “manifesto” of the project is then depicted. Starting from what was later called the “neoliberal agenda”, the author put forward a new adapted, and improved set of principles: these include societal and environmental needs, a redefinition of the role of the state and the financial sectors, a new equilibrium between trade, power and business. In particular, the concept of the “triumph of the commons” (as opposed to the tragedy of the commons) is introduced as a new leading principle. Following the famous work of Mariana Mazzucato, a new vision of state-driven development and innovation is also discussed.</p>
+
+<h3 id="chapter-3-nurture-the-human-nature">Chapter 3: Nurture the Human Nature</h3>
+
+<p>To accomplish a full revolution, we must focus on what the economy is really about, i.e., people. People and their values must be therefore the first thing to change. In an economy where people must compromise between profits and ideals, the corruption of principles and moral values can’t be avoided. Even the best-intentioned person who wants to contribute to society in a financially sustainable way constantly feels like the current system erodes good principles with financial motivation.</p>
+
+<h3 id="chapter-4-get-savvy-with-systems">Chapter 4: Get Savvy with Systems</h3>
+
+<p>A holistic attempt of view of the economic system is attempted. The famous paper of science and complexity is introduced and a lot of mathematical concepts ranging from equilibrium theory to dynamical chaos are viewed from a sociological perspective. The author argues that the current capitalistic system suffers the major flaw of the “winner takes all” syndrome. Like in a monopoly game, everyone who starts with a small advantage will keep and increase this advantage until a major event reshuffles the ground again, thus affecting the capabilities and interest in creating innovation and improving social standards. A more ethical perspective is therefore necessary for leveraging the field and introducing modern and sustainable success measures.</p>
+
+<h3 id="chapter-5-design-to-distribute">Chapter 5: Design to distribute</h3>
+
+<p>In this chapter one of the most difficult topics is introduced: the redistribution of wealth. In particular, the Kuznets curve is introduced, i.e., the economical equivalent of “no pain no gain”.</p>
+
+<p><img src="/assets/images/Kuznets_curve.png" alt="Kuznets curve" /></p>
+
+<p>The author shows how the Kuznets curve misled economists and policymakers away from moral values: accepting that social sacrifices are necessary to achieve a greater later common good, induced economists to shift away their interest from social principles.</p>
+
+<h3 id="chapter-6-create-to-regenerate">Chapter 6: Create to regenerate</h3>
+
+<p>Following from the previous chapter, the author shows how the widely and wrongly adopted Kuznets curve was adopted even during the implementation of environmental policies, thus moving away from the center of the doughnut. This chapter explores how the doughnut model can be applied in practice, and offers examples of organizations and cities that have successfully adopted this new economic framework. This chapter explores the role of economics in driving social and environmental change and discusses the importance of taking a holistic and collaborative approach.</p>
+
+<h3 id="chapter-7-be-agnostic-about-growth">Chapter 7: Be agnostic about Growth</h3>
+
+<p>This chapter introduces the Rostow Stages of economic growth and the limits of an infinite growth model.</p>
+
+<p><img src="/assets/images/Rostow_stages_of_economic_growth.png" alt="Rostow's stages of economic growth" /></p>
+
+<p>A system where wealth will keep increasing is essentially impossible by employing the limited resources that are given to us; the goal should focus therefore on an infinite growth model, where there’s no end, the S-curve model, where society can thrive while not being affected by stagnant economic values.</p>
+
+<p><img src="/assets/images/Infinite_growth.png" alt="An inroth model must give way to an &quot;S growth&quot; model" /></p>
+
+<h2 id="books-i-will-read-afterward">Books I will read afterward</h2>
+
+<p>“Doughnut Economics” is a relatively recent and influential book that has sparked much discussion and debate around the world. As such, there is a decent amount of literature that is relevant and that I wish to read afterward</p>
+<ul>
+  <li>“The Limits to Growth” by Donella Meadows, Jorgen Randers, and Dennis Meadows (1972) — This influential book explores the implications of exponential growth in a finite world, and has inspired many subsequent works on sustainability and environmentalism.</li>
+  <li>“Planetary Boundaries: Exploring the Safe Operating Space for Humanity” by Johan Rockstrom et al. (2009) — This paper introduced the concept of planetary boundaries, which provides a framework for understanding the environmental limits within which human societies must operate to maintain a safe and stable planet.</li>
+  <li>“The Economics of Enough: How to Run the Economy as if the Future Matters” by Diane Coyle (2011) — This book argues that the current economic system is unsustainable, and proposes a new economic model that considers social and environmental concerns.</li>
+  <li>“Ecological Economics: Principles and Applications” by Herman Daly and Joshua Farley (2004) — This book provides an introduction to ecological economics, which is a field that seeks to integrate ecological and economic thinking to create a more sustainable and just world.</li>
+  <li>“Prosperity without Growth: Foundations for the Economy of Tomorrow” by Tim Jackson (2009) — This book argues that economic growth cannot continue indefinitely on a finite planet, and proposes a new economic model that emphasizes sustainability and social justice.</li>
+</ul>
+
+<h3 id="personal-literature-and-connections-i-made-to-the-book">Personal Literature and Connections I made to the book</h3>
+<ul>
+  <li>Thinking in systems: a primer, by Donella Meadow</li>
+  <li>Think Fast and Slow, Daniel Kahneman</li>
+  <li>Science and complexity, by Warren Weaver</li>
+  <li>Capital in the XXI century, by Thomas Piketty</li>
+  <li>Dambisa Mojo: Economics growth has stallen</li>
+</ul>]]></content><author><name></name></author><category term="article" /><category term="post" /><category term="review" /><summary type="html"><![CDATA[Summary of Doughnut Economics, by by Kate Raworth]]></summary></entry><entry><title type="html">Think Again | The Art of Changing Idea</title><link href="http://localhost:4000/blog/Think-Again" rel="alternate" type="text/html" title="Think Again | The Art of Changing Idea" /><published>2024-05-22T00:00:00+02:00</published><updated>2024-05-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/Think-Again</id><content type="html" xml:base="http://localhost:4000/blog/Think-Again"><![CDATA[<p>It doesn’t happen often that I get as positively surprised as while reading the book by Adam Grant “Think Again”. After reading and taking several notes for my zettelkasten system, I can genuinely say that I’m sitting in front of a masterpiece.
 I was honestly not familiar with any of the work but it was an absolute pleasure to dig into all the amazing material available online. Albeit being an extremely proficient writer, Adam Grant is also a (multiple times) TEDx speaker and a true polymath: while having a background in social psychology the author can connect a lot of different branches of human knowledge and provide a unified holistic personal view of the world.</p>
 
 <h1 id="synopsis">Synopsis</h1>
@@ -16,7 +298,7 @@ We receive from society constant explicit encouragement to always adopt a more s
   <p>Arrogance leaves us blind to our weaknesses. Humility is a reflective lens: it helps us see them. Confident humility is a corrective lens, it enables us to overcome those weaknesses.</p>
 </blockquote>
 
-<p><img src="../assets/images/Think_again.png" alt="Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant &quot;I know everything&quot;" /></p>
+<p><img src="/assets/images/Think_again.png" alt="Finding the Confident Humility Zone, the small sweet spot among the Impostor Syndrome and the arrogant &quot;I know everything&quot;" /></p>
 
 <p>Chapter 3 helps us understand how we can take a proactive approach to rethinking and challenging our positions. Discovering ourselves wrong should not be a painful moment, but instead a joyful and positive one: we just learned something new after all! Overcoming the sense of ignorance and conviction employing the pleasure that we get from our recent discovery should be the driving factor in challenging the small “dictator” that we have in our head that keeps us anchored to our old position (see also “Think fast and slow” by Daniel Kahneman in these regards). Chapter 4 follows immediately on this topic and shows us how to overcome a conflicting position not only with ourselves but also with other people, thus opening the topic of conflict resolution and collective thinking. As Hegel said, the ideal synthetic process always comes from the solved conflict between an idea and its antithesis.</p>
 
@@ -336,203 +618,4 @@ At the Oscar ceremony, Citizen Kane, that was a critic success but a boxoffice d
   <li>Blogging forces you to t<strong>each yourself what you don’t know and to articulate what you do know</strong>. When you begin writing a blog post, you are forced to organize your thoughts. If there are any gaps in the topic that you are writing about, you will have to learn about it. Writing out and articulating your thoughts is a great way to internalize something you’ve learned or experienced.</li>
   <li>Writing helps you become more familiar with the topic you’re writing about. Blogging helped (better say, forced) me to think about what I know, what I read and what I’m saying and ultimately even pushed me to develop a new organization system for all my knowledge. Luckily a close friend of me came to my rescue and introduced me to the concept of the <strong>Zettelkasten</strong>. I’ll probably talk about the Zettelkasten system later in this series of posts, but for the moment it will suffice to say that is a note taking system designed to allow yourself to develop new ideas and connect different concepts and topics. I couldn’t have asked for more.</li>
   <li>Last but not least, might generate a second passive income!</li>
-</ul>]]></content><author><name></name></author><category term="post" /><category term="blogging" /><category term="reading" /><category term="coding" /><category term="zettelkasten" /><category term="f1-analytics" /><category term="the-52nd-book" /><category term="data-visualization" /><summary type="html"><![CDATA[Some considerations after my first few weeks of Blogging]]></summary></entry><entry><title type="html">Sample Post</title><link href="http://localhost:4000/blog/sample-post" rel="alternate" type="text/html" title="Sample Post" /><published>2020-04-24T00:00:00+02:00</published><updated>2020-04-24T00:00:00+02:00</updated><id>http://localhost:4000/blog/sample-post</id><content type="html" xml:base="http://localhost:4000/blog/sample-post"><![CDATA[<p>This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
-For more information about writing markdown you can checkout the following markdown cheatsheets:</p>
-<ul>
-  <li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
-  <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide</a></li>
-  <li><a href="https://github.github.com/gfm/">GitHub Flavored Markdown Spec</a></li>
-</ul>
-
-<hr />
-
-<h1 id="this-is-the-h1-text">This is the h1 text</h1>
-<h2 id="this-is-the-h2-text">This is the h2 text</h2>
-<h3 id="this-is-the-h3-text">This is the h3 text</h3>
-<h4 id="this-is-the-h4-text">This is the h4 text</h4>
-<h5 id="this-is-the-h5-text">This is the h5 text</h5>
-<h6 id="this-is-the-h6-text">This is the h6 text</h6>
-
-<p><strong>Bold Text in the post will look like:</strong><br />
-<strong>This text is Bold</strong></p>
-
-<p><strong>Italic Text in the post will look like:</strong><br />
-<em>This text is Italic</em></p>
-
-<blockquote>
-  <p>Quotes on your post will look like this</p>
-</blockquote>
-
-<p><code class="language-plaintext highlighter-rouge">Codes on your post will look like this</code></p>
-
-<p><strong>Link in the post will look like:</strong><br />
-<a href="#">This is a link</a></p>
-
-<p><strong>Bullet list in the post will look like:</strong></p>
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
-  <li>Item 5</li>
-</ul>
-
-<p><strong>Number list in the post will look like:</strong></p>
-<ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
-  <li>Item 5</li>
-</ol>
-
-<p><strong>Images in the post will look like:</strong><br />
-<img src="/WhatATheme/assets/images/1280x720%20Placeholder.png" alt="Test Image" /></p>
-
-<p><strong>Normal text in the post will look like</strong><br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id finibus nisl. Etiam in hendrerit est. Nulla non erat ac lectus interdum lobortis. Vestibulum at mi ex. Mauris nisl mi, venenatis et feugiat nec, finibus porttitor velit. Suspendisse tincidunt lobortis leo, quis tristique tellus iaculis quis. Donec eleifend pulvinar gravida. Proin non lorem eros. Donec sit amet finibus ex, eget vestibulum nunc. Ut ut enim id purus porttitor tristique. Vivamus tincidunt eleifend hendrerit. Proin metus felis, ultrices vel dui in, porta dapibus dui. Sed sagittis ex vitae dui tristique dignissim. Cras vel leo ipsum.</p>
-
-<p>Aenean ac neque et risus mattis accumsan. Sed ac tellus molestie, lacinia ante sit amet, convallis felis. Maecenas aliquet lectus nec euismod auctor. Donec finibus pellentesque tortor, ac efficitur metus suscipit non. Proin diam orci, blandit quis malesuada ac, efficitur a nisl. Mauris eleifend consequat blandit. Sed egestas quam et orci gravida, non euismod metus scelerisque. Curabitur venenatis pellentesque erat commodo pharetra. Fusce id ante nec ipsum fringilla auctor. In justo quam, feugiat placerat eleifend dapibus, luctus et quam. Fusce facilisis erat ut odio convallis viverra et id mauris. Sed vehicula tempus consectetur. Aliquam pharetra, purus non egestas tristique, tellus massa fringilla est, id sagittis tellus urna non mauris. Suspendisse fringilla, velit nec blandit facilisis, ligula ante imperdiet est, et placerat magna sem quis tortor.</p>
-
-<p>Vestibulum vitae fermentum velit, rhoncus egestas orci. Nulla at purus ut orci posuere vulputate. In eget leo diam. In congue in diam nec elementum. Suspendisse fringilla ante nulla, eu tristique orci ultrices eget. Aenean non lorem tellus. Vestibulum tempor metus sit amet tellus feugiat, sit amet consequat lacus ultricies.</p>
-
-<p>Donec imperdiet, lectus eget congue cursus, dolor enim finibus risus, ut molestie lorem tellus non tortor. Donec quam nibh, molestie in dapibus et, efficitur non tortor. Morbi orci tellus, mollis vel mi vitae, auctor lobortis erat. Ut gravida velit eget ligula lacinia, id rhoncus tellus gravida. Maecenas laoreet rutrum consequat. Suspendisse sed nibh dui. Curabitur dictum euismod mollis. Sed egestas libero libero, eu accumsan augue placerat non. Nunc id condimentum orci. Mauris vitae sollicitudin quam.</p>
-
-<p><strong>Giphy Gifs will look like:</strong><br /></p>
-<iframe src="https://giphy.com/embed/ZqlvCTNHpqrio" width="480" height="259" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<p><a href="https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio">via GIPHY</a></p>
-
-<p><strong>YouTUbe Videos will look like:</strong><br /></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jTPXwbDtIpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[A sample post to show how the content will look and how will different headlines, quotes and codes will be represented.]]></summary></entry><entry><title type="html">How to Install and use WhatATheme?</title><link href="http://localhost:4000/blog/how-to-install-whatatheme" rel="alternate" type="text/html" title="How to Install and use WhatATheme?" /><published>2020-04-22T00:00:00+02:00</published><updated>2020-04-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/how-to-install-whatatheme</id><content type="html" xml:base="http://localhost:4000/blog/how-to-install-whatatheme"><![CDATA[<h1 id="what-is-whatatheme">What is WhatATheme?</h1>
-<blockquote>
-  <p>You’ll find this post in your <strong><em>_posts</em></strong> directory. Go ahead and edit it and re-build the site to see your changes. &gt;You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-</blockquote>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VfPa2c9kwhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<hr />
-
-<p><strong>WhatATheme</strong> is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio which includes</p>
-
-<h3 id="home-page--">Home Page -</h3>
-<ul>
-  <li>A Hero section - A section where you can outsource an image which will work as the background for the particular section; it also will include your name and a tagline which can be easily manipulated via the _config.yml file.</li>
-  <li>An About section - A section where you can include your image and a 60 word paragraph which again you can easily manipulate using the _config.yml file.</li>
-  <li>A Contact section - A section where you can include 3 direct ways to contact<br />
-<code class="language-plaintext highlighter-rouge">Ping on Messenger</code><br />
-<code class="language-plaintext highlighter-rouge">Send an Email</code><br />
-<code class="language-plaintext highlighter-rouge">Tweet on Twitter</code><br />
-The contact section will also include 10 different social media buttons for your audience to follow.<br />
-<code class="language-plaintext highlighter-rouge">Facebook</code>, <code class="language-plaintext highlighter-rouge">Twitter</code>, <code class="language-plaintext highlighter-rouge">Instagram</code>, <code class="language-plaintext highlighter-rouge">LinkedIn</code>, <code class="language-plaintext highlighter-rouge">GitHub</code>, <code class="language-plaintext highlighter-rouge">YouTube</code>, <code class="language-plaintext highlighter-rouge">Reddit</code>, <code class="language-plaintext highlighter-rouge">Behance</code>, <code class="language-plaintext highlighter-rouge">Dribbble</code> &amp; <code class="language-plaintext highlighter-rouge">Spotify</code>.</li>
-</ul>
-
-<h3 id="blog--">Blog -</h3>
-<p>The blog includes a horizontal card list where the latest articles are fetched from the _posts folder automatically in top-down format. It also includes an instant search box which matches your query from the title, description &amp; content of your post and shows the result as soon as you type.<br />
-The blog card includes</p>
-<ul>
-  <li>Post Title</li>
-  <li>300 words from the content of the post</li>
-  <li>The publish date</li>
-  <li>The time which will be required to read the post.</li>
-</ul>
-
-<h3 id="projects--">Projects -</h3>
-<p>The Projects page will include all the projects from the <strong><code class="language-plaintext highlighter-rouge">projects.yml</code></strong> file which is present in the _data folder.<br />
-Projects will be showcased in a card-list format where each card will contain</p>
-<ul>
-  <li>An image related to the project</li>
-  <li>A Project Title</li>
-  <li>A Project Description of about 80 words</li>
-</ul>
-
-<h3 id="footer--">Footer -</h3>
-<p>The footer includes</p>
-<ul>
-  <li>A small about the author widget which show the same <code class="language-plaintext highlighter-rouge">Author Image</code> as mentioned in the about section of the Home page which includes <code class="language-plaintext highlighter-rouge">Name of the Author</code>, <code class="language-plaintext highlighter-rouge">Around 75 words about the author</code>.</li>
-  <li>A more link widget which includes a link to any extra page that you’ve created and a <code class="language-plaintext highlighter-rouge">Subscribe via RSS</code> link.</li>
-  <li>A Recent posts widget which will include latest 3 posts.</li>
-</ul>
-
-<h4 id="extra-features--">Extra Features -</h4>
-<p>WhatATheme comes pre installed with</p>
-<ul>
-  <li><strong>HTML Compressor</strong> - It’ll compress all the pages by removing any extra space or blank lines.</li>
-  <li><strong>Google Analytics</strong> - A web analytics service offered by Google that tracks and reports website traffic. For more information <a href="https://analytics.google.com" target="blank">click here</a>.</li>
-  <li>
-    <p><strong>Disqus</strong> - A worldwide blog comment hosting service for web sites and online communities that use a networked platform. For more information about Disqus <a href="https://help.disqus.com/en/articles/1717053-what-is-disqus" target="blank">click here</a></p>
-
-    <p>##### For more information about WhatATheme <a href="https://github.com/thedevslot/WhatATheme/blob/gh-pages/README.md" target="blank">click here</a>.</p>
-  </li>
-</ul>
-
-<hr />
-
-<h1 id="installation">Installation</h1>
-<h3 id="step-1---setting-up-whatatheme">Step 1 - Setting up WhatATheme</h3>
-<blockquote>
-  <ul>
-    <li>Fork the <a href="https://github.com/thedevslot/WhatATheme/tree/master" target="blankl">repository</a></li>
-    <li>Go to repository settings and set Github Pages source as master.</li>
-    <li>Your new site should be ready at <a href="#" target="blank">https://username.github.io/WhatATheme/</a></li>
-  </ul>
-</blockquote>
-
-<h3 id="step-2---making-changes-via-_configyml">Step 2 - Making changes via <strong>_config.yml</strong></h3>
-<blockquote>
-  <ul>
-    <li>Open _config.yml file</li>
-    <li>Fill the available details accordingly</li>
-    <li>Commit the changes</li>
-  </ul>
-</blockquote>]]></content><author><name></name></author><category term="how to" /><category term="setup" /><category term="theme" /><summary type="html"><![CDATA[This post will guide you to install WhatATheme on your Jekyll site, follow the easy steps to set up WhatATheme.]]></summary></entry><entry><title type="html">What is Jekyll? How to use it?</title><link href="http://localhost:4000/blog/what-is-jekyll-how-to-use-it" rel="alternate" type="text/html" title="What is Jekyll? How to use it?" /><published>2020-04-21T00:00:00+02:00</published><updated>2020-04-21T00:00:00+02:00</updated><id>http://localhost:4000/blog/what-is-jekyll-how-to-use-it</id><content type="html" xml:base="http://localhost:4000/blog/what-is-jekyll-how-to-use-it"><![CDATA[<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don’t know what GitHub Pages are you can visit on click <a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages" target="blank">here</a> or <a href="https://pages.github.com/" target="blank">here</a></p>
-<h6 id="source--jekyll-docs">Source : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
-
-<blockquote>
-  <h3 id="to-know-more-and-get-started-with-jekyll-you-can-click-here">To know more and get started with Jekyll you can click <a href="https://jekyllrb.com/" targe="_blank">here</a></h3>
-</blockquote>
-
-<h1 id="installation">Installation</h1>
-<p><strong>Jekyll is a Ruby Gem that can be installed on most systems.</strong></p>
-<h3 id="requirements">Requirements</h3>
-<ul>
-  <li><a href="https://www.ruby-lang.org/en/downloads/" target="_blank">Ruby</a> version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)</li>
-  <li><a href="https://rubygems.org/pages/download" target="_blank">Ruby Gems</a> (which you can check by running gem -v)</li>
-  <li><a href="https://gcc.gnu.org/install/" target="_blank">GCC</a> and <a href="https://www.gnu.org/software/make/" target="_blank">Make</a></li>
-</ul>
-
-<h3 id="after-installing-the-requirements-you-can-follow-these-guides">After Installing the Requirements you can follow these guides:</h3>
-<p><strong>For detailed install instructions have a look at the guide for your operating system.</strong></p>
-<ul>
-  <li><a href="https://jekyllrb.com/docs/installation/macos/" target="_blank">macOS</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/ubuntu/" target="_blank">Ubuntu</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/other-linux/" target="_blank">Other Linux Distros</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/windows/" target="_blank">Windows</a></li>
-</ul>
-
-<h3 id="creating-a-new-jekyll-site">Creating a new Jekyll site</h3>
-<p><strong>We can create a new Jekyll site just by a simple command:</strong><br /></p>
-<blockquote>
-  <h1 id="jekyll-new-my-site"><code class="language-plaintext highlighter-rouge">jekyll new my-site</code></h1>
-</blockquote>
-
-<p>Jekyll will create a new directory named as <code class="language-plaintext highlighter-rouge">my-site</code> which is customizable (i.e., you can change the name from <code class="language-plaintext highlighter-rouge">my-site</code> to anything you want for example <code class="language-plaintext highlighter-rouge">jekyll new brutus</code>).</p>
-
-<h3 id="changing-into-the-directory">Changing into the Directory</h3>
-<p><strong>We have to go inside the directory:</strong><br /></p>
-<blockquote>
-  <h1 id="cd-my-site"><code class="language-plaintext highlighter-rouge">cd my-site</code></h1>
-</blockquote>
-
-<p>Again, <code class="language-plaintext highlighter-rouge">my-site</code> is just a random name which is customizable.</p>
-
-<h3 id="building-the-site-and-making-it-available-on-a-local-server">Building the site and making it available on a local server</h3>
-<blockquote>
-  <h1 id="bundle-exec-jekyll-serve"><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></h1>
-</blockquote>
-
-<h3 id="browsing-your-jekyll-site">Browsing your Jekyll site</h3>
-<blockquote>
-  <h1 id="browse-to-httplocalhost4000">Browse to <a href="http://localhost:4000/" target="_blank"><code class="language-plaintext highlighter-rouge">http://localhost:4000/</code></a></h1>
-</blockquote>
-
-<h6 id="on-encountering-any-problem-while-building-and-serving-your-jekyll-site-you-can-consider-visiting-to-the-troubleshooting-page">On encountering any problem while building and serving your Jekyll site you can consider visiting to the <a href="https://jekyllrb.com/docs/troubleshooting/#configuration-problems" target="_blank">troubleshooting</a> page</h6>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[Jekyll is a static site generator. You give it text written in your favorite markup language and it uses layouts to create a static website.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="post" /><category term="blogging" /><category term="reading" /><category term="coding" /><category term="zettelkasten" /><category term="f1-analytics" /><category term="the-52nd-book" /><category term="data-visualization" /><summary type="html"><![CDATA[Some considerations after my first few weeks of Blogging]]></summary></entry></feed>

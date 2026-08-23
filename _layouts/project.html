@@ -19,11 +19,16 @@ layout: compress
                 <div class="section">
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Programming Projects</p>
                 </div>
-                {% include project-card.html %}
+                {% include project-card.html label="Programming" %}
                 <div class="section">
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Science Communication Project</p>
                 </div>
-                {% include project-card-scicomm.html %}
+                {% include project-card.html label="Sci-comm" %}
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Archive</p>
+                    <p class="is-size-7 has-text-grey">Old projects, no longer maintained</p>
+                </div>
+                {% include project-card.html label="Archive" muted=true %}
             </div>
         </div>
     </section>

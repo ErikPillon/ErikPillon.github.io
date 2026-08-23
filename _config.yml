@@ -9,11 +9,11 @@ baseurl:
 # Title of the Site
 title: Erik Pillon 
 # Description of the Site
-description: Mathematician, Physics enthusiast, Pizza lover
+description: Actuary, Recovering Physicist, Triathlete-in-Training
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/nerdy
 # Keywords of the Site
-site-keywords: Erik Pillon, ErikPillon
+site-keywords: Erik Pillon, ErikPillon, Actuary, Actuarial Science, KU Leuven, Data Engineering, Software Development, Science Communication, Triathlon
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -45,29 +45,40 @@ disqus-shortname: erikpillon
 author-name: Erik Pillon
 # URL for the Image of the Author
 author-image: ../images/pic.png
-# 60 Words About the Author
-author-about: Hi, and thanks for passing by! I’m a Backend Developer with a background in pure Mathematics and Theoretical Physics.
-            As a former scientist and actual software developer with a passion for science and technology, 
-            I have spent the last several years developing software applications and tools that help scientists and researchers to collect, visualize and understand data.
-            </br>
-            In my free time I like to read everything that goes from pop science to philosophy, economics and history (check out my 
-            <a href="https://the52ndbook.github.io">blog</a>); 
-            I'm a great Ferrari fan and I love analyzing GP data (check out <a href="https://f1analytics.github.io">F1 Analytics</a> and let me know what you think)
-            </br>
-            </br>
-            <b>Outreaching</b></br>
-            In my previous life as researcher, I focused on the development of efficient numerical techniques based on the rigorous mathematical threatment of non-abelian gauge structures 
-            underlying non-adiabatic phenomena in physics and chemistry, namely the (molecular) Aharonov-Bohm effect. 
-            You can find an accessible introduction to my work in <a href="/assets/forum_EP.pdf">this article</a>.</br> 
-            Alongside my doctoral studies, I took part to several science communcation projects, both online and offline. 
-            I've been writing pop science articles since 2016 on <a href="www.mathone.it">Mathone.it</a>, on my Facebook pages (<a href="https://www.facebook.com/Phi6Passion">Phi6 Passion</a> and 
-            <a href="https://www.facebook.com/LaGaiaScienzaF">La Gaia Scienza</a>) and on the platform Quora. 
-            More recently, I joined the PhD Students Association <a href="https://luxdoc.uni.lu">LuxDoc</a>, where I also had the pleasure of serving many roles in the committee board.
-            As President, I had the opportunity of supervising and co-organize several outreaching activities that involved either Private and Public Stakeholders, 
-            from the 
-            <a href="https://www.youtube.com/watch?v=1I_873Sr14o&t=14s">Luxembourgish ScienceSlam</a>
-            to the "3 Minutes Thesis" Competition. 
-            Feel free to visit my Projects page for further details. 
+# About the Author
+author-about: >
+  Hi, and thanks for passing by! I'm an Actuary with a background in pure Mathematics and Theoretical Physics —
+  and come September I'll add an MSc in Actuarial Science and Financial Engineering at KU Leuven to that list.
+  <br><br>
+  I'm not a professional software developer anymore, but the itch never really went away. I keep exercising my
+  software development, ETL pipeline, database management and DevOps skills through personal projects — have a
+  look at my <a href="/project">Projects page</a> to see what I'm building, first and
+  foremost a self-hosted financial hub that helps me (and anyone who logs in) track investments and net worth,
+  with plenty of expansion plans in the pipeline.
+  <br><br>
+  Ideas rarely show up when I'm ready for them, so I'm building a
+  <a href="https://distill-two-pi.vercel.app/" target="_blank">second brain</a> — part analog notebook, part
+  digital tool, still very much a work in progress — to capture and connect them.
+  <br><br>
+  <b>Science Communication</b><br>
+  Outreach has stayed a constant since my PhD years leading <a href="https://luxdoc.uni.lu">LuxDoc</a>, the
+  University of Luxembourg's PhD Students Association. These days it takes the shape of
+  <a href="https://scientificchronicles.substack.com/" target="_blank">Scientific Chronicles</a>, a newsletter on
+  the people, dates and discoveries that shaped science, and its companion site,
+  <a href="https://scientific-chronicles.vercel.app/" target="_blank">Scientific Chronicles: Anniversaries</a>, a
+  growing archive of scientific anniversaries.
+  <br><br>
+  <b>Off the Clock</b><br>
+  I'm a competitive triathlete, currently training for my first 70.3 Ironman on 20 September 2026 (half-marathon
+  PB so far is 1:30:37). Race season has quietly retired a few old side projects along the way — a triathlon
+  training dashboard, <a href="https://f1analytics.github.io" target="_blank">F1 Analytics</a> and a couple of
+  others — but you can still find them, archived, on my
+  <a href="/project">Projects page</a>.
+  <br><br>
+  <b>Academic Background</b><br>
+  Before all that, I was a physicist. My PhD research focused on efficient numerical methods for non-adiabatic
+  quantum dynamics — the molecular Aharonov-Bohm effect — and you can find an accessible introduction to that
+  work <a href="/assets/forum_EP.pdf">here</a>.
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/erikpillon

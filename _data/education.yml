@@ -1,6 +1,26 @@
 # Education Template
 
 - layout: left
+  name: KU Leuven
+  dates: September 2026 - ongoing
+  qualification: MSc Actuarial Science and Financial Engineering
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    Starting this MSc to formalize and deepen the actuarial skills I use day to day, with a focus on financial engineering.
+
+- layout: left
+  name: University of Luxembourg
+  dates: 2018 - 2022
+  qualification: PhD in Physics
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    Doctoral research on efficient numerical methods for non-adiabatic quantum dynamics, namely the (molecular) Aharonov-Bohm effect. An accessible introduction to this work is available [here](/assets/forum_EP.pdf).
+
+    Alongside my studies, I served on the committee board of [LuxDoc](https://luxdoc.uni.lu), the University's PhD Students Association, including as President, co-organizing outreach activities such as the Luxembourgish ScienceSlam and the "3 Minutes Thesis" Competition.
+
+- layout: left
   name: Grenoble INP & Institut Neel
   dates: 2018
   qualification: Erasmus student

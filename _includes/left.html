@@ -1,29 +1,29 @@
-<div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-    {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
-    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
-    {%- if include.item.link -%}
-      {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
-    {%- endif -%}
-    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
-    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
-    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
-    {% for job in include.item.jobs %}
-      <p><b>{{ job.title }}</b></p>
-      <p>{{ job.dates }}</p>
-    {% endfor %}
-    {%- if include.item.github -%}
-      <p class="no-print">
-        <a href="https://github.com/{{ include.item.github }}" target="_blank">
-          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
-        </a>
-      </p>
-    {%- endif -%}
-  </div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-    {%- if include.item.quote -%}
-      <p class="quote">{{ include.item.quote }}</p>
-    {%- endif -%}
-    {{ include.item.description | strip | markdownify }}
+<div class="box education-item">
+  <div class="columns is-vcentered">
+    <div class="column is-one-quarter education-details has-text-left has-text-centered-mobile">
+      {%- if include.item.name -%}<p class="has-text-weight-semibold is-size-5">{{ include.item.name }}</p>{%- endif -%}
+      {%- if include.item.company -%}<p class="has-text-weight-semibold is-size-5">{{ include.item.company }}</p>{%- endif -%}
+      {%- if include.item.link -%}
+        {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+      {%- endif -%}
+      {%- if include.item.job_title -%}<p class="has-text-weight-medium">{{ include.item.job_title }}</p>{%- endif -%}
+      {%- if include.item.qualification -%}<p class="has-text-weight-medium">{{ include.item.qualification }}</p>{%- endif -%}
+      {%- if include.item.dates -%}<p class="has-text-grey">{{ include.item.dates }}</p>{%- endif -%}
+      {% for job in include.item.jobs %}
+        <p class="has-text-weight-medium">{{ job.title }}</p>
+        <p class="has-text-grey">{{ job.dates }}</p>
+      {% endfor %}
+      {%- if include.item.github -%}
+        <p class="no-print">
+          <a href="https://github.com/{{ include.item.github }}" target="_blank">
+            <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+          </a>
+        </p>
+      {%- endif -%}
+    </div>
+    <div class="column content education-description has-text-left">
+      {%- if include.item.quote -%}<p class="quote">{{ include.item.quote }}</p>{%- endif -%}
+      {{ include.item.description | strip | markdownify }}
+    </div>
   </div>
 </div>

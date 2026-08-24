@@ -1,6 +1,10 @@
-<div class="container education-container">
-  <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-    {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
-  {% endfor %}
-</div>
+<section class="section has-background-white-ter" id="education">
+  <div class="container">
+    <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black has-text-centered">
+      {{ site.education_title | default: "Education" }}
+    </h3>
+    {% for education in site.data.education %}
+      {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
+    {% endfor %}
+  </div>
+</section>

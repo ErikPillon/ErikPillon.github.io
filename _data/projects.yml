@@ -1,15 +1,21 @@
 # Featured / active projects
+- name: Open Finance
+  label: Programming
+  link: http://open-finance.live/
+  image: assets/images/open-finance-dashboard.png
+  description: A hybrid analog + digital system for capturing, connecting and retrieving ideas. Still very much under development.
+
 - name: Second Brain
   label: Programming
   link: https://distill-two-pi.vercel.app/
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  image: assets/images/distill-dashboard.png
   description: A hybrid analog + digital system for capturing, connecting and retrieving ideas. Still very much under development.
 
 # Sci-comm
 - name: Scientific Chronicles
   label: Sci-comm
   link: https://scientificchronicles.substack.com/
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  image: assets/images/scientific-chronicles-dashboard.png
   description: A newsletter on the people, dates and discoveries that shaped science.
 
 - name: Scientific Chronicles - Anniversaries

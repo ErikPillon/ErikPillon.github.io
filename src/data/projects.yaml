@@ -20,7 +20,8 @@
     or just poke around with an imaginary portfolio.
   stack: [Next.js, Python, Postgres]
   image: /images/open-finance-dashboard.png
-  link: http://open-finance.live/
+  link: https://fintools.vercel.app/
+  # open-finance.live does not resolve yet — swap it back once the domain is live
 
 - name: Distill
   group: building
@@ -94,7 +95,7 @@
     Co-organised through LuxDoc, the University of Luxembourg's PhD students'
     association. Researchers get a stage, a microphone and no slides to hide behind.
   image: /images/scienceslam.jpeg
-  link: https://scienceslam.uni.lu
+  # link: scienceslam.uni.lu is gone — add a replacement if one exists
 
 - name: Three Minute Thesis
   group: scicomm
@@ -105,7 +106,7 @@
     Graduate students present years of research in three minutes flat, competing
     for the ultimate prize of academic fame and fortune.
   image: /images/3mt_2021.jpeg
-  link: https://luxdoc.uni.lu/3mt/
+  # link: luxdoc.uni.lu/3mt/ is gone — add a replacement if one exists
 
 - name: FestaScienze @ UniVR
   group: scicomm

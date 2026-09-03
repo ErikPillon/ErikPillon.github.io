@@ -22,7 +22,7 @@
   description: >-
     Portfolio and expense tracking, live. Register or play with an imaginary
     portfolio.
-  link: http://open-finance.live/
+  link: https://fintools.vercel.app/
 
 - name: F1 Analytics
   kind: Dashboard

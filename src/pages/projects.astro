@@ -1,0 +1,119 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+const all = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+const byGroup = (group: string) => all.filter((p) => p.data.group === group).map((p) => p.data);
+
+const groups = [
+  {
+    num: '01',
+    key: 'building',
+    title: 'Building now',
+    note: 'live, half-live, and stubbornly in progress',
+  },
+  {
+    num: '02',
+    key: 'scicomm',
+    title: 'Science communication',
+    note: 'a habit picked up during the PhD that never quite wore off',
+  },
+] as const;
+
+const archive = byGroup('archive');
+const counts = {
+  live: all.filter((p) => p.data.status === 'live').length,
+  wip: all.filter((p) => p.data.status === 'wip').length,
+  archived: all.filter((p) => p.data.status === 'archived').length,
+};
+---
+
+<Base
+  title="Projects"
+  description="Webapps, dashboards and science-communication projects — some live, some archived, all built out of curiosity."
+>
+  <section class="section section--flush page-head">
+    <div class="wrap">
+      <p class="label">Projects</p>
+      <h1 class="display page-head__title">Things I have made, or am still making.</h1>
+      <p class="lede">
+        Nothing here is a product. These are the places where a question got interesting enough that I
+        opened an editor — a personal finance tool, a second brain, a scoring engine for quiz night,
+        and a decade of science outreach. Some are live, some are honest wrecks, and the archive is
+        kept on purpose.
+      </p>
+      <p class="counts mono">
+        <span class="status" data-status="live">{counts.live} live</span>
+        <span class="status" data-status="wip">{counts.wip} building</span>
+        <span class="status" data-status="archived">{counts.archived} archived</span>
+      </p>
+    </div>
+  </section>
+
+  {
+    groups.map((group) => (
+      <section class="section">
+        <div class="wrap">
+          <SectionHead num={group.num} title={group.title} />
+          <p class="comment section__note">{group.note}</p>
+          <div class="grid">
+            {byGroup(group.key).map((project) => (
+              <ProjectCard project={project} />
+            ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="03" title="Archive" />
+      <p class="comment section__note">
+        no longer maintained, kept because deleting your own history is bad practice
+      </p>
+      <div class="archive">
+        {archive.map((project) => <ProjectCard project={project} variant="row" />)}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-head {
+    padding-block: clamp(3rem, 8vw, 5rem) clamp(1.5rem, 3vw, 2.5rem);
+  }
+
+  .page-head__title {
+    font-size: clamp(2.2rem, 6vw, 3.9rem);
+    margin: 1.2rem 0 1.4rem;
+    max-width: 20ch;
+  }
+
+  .counts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 1.75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .section__note {
+    margin-top: -1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: 1.25rem;
+  }
+
+  .archive {
+    display: grid;
+    border-top: 1px solid var(--rule);
+  }
+</style>

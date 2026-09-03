@@ -1,0 +1,258 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>['data'];
+  /** `panel` shows the image strip; `row` is a compact text-only line. */
+  variant?: 'panel' | 'row';
+}
+
+const { project, variant = 'panel' } = Astro.props;
+const { name, status, year, tagline, description, stack, image, link } = project;
+
+const statusLabel = { live: 'live', wip: 'building', archived: 'archived' }[status];
+const Tag = link ? 'a' : 'div';
+const linkProps = link ? { href: link, target: '_blank', rel: 'noopener' } : {};
+
+/**
+ * Projects without a screenshot get a plotted placeholder instead of a gap, so
+ * the card grid keeps its rhythm. The curve is seeded from the name, so a given
+ * project always draws the same one.
+ */
+function plotPoints(seedText: string, count = 26): string {
+  let seed = 0;
+  for (const char of seedText) seed = (seed * 31 + char.charCodeAt(0)) >>> 0;
+  const next = () => {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    return seed / 0xffffffff;
+  };
+  let value = 0.45 + next() * 0.15;
+  return Array.from({ length: count }, (_, i) => {
+    value = Math.min(0.92, Math.max(0.08, value + (next() - 0.45) * 0.22));
+    return `${((i / (count - 1)) * 100).toFixed(2)},${((1 - value) * 100).toFixed(2)}`;
+  }).join(' ');
+}
+
+const points = image ? null : plotPoints(name);
+---
+
+<Tag class:list={['card', `card--${variant}`, { 'card--muted': status === 'archived', 'card--static': !link }]} {...linkProps}>
+  {
+    variant === 'panel' &&
+      (image ? (
+        <div class="card__media">
+          <img src={image} alt="" loading="lazy" decoding="async" />
+        </div>
+      ) : (
+        <div class="card__media card__media--plot" aria-hidden="true">
+          <svg viewBox="0 0 100 100" preserveAspectRatio="none" role="presentation">
+            <polyline points={points} vector-effect="non-scaling-stroke" />
+          </svg>
+          <span class="card__monogram mono">{name.slice(0, 2).toUpperCase()}</span>
+        </div>
+      ))
+  }
+
+  <div class="card__body">
+    <div class="card__top">
+      <h3 class="card__name">{name}</h3>
+      {year && <span class="card__year mono">{year}</span>}
+    </div>
+
+    {tagline && <p class="card__tagline">{tagline}</p>}
+    <p class="card__desc">{description}</p>
+
+    <div class="card__foot">
+      <span class="status" data-status={status}>{statusLabel}</span>
+      {stack.length > 0 && <span class="card__stack mono">{stack.join(' · ')}</span>}
+      {link && <span class="card__go" aria-hidden="true">↗</span>}
+    </div>
+  </div>
+</Tag>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    text-decoration: none;
+    overflow: hidden;
+    transition: border-color 0.2s ease, transform 0.2s cubic-bezier(0.2, 0.7, 0.3, 1), box-shadow 0.2s ease;
+  }
+
+  a.card:hover {
+    border-color: var(--rule-strong);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+
+  .card--static {
+    border-style: dashed;
+  }
+
+  .card--muted {
+    background: transparent;
+  }
+
+  .card__media {
+    aspect-ratio: 16 / 7;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+    background: var(--bg-soft);
+  }
+
+  .card__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.3s ease;
+    filter: saturate(0.85);
+  }
+
+  a.card:hover .card__media img {
+    transform: scale(1.03);
+    filter: saturate(1);
+  }
+
+  .card--muted .card__media img {
+    filter: grayscale(1) contrast(0.9);
+    opacity: 0.7;
+  }
+
+  .card__media--plot {
+    position: relative;
+    display: grid;
+    place-items: stretch;
+    background-color: var(--bg-soft);
+    background-image:
+      linear-gradient(to right, var(--rule) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--rule) 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+
+  .card__media--plot svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card__media--plot polyline {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+    opacity: 0.65;
+  }
+
+  a.card:hover .card__media--plot polyline {
+    opacity: 1;
+  }
+
+  .card__monogram {
+    position: absolute;
+    left: 0.85rem;
+    bottom: 0.6rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+  }
+
+  .card__body {
+    padding: 1.15rem 1.25rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+  }
+
+  .card__top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .card__name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  a.card:hover .card__name {
+    color: var(--accent-ink);
+  }
+
+  .card__year {
+    color: var(--ink-3);
+    font-size: 0.72rem;
+    white-space: nowrap;
+    flex: none;
+  }
+
+  .card__tagline {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--accent-ink);
+    letter-spacing: -0.01em;
+    margin-top: -0.25rem;
+  }
+
+  .card__desc {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+    text-wrap: pretty;
+  }
+
+  .card__foot {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: auto;
+    padding-top: 0.85rem;
+    border-top: 1px dotted var(--rule);
+  }
+
+  .card__stack {
+    font-size: 0.7rem;
+    color: var(--ink-3);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .card__go {
+    margin-left: auto;
+    color: var(--ink-3);
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  a.card:hover .card__go {
+    color: var(--accent);
+    transform: translate(2px, -2px);
+  }
+
+  /* Compact row variant, used for the archive. */
+  .card--row .card__body {
+    padding: 0.95rem 0.25rem;
+  }
+
+  .card--row {
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    border-radius: 0;
+    background: transparent;
+  }
+
+  a.card--row:hover {
+    transform: none;
+    box-shadow: none;
+    border-bottom-color: var(--accent);
+  }
+
+  .card--row .card__name {
+    font-size: 1.05rem;
+  }
+</style>

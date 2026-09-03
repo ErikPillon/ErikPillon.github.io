@@ -1,0 +1,400 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { inlineLinks } from '../lib/text';
+import { socials, raceDay } from '../site';
+
+const education = (await getCollection('education')).sort((a, b) => a.data.order - b.data.order);
+const daysToRace = Math.ceil((raceDay.valueOf() - Date.now()) / 86_400_000);
+---
+
+<Base
+  title="About"
+  description="Mathematician, actuary, ex-physicist and ex-software engineer. Curious about far too many things, and training for a half Ironman."
+  image="/images/IMG_0513.JPG"
+>
+  <section class="section section--flush intro">
+    <div class="wrap intro__inner">
+      <div>
+        <p class="label">About</p>
+        <h1 class="display intro__title">Hi — I'm Erik.</h1>
+        <div class="lede intro__lede">
+          <p>
+            I'm a mathematician who became a physicist, then a software engineer, and finally an
+            actuary — a career path that looks like indecision from the outside and like one long
+            argument about uncertainty from the inside.
+          </p>
+          <p>
+            These days I work in insurance, where the maths I learned for quantum systems turns out
+            to be uncomfortably good at describing claims. From September I'm also reading for an MSc
+            in Actuarial Science and Financial Engineering at KU Leuven, mostly to give names to
+            things I had been doing by instinct.
+          </p>
+        </div>
+      </div>
+
+      <figure class="portrait">
+        <img src="/images/IMG_0513.JPG" alt="Erik Pillon" loading="eager" decoding="async" />
+        <figcaption class="comment">off-season, palm trees, no watch. it does happen.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="01" title="The curious part" />
+      <div class="cols">
+        <div class="prose prose--tight">
+          <p>
+            I have never been good at having one interest. The list currently includes reserving
+            methodology, the history of science, Formula 1 telemetry, index funds, note-taking
+            systems, and how to swim in a straight line in open water. They rotate, but they never
+            really leave.
+          </p>
+          <p>
+            The practical consequence is that my side projects follow whatever I happen to be
+            obsessed with. A personal finance webapp because I wanted to see my own asset
+            allocation honestly. A second brain because ideas never arrive when I am ready for them.
+            A pub quiz scoring engine because keeping score on napkins is a solved problem and I
+            solved it badly for years.
+          </p>
+        </div>
+
+        <div class="prose prose--tight">
+          <p>
+            The other constant is <strong>science communication</strong>. It started during the PhD,
+            when I chaired <a class="link" href="https://luxdoc.uni.lu" target="_blank" rel="noopener">LuxDoc</a>,
+            the University of Luxembourg's PhD students' association, and spent more evenings than I
+            can count organising Science Slams and Three Minute Thesis competitions.
+          </p>
+          <p>
+            It now takes the shape of{' '}
+            <a class="link" href="https://scientificchronicles.substack.com/" target="_blank" rel="noopener">
+              Scientific Chronicles
+            </a>, a newsletter about the people and dates behind the
+            discoveries, and its companion archive of scientific anniversaries. I read a great deal
+            and take notes compulsively; a fair amount of that ends up{' '}
+            <a class="link" href="/writing">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="02" title="Off the clock" />
+      <div class="stats">
+        <div class="stat">
+          <p class="stat__value">1:30:37</p>
+          <p class="stat__key">half-marathon PB</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value">70.3</p>
+          <p class="stat__key">first half Ironman, 20 Sep 2026</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value">{daysToRace > 0 ? daysToRace : 0}</p>
+          <p class="stat__key">days to go</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value">3</p>
+          <p class="stat__key">disciplines, one of which I can actually do</p>
+        </div>
+      </div>
+      <p class="lede stats__note">
+        I'm a competitive triathlete in the sense that I compete, and a triathlete-in-training in the
+        sense that the swim is still a negotiation. Training is the part of my week that refuses to
+        be optimised, which is exactly why I keep it.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="03" title="Where I studied" />
+      <ol class="timeline">
+        {
+          education.map((entry) => (
+            <li class="timeline__item">
+              <div class="timeline__when">
+                <span class="mono">{entry.data.dates}</span>
+                {entry.data.current && <span class="status" data-status="wip">current</span>}
+              </div>
+              <div class="timeline__what">
+                <h3 class="timeline__qual">{entry.data.qualification}</h3>
+                <p class="timeline__place">{entry.data.name}</p>
+                <p class="timeline__desc" set:html={inlineLinks(entry.data.description)} />
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="comment timeline__note">
+        the PhD, in plain language: <a class="link" href="/forum_EP.pdf">a short introduction (PDF)</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="04" title="Say hello" />
+      <p class="lede contact__lede">
+        Happy to talk about reserving, running, note-taking systems, or why your favourite economics
+        model is wrong. Email is the surest way to reach me.
+      </p>
+      <ul class="contact">
+        {
+          socials.map((s) => (
+            <li>
+              <a
+                class="contact__link"
+                href={s.href}
+                target={s.href.startsWith('mailto:') ? undefined : '_blank'}
+                rel={s.href.startsWith('mailto:') ? undefined : 'me noopener'}
+              >
+                <span class="contact__label">{s.label}</span>
+                <span class="contact__handle mono">{s.handle}</span>
+                <span class="contact__go" aria-hidden="true">↗</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .intro {
+    padding-block: clamp(3rem, 8vw, 5rem) clamp(1rem, 3vw, 2rem);
+  }
+
+  .intro__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(14rem, 0.8fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: start;
+  }
+
+  .intro__title {
+    font-size: clamp(2.4rem, 7vw, 4.2rem);
+    margin: 1.1rem 0 1.5rem;
+  }
+
+  .intro__lede p + p {
+    margin-top: 1rem;
+  }
+
+  .portrait {
+    margin: 0;
+  }
+
+  .portrait img {
+    width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--rule);
+    filter: saturate(0.9);
+  }
+
+  .portrait figcaption {
+    margin-top: 0.7rem;
+    font-size: 0.75rem;
+  }
+
+  .cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    gap: clamp(1.5rem, 4vw, 3.5rem);
+  }
+
+  .prose--tight {
+    max-width: 52ch;
+    font-size: 1rem;
+  }
+
+  .prose--tight > * + * {
+    margin-top: 1.1em;
+  }
+
+  /* stats strip */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .stat {
+    background: var(--surface);
+    padding: 1.25rem 1.25rem 1.1rem;
+  }
+
+  .stat__value {
+    font-family: var(--font-display);
+    font-size: clamp(1.7rem, 4vw, 2.35rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent-ink);
+    line-height: 1;
+  }
+
+  .stat__key {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-top: 0.6rem;
+    line-height: 1.4;
+  }
+
+  .stats__note {
+    margin-top: 1.75rem;
+    font-size: 1rem;
+  }
+
+  /* education timeline */
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .timeline__item {
+    display: grid;
+    grid-template-columns: 10rem minmax(0, 1fr);
+    gap: 1.5rem;
+    padding-block: 1.6rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .timeline__when {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    padding-top: 0.2rem;
+    font-size: 0.78rem;
+    color: var(--ink-3);
+  }
+
+  .timeline__qual {
+    font-size: 1.15rem;
+  }
+
+  .timeline__place {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--accent-ink);
+    margin-top: 0.2rem;
+  }
+
+  .timeline__desc {
+    margin-top: 0.6rem;
+    font-size: 0.94rem;
+    line-height: 1.65;
+    color: var(--ink-2);
+    max-width: 62ch;
+    text-wrap: pretty;
+  }
+
+  .timeline__note {
+    margin-top: 1.5rem;
+  }
+
+  /* contact */
+  .contact__lede {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .contact__link {
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 1fr) 1.5rem;
+    align-items: baseline;
+    gap: 1rem;
+    padding-block: 0.95rem;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    transition: border-color 0.2s ease;
+  }
+
+  .contact__link:hover {
+    border-bottom-color: var(--accent);
+  }
+
+  .contact__label {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 600;
+  }
+
+  .contact__link:hover .contact__label {
+    color: var(--accent-ink);
+  }
+
+  .contact__handle {
+    color: var(--ink-3);
+    font-size: 0.8rem;
+    overflow-wrap: anywhere;
+  }
+
+  .contact__go {
+    justify-self: end;
+    color: var(--ink-3);
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  .contact__link:hover .contact__go {
+    color: var(--accent);
+    transform: translate(2px, -2px);
+  }
+
+  @media (max-width: 56rem) {
+    .intro__inner {
+      grid-template-columns: 1fr;
+    }
+
+    .portrait {
+      max-width: 20rem;
+      order: -1;
+    }
+  }
+
+  @media (max-width: 44rem) {
+    .timeline__item {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .timeline__when {
+      flex-direction: row;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .contact__link {
+      grid-template-columns: 1fr 1.5rem;
+      gap: 0.2rem 1rem;
+    }
+
+    .contact__go {
+      grid-row: 1 / span 2;
+      grid-column: 2;
+    }
+  }
+</style>

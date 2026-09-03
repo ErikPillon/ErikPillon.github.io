@@ -1,0 +1,235 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getPosts, readingTime, summarise, formatDateLong } from '../../lib/posts';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return posts.map((post, index) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      newer: posts[index - 1] ?? null,
+      older: posts[index + 1] ?? null,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { post, newer, older } = Astro.props;
+const { title, subtitle, date, description, cover, tags, book } = post.data;
+const { Content } = await render(post);
+const minutes = readingTime(post.body ?? '');
+---
+
+<Base title={title} description={description ?? summarise(post.body ?? '', 155)} image={cover}>
+  <article class="post">
+    <header class="post__head">
+      <div class="wrap">
+        <a class="post__back mono" href="/writing"><span aria-hidden="true">←</span> writing</a>
+
+        <h1 class="post__title">{title}</h1>
+        {subtitle && <p class="post__subtitle">{subtitle}</p>}
+
+        <div class="post__meta">
+          <time class="mono" datetime={date.toISOString()}>{formatDateLong(date)}</time>
+          <span class="post__sep" aria-hidden="true">·</span>
+          <span class="mono">{minutes} min read</span>
+          {
+            book && (
+              <>
+                <span class="post__sep" aria-hidden="true">·</span>
+                <span class="mono post__book">
+                  {book.author}
+                  {book.year ? `, ${book.year}` : ''}
+                  {book.pages ? ` · ${book.pages}pp` : ''}
+                </span>
+              </>
+            )
+          }
+        </div>
+
+        {description && <p class="post__lede">{description}</p>}
+
+        {
+          tags.length > 0 && (
+            <div class="tag-row post__tags">
+              {tags.map((tag) => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          )
+        }
+      </div>
+    </header>
+
+    {
+      cover && (
+        <div class="wrap">
+          <figure class="post__cover">
+            <img src={cover} alt="" loading="eager" decoding="async" />
+          </figure>
+        </div>
+      )
+    }
+
+    <div class="wrap">
+      <div class="prose post__body">
+        <Content />
+      </div>
+    </div>
+
+    <nav class="wrap post__nav" aria-label="More posts">
+      {
+        older ? (
+          <a class="post__nav-link" href={`/writing/${older.id}/`}>
+            <span class="label">← Older</span>
+            <span class="post__nav-title">{older.data.title}</span>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        newer ? (
+          <a class="post__nav-link post__nav-link--end" href={`/writing/${newer.id}/`}>
+            <span class="label">Newer →</span>
+            <span class="post__nav-title">{newer.data.title}</span>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .post__head {
+    padding-block: clamp(2.5rem, 6vw, 4rem) 2rem;
+  }
+
+  .post__back {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.15s ease;
+  }
+
+  .post__back:hover {
+    color: var(--accent);
+  }
+
+  .post__title {
+    font-size: clamp(2rem, 5.5vw, 3.4rem);
+    line-height: 1.03;
+    letter-spacing: -0.025em;
+    max-width: 22ch;
+    font-variation-settings: 'SOFT' 25, 'WONK' 1;
+  }
+
+  .post__subtitle {
+    font-family: var(--font-display);
+    font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+    font-style: italic;
+    color: var(--ink-3);
+    margin-top: 0.6rem;
+    max-width: 34ch;
+  }
+
+  .post__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.78rem;
+    color: var(--ink-3);
+  }
+
+  .post__sep {
+    color: var(--rule-strong);
+  }
+
+  .post__book {
+    color: var(--accent-ink);
+  }
+
+  .post__lede {
+    max-width: var(--measure);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+    text-wrap: pretty;
+  }
+
+  .post__tags {
+    margin-top: 1.25rem;
+  }
+
+  .post__cover {
+    margin: 0 0 clamp(2rem, 5vw, 3rem);
+    max-width: var(--measure);
+  }
+
+  .post__cover img {
+    width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--rule);
+  }
+
+  .post__body {
+    padding-bottom: clamp(3rem, 7vw, 5rem);
+  }
+
+  .post__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding-block: 2rem 4rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .post__nav-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    text-decoration: none;
+    max-width: 26ch;
+  }
+
+  .post__nav-link--end {
+    justify-self: end;
+    text-align: right;
+  }
+
+  .post__nav-title {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.25;
+    transition: color 0.15s ease;
+  }
+
+  .post__nav-link:hover .post__nav-title {
+    color: var(--accent-ink);
+  }
+
+  @media (max-width: 40rem) {
+    .post__nav {
+      grid-template-columns: 1fr;
+    }
+
+    .post__nav-link--end {
+      justify-self: start;
+      text-align: left;
+    }
+  }
+</style>

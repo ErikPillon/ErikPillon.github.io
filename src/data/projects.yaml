@@ -1,0 +1,176 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Projects.  Edit this file to change the /projects page and the landing page.
+#
+#  group:    building | scicomm | archive     (which section it lands in)
+#  status:   live | wip | archived            (the little dot next to the name)
+#  featured: true                             (also shows on the landing page)
+#  link:     omit entirely if there is nothing to link to yet
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Building now ─────────────────────────────────────────────────────────────
+- name: Open Finance
+  group: building
+  status: live
+  featured: true
+  year: "2024 —"
+  tagline: Personal finance, without the spreadsheet sprawl
+  description: >-
+    A webapp for tracking expenses, investments and portfolio allocation — built
+    mostly so I could stop lying to myself about my own asset allocation. Register,
+    or just poke around with an imaginary portfolio.
+  stack: [Next.js, Python, Postgres]
+  image: /images/open-finance-dashboard.png
+  link: http://open-finance.live/
+
+- name: Distill
+  group: building
+  status: wip
+  featured: true
+  year: "2024 —"
+  tagline: A second brain that survives contact with paper
+  description: >-
+    Part analog notebook, part digital tool. A hybrid system for capturing,
+    connecting and retrieving ideas, because they never show up when I'm ready
+    for them. Very much under construction.
+  stack: [Next.js, Zettelkasten]
+  image: /images/distill-dashboard.png
+  link: https://distill-two-pi.vercel.app/
+
+- name: Pub Quiz
+  group: building
+  status: wip
+  featured: true
+  year: "2025 —"
+  tagline: Trivia, but with a proper scoring engine
+  description: >-
+    A quiz night is really just a scoring system with friends attached. Question
+    banks, rounds, teams and a live scoreboard — the excuse I needed to stop
+    keeping score on napkins.
+  stack: [TypeScript]
+  # link: add the URL here once it is public
+
+- name: Road to 70.3
+  group: building
+  status: wip
+  featured: true
+  year: "2025 —"
+  tagline: Training load, plotted honestly
+  description: >-
+    Swim, bike and run data pulled into one place ahead of my first half Ironman
+    in September 2026. Mostly an exercise in not fooling myself about how the
+    build is actually going.
+  stack: [Python, Streamlit]
+  # link: add the URL here once it is public
+
+# ── Science communication ────────────────────────────────────────────────────
+- name: Scientific Chronicles
+  group: scicomm
+  status: live
+  featured: true
+  year: "2024 —"
+  tagline: A newsletter on how science actually happened
+  description: >-
+    The people, the dates and the discoveries that shaped science — told as
+    stories rather than as a syllabus. Published on Substack.
+  image: /images/scientific-chronicles-dashboard.png
+  link: https://scientificchronicles.substack.com/
+
+- name: "Scientific Chronicles: Anniversaries"
+  group: scicomm
+  status: live
+  year: "2024 —"
+  tagline: What happened in science on this day
+  description: >-
+    A growing archive of scientific anniversaries, built to make the history of
+    science discoverable one day at a time.
+  link: https://scientific-chronicles.vercel.app/
+
+- name: Science Slam Luxembourg
+  group: scicomm
+  status: archived
+  year: "2019 — 2022"
+  tagline: The biggest science communication contest in Luxembourg
+  description: >-
+    Co-organised through LuxDoc, the University of Luxembourg's PhD students'
+    association. Researchers get a stage, a microphone and no slides to hide behind.
+  image: /images/scienceslam.jpeg
+  link: https://scienceslam.uni.lu
+
+- name: Three Minute Thesis
+  group: scicomm
+  status: archived
+  year: "2019 — 2022"
+  tagline: A whole PhD, in 180 seconds
+  description: >-
+    Graduate students present years of research in three minutes flat, competing
+    for the ultimate prize of academic fame and fortune.
+  image: /images/3mt_2021.jpeg
+  link: https://luxdoc.uni.lu/3mt/
+
+- name: FestaScienze @ UniVR
+  group: scicomm
+  status: archived
+  year: "2016 — 2018"
+  tagline: End-of-year science festival, University of Verona
+  description: >-
+    Main organiser of the Science Faculty's end-of-year event — two editions,
+    several hundred visitors, one very tired committee.
+  image: /images/festascienze.jpeg
+  link: http://www.festascienzeunivr.it
+
+# ── Archive ──────────────────────────────────────────────────────────────────
+- name: F1 Analytics
+  group: archive
+  status: archived
+  year: "2023 — 2024"
+  tagline: Formula 1, read through its data
+  description: >-
+    Driver and constructor performance pulled apart with data visualisation.
+    Race season eventually won the argument over maintenance time.
+  stack: [Python, Plotly]
+  image: /images/f1analytics.png
+  link: https://f1analytics.github.io
+
+- name: The 52nd Book
+  group: archive
+  status: archived
+  year: "2022 — 2023"
+  tagline: One book a week, reviewed
+  description: >-
+    A blog of notes and reviews on books, authors and genres. Superseded by the
+    writing on this site.
+  image: /images/the52ndbook.png
+  link: https://the52ndbook.github.io
+
+- name: Exact Quantum Dynamics
+  group: archive
+  status: archived
+  year: "2019 — 2022"
+  tagline: PhD-era numerics
+  description: >-
+    Fortran implementation of multilevel exact quantum dynamics for arbitrary
+    low-dimensional molecular systems.
+  stack: [Fortran]
+  link: https://github.com/ErikPillon/WP_QuantumDynamics
+
+- name: Non-Adiabatic Dynamics
+  group: archive
+  status: archived
+  year: "2019 — 2022"
+  tagline: Semiclassical methods, benchmarked
+  description: >-
+    Implementations of several semiclassical numerical methods for non-adiabatic
+    dynamics in molecular systems, including Tully's fewest-switches surface hopping.
+  stack: [Python, Fortran]
+  link: https://gitlab.com/erik.pillon/tully_fssh_algorithm
+
+- name: Instagram Bot
+  group: archive
+  status: archived
+  year: "2020"
+  tagline: A small automation, honestly written
+  description: >-
+    A minimalistic Instagram bot in Python. Exactly as useful, and as short-lived,
+    as it sounds.
+  stack: [Python]
+  # link: the old entry pointed at the wrong repository — add the right one if it still exists

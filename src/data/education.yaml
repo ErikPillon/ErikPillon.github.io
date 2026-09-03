@@ -1,0 +1,59 @@
+# Academic path, newest first. Shown on /about.
+- name: KU Leuven
+  dates: "2026 —"
+  qualification: MSc Actuarial Science & Financial Engineering
+  current: true
+  description: >-
+    Formalising and deepening the actuarial toolkit I use day to day, with a
+    focus on financial engineering.
+
+- name: University of Luxembourg
+  dates: "2018 — 2022"
+  qualification: PhD in Physics
+  description: >-
+    Doctoral research on efficient numerical methods for non-adiabatic quantum
+    dynamics — specifically the molecular Aharonov–Bohm effect. An accessible
+    introduction to that work is [available here](/forum_EP.pdf).
+    Alongside it I sat on the committee board of
+    [LuxDoc](https://luxdoc.uni.lu), the University's PhD students' association,
+    latterly as President, co-organising the Luxembourgish Science Slam and the
+    Three Minute Thesis competition.
+
+- name: Grenoble INP & Institut Néel
+  dates: "2018"
+  qualification: Erasmus exchange
+  description: >-
+    Five months of physics coursework at Grenoble INP, then six months at
+    Institut Néel developing my Master's thesis. Comfort zone: successfully exited.
+
+- name: University of Verona
+  dates: "2016 — 2018"
+  qualification: MSc in Mathematics
+  description: >-
+    Advanced numerical analysis, differential geometry and stochastic PDEs.
+    Partly self-funded as a teaching assistant for Analysis II and Time Series
+    Analysis, while serving a second term as student representative and
+    co-organising FestaScienze.
+
+- name: Utrecht University
+  dates: "2018"
+  qualification: Summer School in Theoretical Physics
+  description: >-
+    Thermal and statistical physics, quantum mechanics and electrodynamics.
+    The final project derived analytic expressions for the electric and magnetic
+    fields produced by a charged particle moving through a conducting medium —
+    the setting of heavy-ion collisions.
+
+- name: Lappeenranta University
+  dates: "2018"
+  qualification: ECMI Modelling Week
+  description: >-
+    A week ending in the numerical solution of the 2D Ising model, by both
+    deterministic and stochastic methods.
+
+- name: University of Verona
+  dates: "2013 — 2016"
+  qualification: BSc in Applied Mathematics
+  description: >-
+    Numerical analysis, stochastic processes, econometrics and time series
+    analysis. Student representative, and one of the organisers of FestaScienze.

@@ -1,0 +1,141 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { readingTime, summarise, formatDate } from '../lib/posts';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+  /** Compact rows for the landing page; full entries on /writing. */
+  compact?: boolean;
+}
+
+const { post, compact = false } = Astro.props;
+const { title, subtitle, date, description, tags, book } = post.data;
+const href = `/writing/${post.id}/`;
+---
+
+<article class:list={['post', { 'post--compact': compact }]}>
+  <div class="post__meta">
+    <time class="mono" datetime={date.toISOString()}>{formatDate(date)}</time>
+    <span class="mono post__time">{readingTime(post.body ?? '')} min</span>
+  </div>
+
+  <div class="post__body">
+    <h3 class="post__title">
+      <a href={href}>{title}</a>
+    </h3>
+    {subtitle && <p class="post__subtitle">{subtitle}</p>}
+    {book && <p class="comment post__book">{book.author}{book.year ? `, ${book.year}` : ''}</p>}
+
+    <p class="post__summary">{description ?? summarise(post.body ?? '')}</p>
+
+    {
+      !compact && tags.length > 0 && (
+        <div class="tag-row post__tags">
+          {tags.slice(0, 4).map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</article>
+
+<style>
+  .post {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 1.5rem;
+    padding-block: 1.6rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .post:first-child {
+    padding-top: 0;
+  }
+
+  .post__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding-top: 0.3rem;
+    color: var(--ink-3);
+    font-size: 0.75rem;
+  }
+
+  .post__time {
+    font-size: 0.7rem;
+    opacity: 0.8;
+  }
+
+  .post__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+  }
+
+  .post__title {
+    font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+    line-height: 1.2;
+  }
+
+  .post__title a {
+    text-decoration: none;
+    background-image: linear-gradient(var(--accent), var(--accent));
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s cubic-bezier(0.2, 0.7, 0.3, 1), color 0.2s ease;
+  }
+
+  .post__title a:hover {
+    color: var(--accent-ink);
+    background-size: 100% 1px;
+  }
+
+  .post__subtitle {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--ink-3);
+    margin-top: -0.15rem;
+  }
+
+  .post__book {
+    font-size: 0.75rem;
+  }
+
+  .post__summary {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+    max-width: 62ch;
+    text-wrap: pretty;
+  }
+
+  .post__tags {
+    margin-top: 0.5rem;
+  }
+
+  .post--compact .post__summary {
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 44rem) {
+    .post {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .post__meta {
+      flex-direction: row;
+      gap: 0.75rem;
+      padding-top: 0;
+    }
+  }
+</style>

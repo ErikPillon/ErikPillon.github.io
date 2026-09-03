@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="404" description="That page does not exist.">
+  <section class="section section--flush notfound grid-paper">
+    <div class="wrap">
+      <p class="label">Error 404</p>
+      <h1 class="display notfound__title">This page has<br /><em>measure zero</em>.</h1>
+      <p class="comment notfound__note">
+        it exists in the space of all possible URLs, just not in this one
+      </p>
+      <p class="lede notfound__lede">
+        The link is broken, the page moved, or I renamed something and forgot to leave a
+        forwarding address. All three have happened before.
+      </p>
+      <div class="notfound__actions">
+        <a class="arrow-link" href="/"><span>Back home</span><span>→</span></a>
+        <a class="arrow-link" href="/writing"><span>Writing</span><span>→</span></a>
+        <a class="arrow-link" href="/projects"><span>Projects</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .notfound {
+    padding-block: clamp(4rem, 12vw, 8rem);
+  }
+
+  .notfound__title {
+    margin: 1.2rem 0 1.2rem;
+  }
+
+  .notfound__title em {
+    font-style: italic;
+    color: var(--accent-ink);
+    font-variation-settings: 'SOFT' 60, 'WONK' 1;
+  }
+
+  .notfound__note {
+    margin-bottom: 1.75rem;
+  }
+
+  .notfound__lede {
+    margin-bottom: 2.25rem;
+  }
+
+  .notfound__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+</style>

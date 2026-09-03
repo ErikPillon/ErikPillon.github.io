@@ -1,0 +1,390 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPosts } from '../lib/posts';
+import { raceDay } from '../site';
+
+const projects = await getCollection('projects');
+const featured = projects.filter((p) => p.data.featured).sort((a, b) => a.data.order - b.data.order);
+
+const posts = await getPosts();
+const recent = posts.slice(0, 3);
+const lastBookNote = posts.find((p) => p.data.book);
+
+const elsewhere = (await getCollection('elsewhere')).sort((a, b) => a.data.order - b.data.order).slice(0, 3);
+
+const daysToRace = Math.ceil((raceDay.valueOf() - Date.now()) / 86_400_000);
+
+const spec = [
+  { key: 'role', value: 'Actuary — reserving & capital' },
+  { key: 'trained as', value: 'Mathematician, then physicist (PhD)' },
+  { key: 'previously', value: 'Software & data engineering' },
+  { key: 'studying', value: 'MSc Actuarial Science, KU Leuven' },
+  { key: 'half-marathon pb', value: '1:30:37' },
+  {
+    key: 'next race',
+    value: daysToRace > 0 ? `70.3 Ironman — in ${daysToRace} days` : '70.3 Ironman — done',
+  },
+];
+
+const interests = [
+  'stochastic processes',
+  'reserving triangles',
+  'the history of science',
+  'Formula 1 telemetry',
+  'doughnut economics',
+  'zettelkasten',
+  'open-water swimming',
+  'pub quiz trivia',
+  'index funds',
+  'quantum dynamics',
+  'book notes',
+  'Fortran (still)',
+];
+---
+
+<Base home>
+  <!-- ── Hero ──────────────────────────────────────────────────────────── -->
+  <section class="hero grid-paper">
+    <div class="wrap hero__inner">
+      <div class="hero__text">
+        <p class="label hero__eyebrow">Erik Pillon — Luxembourg</p>
+
+        <h1 class="display hero__title">
+          Mathematician by training,<br />
+          actuary by trade,<br />
+          <em>hopeless generalist</em> by temperament.
+        </h1>
+
+        <p class="comment hero__note">
+          physics PhD → software → insurance. the through-line is being curious in public.
+        </p>
+
+        <p class="lede hero__lede">
+          I price and reserve risk for a living, which turns out to be a very good excuse to think
+          about probability all day. The rest of the time I build small tools, write about books and
+          the history of science, and train for races that are longer than strictly reasonable.
+        </p>
+
+        <div class="hero__actions">
+          <a class="arrow-link" href="/projects"><span>What I'm building</span><span>→</span></a>
+          <a class="arrow-link" href="/writing"><span>What I'm reading</span><span>→</span></a>
+        </div>
+      </div>
+
+      <!-- A small spec sheet, because of course there is a spec sheet. -->
+      <aside class="spec" aria-label="Quick facts">
+        <p class="label spec__title">./whoami</p>
+        <dl class="spec__list">
+          {
+            spec.map((row) => (
+              <div class="spec__row">
+                <dt>{row.key}</dt>
+                <dd>{row.value}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </aside>
+    </div>
+
+    <div class="wrap">
+      <ul class="interests" aria-label="Current interests">
+        {interests.map((item) => <li class="interests__item">{item}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── Projects ──────────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="01" title="Things I'm building">
+        <a class="arrow-link" href="/projects"><span>all projects</span><span>→</span></a>
+      </SectionHead>
+
+      <p class="comment section__note">
+        side projects follow my interests, which is a polite way of saying there are too many of them
+      </p>
+
+      <div class="feature-grid">
+        {featured.map((project) => <ProjectCard project={project.data} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Writing ───────────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="02" title="Recently written">
+        <a class="arrow-link" href="/writing"><span>all writing</span><span>→</span></a>
+      </SectionHead>
+
+      <div class="posts">
+        {recent.map((post) => <PostCard post={post} compact />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Elsewhere ─────────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="wrap">
+      <SectionHead num="03" title="The rest of it" />
+
+      <p class="comment section__note">
+        not everything lives here — the newsletter and the dashboards have their own homes
+      </p>
+
+      <ul class="elsewhere">
+        {
+          elsewhere.map((item) => (
+            <li>
+              <a class="elsewhere__link" href={item.data.link} target="_blank" rel="noopener">
+                <span class="elsewhere__kind mono">{item.data.kind}</span>
+                <span class="elsewhere__name">{item.data.name}</span>
+                <span class="elsewhere__desc">{item.data.description}</span>
+                <span class="elsewhere__go" aria-hidden="true">↗</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+
+      {
+        lastBookNote && (
+          <p class="closing">
+            Last book I took notes on:{' '}
+            <a class="link" href={`/writing/${lastBookNote.id}/`}>
+              {lastBookNote.data.title}
+            </a>
+            {lastBookNote.data.book && <span class="mono"> · {lastBookNote.data.book.author}</span>}
+          </p>
+        )
+      }
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding-block: clamp(3rem, 9vw, 6.5rem) clamp(2.5rem, 5vw, 4rem);
+  }
+
+  .hero__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 0.85fr);
+    gap: clamp(2rem, 5vw, 4.5rem);
+    align-items: start;
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero__title {
+    margin-bottom: 1.1rem;
+  }
+
+  .hero__title em {
+    font-style: italic;
+    color: var(--accent-ink);
+    font-variation-settings: 'SOFT' 60, 'WONK' 1;
+  }
+
+  .hero__note {
+    margin-bottom: 1.75rem;
+  }
+
+  .hero__lede {
+    margin-bottom: 2rem;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  /* spec sheet */
+  .spec {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--surface) 80%, transparent);
+    padding: 1.1rem 1.25rem 1.25rem;
+    margin-top: 0.5rem;
+  }
+
+  .spec__title {
+    color: var(--accent);
+    padding-bottom: 0.7rem;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px dotted var(--rule-strong);
+    text-transform: none;
+    letter-spacing: 0.02em;
+  }
+
+  .spec__list {
+    margin: 0;
+    display: grid;
+  }
+
+  .spec__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+    padding-block: 0.6rem;
+    border-bottom: 1px dotted var(--rule);
+  }
+
+  .spec__row:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .spec__row dt {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .spec__row dd {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* interests ticker */
+  .interests {
+    list-style: none;
+    padding: 0;
+    margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+  }
+
+  .interests__item {
+    font-family: var(--font-mono);
+    font-size: 0.73rem;
+    color: var(--ink-3);
+    border: 1px solid var(--rule);
+    border-radius: 100px;
+    padding: 0.18rem 0.65rem;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .interests__item:hover {
+    color: var(--accent-ink);
+    border-color: var(--accent);
+  }
+
+  .section__note {
+    margin-top: -1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+    gap: 1.25rem;
+  }
+
+  .posts {
+    display: grid;
+  }
+
+  /* elsewhere list */
+  .elsewhere {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .elsewhere__link {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 14rem) minmax(0, 1fr) 1.5rem;
+    align-items: baseline;
+    gap: 1rem;
+    padding-block: 1.05rem;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    transition: border-color 0.2s ease;
+  }
+
+  .elsewhere__link:hover {
+    border-bottom-color: var(--accent);
+  }
+
+  .elsewhere__kind {
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .elsewhere__name {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .elsewhere__link:hover .elsewhere__name {
+    color: var(--accent-ink);
+  }
+
+  .elsewhere__desc {
+    font-size: 0.88rem;
+    color: var(--ink-2);
+  }
+
+  .elsewhere__go {
+    color: var(--ink-3);
+    justify-self: end;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  .elsewhere__link:hover .elsewhere__go {
+    color: var(--accent);
+    transform: translate(2px, -2px);
+  }
+
+  .closing {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: var(--ink-2);
+  }
+
+  @media (max-width: 60rem) {
+    .hero__inner {
+      grid-template-columns: 1fr;
+    }
+
+    .spec {
+      max-width: 30rem;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .elsewhere__link {
+      grid-template-columns: 1fr 1.5rem;
+      gap: 0.25rem 1rem;
+    }
+
+    .elsewhere__kind {
+      grid-column: 1;
+    }
+
+    .elsewhere__go {
+      grid-row: 1 / span 3;
+      grid-column: 2;
+    }
+  }
+</style>

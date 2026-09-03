@@ -1,0 +1,128 @@
+---
+import { socials, site } from '../site';
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__col">
+      <p class="comment">you can find me in the usual places</p>
+      <ul class="footer__list">
+        {
+          socials.map((s) => (
+            <li>
+              <a
+                class="footer__link"
+                href={s.href}
+                rel={s.href.startsWith('mailto:') ? undefined : 'me noopener'}
+                target={s.href.startsWith('mailto:') ? undefined : '_blank'}
+              >
+                <span class="footer__label">{s.label}</span>
+                <span class="footer__handle">{s.handle}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="footer__col footer__col--end">
+      <ul class="footer__list">
+        <li><a class="footer__link" href="/projects"><span class="footer__label">Projects</span></a></li>
+        <li><a class="footer__link" href="/writing"><span class="footer__label">Writing</span></a></li>
+        <li><a class="footer__link" href="/about"><span class="footer__label">About</span></a></li>
+        <li><a class="footer__link" href="/rss.xml"><span class="footer__label">RSS</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer__base">
+    <p class="mono">© {year} {site.author}</p>
+    <p class="mono footer__colophon">
+      Built with Astro · Fraunces &amp; IBM Plex · <span aria-hidden="true">∮</span> no trackers, no cookies
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid var(--rule);
+    background: var(--bg-soft);
+    margin-top: auto;
+  }
+
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 4rem;
+    justify-content: space-between;
+    padding-block: clamp(2.5rem, 6vw, 4rem) 2rem;
+  }
+
+  .footer__col--end {
+    text-align: right;
+  }
+
+  .footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0.9rem 0 0;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .footer__col--end .footer__list {
+    margin-top: 0;
+  }
+
+  .footer__link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .footer__label {
+    font-size: 0.95rem;
+    color: var(--ink);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+  }
+
+  .footer__handle {
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    color: var(--ink-3);
+  }
+
+  .footer__link:hover .footer__label {
+    border-bottom-color: var(--accent);
+    color: var(--accent-ink);
+  }
+
+  .footer__base {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.1rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-3);
+  }
+
+  .footer__colophon {
+    color: var(--ink-3);
+  }
+
+  @media (max-width: 34rem) {
+    .footer__col--end {
+      text-align: left;
+    }
+
+    .footer__base {
+      justify-content: flex-start;
+    }
+  }
+</style>

@@ -1,0 +1,48 @@
+# "The rest of it lives here" — shown at the bottom of /writing.
+# These are the places where writing and dashboards live outside this site.
+- name: Scientific Chronicles
+  kind: Newsletter
+  host: Substack
+  description: >-
+    Long-form pieces on the people, dates and discoveries that shaped science.
+    New issues land here first.
+  link: https://scientificchronicles.substack.com/
+
+- name: "Scientific Chronicles: Anniversaries"
+  kind: Archive
+  host: Web
+  description: >-
+    The companion site — a browsable archive of scientific anniversaries, one
+    day at a time.
+  link: https://scientific-chronicles.vercel.app/
+
+- name: Open Finance
+  kind: Dashboard
+  host: Web
+  description: >-
+    Portfolio and expense tracking, live. Register or play with an imaginary
+    portfolio.
+  link: http://open-finance.live/
+
+- name: F1 Analytics
+  kind: Dashboard
+  host: GitHub Pages
+  description: >-
+    Formula 1 seasons pulled apart with data visualisation. Archived, but still
+    standing.
+  link: https://f1analytics.github.io
+
+- name: The 52nd Book
+  kind: Blog
+  host: GitHub Pages
+  description: >-
+    An earlier home for book notes and reviews. No longer updated; the good bits
+    have moved here.
+  link: https://the52ndbook.github.io
+
+# Add your Medium profile here when you want it listed:
+# - name: Medium
+#   kind: Profile
+#   host: Medium
+#   description: Cross-posted essays and technical notes.
+#   link: https://medium.com/@your-handle

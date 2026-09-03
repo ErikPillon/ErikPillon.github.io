@@ -1,0 +1,75 @@
+---
+// Cycles light ⇄ dark, remembering the choice. Defaults to the system scheme.
+---
+
+<button class="toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme">
+  <span class="toggle__icon toggle__icon--sun" aria-hidden="true">☀</span>
+  <span class="toggle__icon toggle__icon--moon" aria-hidden="true">☾</span>
+</button>
+
+<style>
+  .toggle {
+    display: grid;
+    place-items: center;
+    width: 1.85rem;
+    height: 1.85rem;
+    padding: 0;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--ink-3);
+    cursor: pointer;
+    font-size: 0.8rem;
+    line-height: 1;
+    transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    transform: rotate(-15deg);
+  }
+
+  .toggle__icon {
+    grid-area: 1 / 1;
+  }
+
+  .toggle__icon--moon {
+    display: none;
+  }
+
+  :global(:root[data-theme='dark']) .toggle__icon--sun {
+    display: none;
+  }
+
+  :global(:root[data-theme='dark']) .toggle__icon--moon {
+    display: block;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .toggle__icon--sun {
+      display: none;
+    }
+
+    :global(:root:not([data-theme='light'])) .toggle__icon--moon {
+      display: block;
+    }
+  }
+</style>
+
+<script>
+  const prefersDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const current = document.documentElement.dataset.theme ?? (prefersDark() ? 'dark' : 'light');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem('theme', next);
+      } catch {
+        /* storage blocked — the choice just won't persist */
+      }
+    });
+  });
+</script>

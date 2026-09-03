@@ -16,6 +16,14 @@
     a day at a time.
   link: https://scientific-chronicles.vercel.app/
 
+- name: Let'z Quiz
+  kind: Quiz nights
+  host: Web
+  description: >-
+    The archive of every question I've set as quizmaster, and where the next
+    quiz nights get announced.
+  link: https://letzquiz.github.io/
+
 - name: Open Finance
   kind: Dashboard
   host: Web

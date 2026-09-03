@@ -58,7 +58,7 @@ const projects = defineCollection({
   schema: z.object({
     order: z.number(),
     name: z.string(),
-    group: z.enum(['building', 'scicomm', 'archive']),
+    group: z.enum(['current', 'scicomm', 'archive']),
     status: z.enum(['live', 'wip', 'archived']),
     featured: z.boolean().default(false),
     year: z.string().optional(),

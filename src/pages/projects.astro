@@ -10,9 +10,9 @@ const byGroup = (group: string) => all.filter((p) => p.data.group === group).map
 const groups = [
   {
     num: '01',
-    key: 'building',
-    title: 'Building now',
-    note: 'live, half-live, and stubbornly unfinished',
+    key: 'current',
+    title: 'Right now',
+    note: 'some of it shipped, some of it half-built, all of it still going',
   },
   {
     num: '02',
@@ -40,9 +40,9 @@ const counts = {
       <h1 class="display page-head__title">Things I have made, or am still making.</h1>
       <p class="lede">
         None of this is a product. These are the things I got curious enough about to actually start
-        building: a personal finance app, a second brain, a scoring app for quiz night, and about ten
-        years of trying to get people interested in science. Some are live, some are a mess, and the
-        archive is there on purpose.
+        building — or, in one case, hosting: a personal finance app, a second brain, a pub quiz I run
+        myself, and about ten years of trying to get people interested in science. Some are live,
+        some are a mess, and the archive is there on purpose.
       </p>
       <p class="counts mono">
         <span class="status" data-status="live">{counts.live} live</span>

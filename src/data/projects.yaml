@@ -1,15 +1,15 @@
 # ─────────────────────────────────────────────────────────────────────────────
 #  Projects.  Edit this file to change the /projects page and the landing page.
 #
-#  group:    building | scicomm | archive     (which section it lands in)
+#  group:    current | scicomm | archive      (which section it lands in)
 #  status:   live | wip | archived            (the little dot next to the name)
 #  featured: true                             (also shows on the landing page)
 #  link:     omit entirely if there is nothing to link to yet
 # ─────────────────────────────────────────────────────────────────────────────
 
-# ── Building now ─────────────────────────────────────────────────────────────
+# ── Going on right now ───────────────────────────────────────────────────────
 - name: Open Finance
-  group: building
+  group: current
   status: live
   featured: true
   year: "2024 —"
@@ -23,7 +23,7 @@
   link: https://app.open-finance.live/
 
 - name: Distill
-  group: building
+  group: current
   status: wip
   featured: true
   year: "2024 —"
@@ -36,31 +36,15 @@
   image: /images/distill-dashboard.png
   link: https://distill-two-pi.vercel.app/
 
-- name: Pub Quiz
-  group: building
-  status: wip
+- name: Let'z Quiz
+  group: current
+  status: live
   featured: true
-  year: "2025 —"
-  tagline: Trivia night, with a real scoreboard
+  tagline: Your friendly neighbourhood quizmaster
   description: >-
-    A quiz night is really just a scoring system with friends attached. Questions,
-    rounds, teams and a live scoreboard — the excuse I needed to stop keeping
-    score on napkins.
-  stack: [TypeScript]
-  # link: add the URL here once it is public
-
-- name: Road to 70.3
-  group: building
-  status: wip
-  featured: true
-  year: "2025 —"
-  tagline: Training load, plotted honestly
-  description: >-
-    Swim, bike and run numbers in one place, ahead of my first half Ironman in
-    September 2026. Mostly a way of not fooling myself about how training is
-    actually going.
-  stack: [Python, Streamlit]
-  # link: add the URL here once it is public
+    I write and host pub quizzes around Luxembourg. The site is the archive of
+    every question I've set, plus where the next quiz nights get announced.
+  link: https://letzquiz.github.io/
 
 # ── Science communication ────────────────────────────────────────────────────
 - name: Scientific Chronicles
@@ -174,3 +158,13 @@
     sounds.
   stack: [Python]
   # link: the old entry pointed at the wrong repository — add the right one if it still exists
+
+- name: Triathlon training dashboard
+  group: archive
+  status: archived
+  tagline: Swim, bike, run, plotted
+  description: >-
+    Training numbers in one place. Race season quietly retired it, along with a
+    couple of others.
+  stack: [Python]
+  # link: add the URL here if the old one still works

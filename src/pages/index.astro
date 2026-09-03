@@ -30,20 +30,6 @@ const spec = [
   },
 ];
 
-const interests = [
-  'probability',
-  'the history of science',
-  'Formula 1 data',
-  'doughnut economics',
-  'note-taking systems',
-  'open-water swimming',
-  'pub quiz trivia',
-  'index funds',
-  'how molecules move',
-  'book notes',
-  'running long',
-  'Fortran (still)',
-];
 ---
 
 <Base home>
@@ -61,7 +47,7 @@ const interests = [
         </h1>
 
         <p class="comment hero__note">
-          maths → physics research → software → insurance. never great at picking one thing.
+          I think like a physicist, but I code like a mathematician.
         </p>
 
         <p class="lede hero__lede">
@@ -72,7 +58,7 @@ const interests = [
         </p>
 
         <div class="hero__actions">
-          <a class="arrow-link" href="/projects"><span>What I'm building</span><span>→</span></a>
+          <a class="arrow-link" href="/projects"><span>What I'm up to</span><span>→</span></a>
           <a class="arrow-link" href="/writing"><span>What I'm reading</span><span>→</span></a>
         </div>
       </div>
@@ -92,23 +78,17 @@ const interests = [
         </dl>
       </aside>
     </div>
-
-    <div class="wrap">
-      <ul class="interests" aria-label="Current interests">
-        {interests.map((item) => <li class="interests__item">{item}</li>)}
-      </ul>
-    </div>
   </section>
 
   <!-- ── Projects ──────────────────────────────────────────────────────── -->
   <section class="section">
     <div class="wrap">
-      <SectionHead num="01" title="Things I'm building">
+      <SectionHead num="01" title="What I'm up to">
         <a class="arrow-link" href="/projects"><span>all projects</span><span>→</span></a>
       </SectionHead>
 
       <p class="comment section__note">
-        my side projects follow whatever I'm into, which is a polite way of saying there are too many
+        it all follows whatever I'm into at the time, which is a polite way of saying there's too much
       </p>
 
       <div class="feature-grid">
@@ -171,7 +151,7 @@ const interests = [
 
 <style>
   .hero {
-    padding-block: clamp(3rem, 9vw, 6.5rem) clamp(2.5rem, 5vw, 4rem);
+    padding-block: clamp(3rem, 9vw, 6.5rem) clamp(3.5rem, 8vw, 6rem);
   }
 
   .hero__inner {
@@ -258,33 +238,6 @@ const interests = [
     font-size: 0.9rem;
     color: var(--ink);
     font-variant-numeric: tabular-nums;
-  }
-
-  /* interests ticker */
-  .interests {
-    list-style: none;
-    padding: 0;
-    margin: clamp(2.5rem, 6vw, 4rem) 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 0.5rem;
-    border-top: 1px solid var(--rule);
-    padding-top: 1.5rem;
-  }
-
-  .interests__item {
-    font-family: var(--font-mono);
-    font-size: 0.73rem;
-    color: var(--ink-3);
-    border: 1px solid var(--rule);
-    border-radius: 100px;
-    padding: 0.18rem 0.65rem;
-    transition: color 0.2s ease, border-color 0.2s ease;
-  }
-
-  .interests__item:hover {
-    color: var(--accent-ink);
-    border-color: var(--accent);
   }
 
   .section__note {

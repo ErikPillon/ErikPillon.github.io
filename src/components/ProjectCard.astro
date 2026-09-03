@@ -34,6 +34,10 @@ function plotPoints(seedText: string, count = 26): string {
 }
 
 const points = image ? null : plotPoints(name);
+
+/** Initials for the placeholder plate: "Let'z Quiz" -> LQ, "Distill" -> DI. */
+const words = name.split(/\s+/).filter(Boolean);
+const monogram = (words.length > 1 ? words.slice(0, 2).map((w) => w[0]).join('') : name.slice(0, 2)).toUpperCase();
 ---
 
 <Tag class:list={['card', `card--${variant}`, { 'card--muted': status === 'archived', 'card--static': !link }]} {...linkProps}>
@@ -48,7 +52,7 @@ const points = image ? null : plotPoints(name);
           <svg viewBox="0 0 100 100" preserveAspectRatio="none" role="presentation">
             <polyline points={points} vector-effect="non-scaling-stroke" />
           </svg>
-          <span class="card__monogram mono">{name.slice(0, 2).toUpperCase()}</span>
+          <span class="card__monogram mono">{monogram}</span>
         </div>
       ))
   }

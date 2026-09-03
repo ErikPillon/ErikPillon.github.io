@@ -2,7 +2,7 @@ export const site = {
   title: 'Erik Pillon',
   tagline: 'Mathematician, actuary, triathlete-in-training',
   description:
-    'Mathematician working as an actuary, with a past in research and IT. I build small tools, write about science and books, and train for long races.',
+    'Mathematician working as an actuary, with a past in research and IT. I build small tools, read a lot, write about science and books, and train for long races.',
   url: 'https://erikpillon.github.io',
   author: 'Erik Pillon',
   email: 'erik.pillon@gmail.com',

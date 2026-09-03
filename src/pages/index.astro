@@ -19,9 +19,9 @@ const elsewhere = (await getCollection('elsewhere')).sort((a, b) => a.data.order
 const daysToRace = Math.ceil((raceDay.valueOf() - Date.now()) / 86_400_000);
 
 const spec = [
-  { key: 'role', value: 'Actuary — reserving & capital' },
-  { key: 'trained as', value: 'Mathematician, then physicist (PhD)' },
-  { key: 'previously', value: 'Software & data engineering' },
+  { key: 'day job', value: 'Actuary' },
+  { key: 'trained as', value: 'Mathematician, then three years of physics' },
+  { key: 'before that', value: 'Software and data engineering' },
   { key: 'studying', value: 'MSc Actuarial Science, KU Leuven' },
   { key: 'half-marathon pb', value: '1:30:37' },
   {
@@ -31,17 +31,17 @@ const spec = [
 ];
 
 const interests = [
-  'stochastic processes',
-  'reserving triangles',
+  'probability',
   'the history of science',
-  'Formula 1 telemetry',
+  'Formula 1 data',
   'doughnut economics',
-  'zettelkasten',
+  'note-taking systems',
   'open-water swimming',
   'pub quiz trivia',
   'index funds',
-  'quantum dynamics',
+  'how molecules move',
   'book notes',
+  'running long',
   'Fortran (still)',
 ];
 ---
@@ -54,19 +54,21 @@ const interests = [
         <p class="label hero__eyebrow">Erik Pillon — Luxembourg</p>
 
         <h1 class="display hero__title">
-          Mathematician by training,<br />
-          actuary by trade,<br />
-          <em>hopeless generalist</em> by temperament.
+          Mathematician.<br />
+          Actuary.<br />
+          Curious about<br />
+          <em>far too many things</em>.
         </h1>
 
         <p class="comment hero__note">
-          physics PhD → software → insurance. the through-line is being curious in public.
+          maths → physics research → software → insurance. never great at picking one thing.
         </p>
 
         <p class="lede hero__lede">
-          I price and reserve risk for a living, which turns out to be a very good excuse to think
-          about probability all day. The rest of the time I build small tools, write about books and
-          the history of science, and train for races that are longer than strictly reasonable.
+          At work I figure out how much an insurer needs to put aside for claims that haven't
+          happened yet, which is a very good excuse to think about probability all day. The rest of
+          the time I build small tools, read a lot, write about books and the history of science,
+          and train for races that are longer than they need to be.
         </p>
 
         <div class="hero__actions">
@@ -106,7 +108,7 @@ const interests = [
       </SectionHead>
 
       <p class="comment section__note">
-        side projects follow my interests, which is a polite way of saying there are too many of them
+        my side projects follow whatever I'm into, which is a polite way of saying there are too many
       </p>
 
       <div class="feature-grid">

@@ -1,14 +1,14 @@
 ---
 title: "Some of the most influential articles ever written"
 date: 2023-05-22
-description: "A running shortlist of the papers and essays that moved the needle — the ones I've actually read, with the PDFs attached."
+description: "A short list of papers and essays that changed how a whole field thinks — the ones I've actually read, with the PDFs attached."
 tags:
   - "articles"
   - "reading list"
 legacySlug: "Most_influential_articles"
 ---
 
-A running list of short papers and essays that changed how a whole field thinks — the kind of thing you can read in an evening and then argue about for a decade. These are the ones I have actually read; the list grows slowly and on purpose.
+Short papers and essays that changed how a whole field thinks — the kind of thing you can read in an evening and then argue about for years. These are the ones I've actually read. The list grows slowly, on purpose.
 
 ### Warren Weaver — *Science and Complexity* (1948)
 

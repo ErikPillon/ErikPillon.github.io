@@ -2,7 +2,7 @@
 title: "Eichmann in Jerusalem"
 subtitle: "A Report on the Banality of Evil"
 date: 2023-05-13
-description: "Notes on Arendt's trial report, the phrase that outlived it, and why \"the banality of evil\" is so persistently misread."
+description: "Notes on Arendt's report from the trial, and on why people keep getting \"the banality of evil\" wrong."
 book:
   author: "Hannah Arendt"
   year: 1963

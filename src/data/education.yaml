@@ -1,59 +1,59 @@
-# Academic path, newest first. Shown on /about.
+# Where I studied, newest first. Shown on /about.
 - name: KU Leuven
   dates: "2026 —"
   qualification: MSc Actuarial Science & Financial Engineering
   current: true
   description: >-
-    Formalising and deepening the actuarial toolkit I use day to day, with a
-    focus on financial engineering.
+    Putting proper names to things I'd been doing by instinct at work, with a
+    focus on the financial engineering side.
 
 - name: University of Luxembourg
-  dates: "2018 — 2022"
-  qualification: PhD in Physics
+  dates: "2018 — 2021"
+  qualification: Doctoral research in Physics — left unfinished
   description: >-
-    Doctoral research on efficient numerical methods for non-adiabatic quantum
-    dynamics — specifically the molecular Aharonov–Bohm effect. An accessible
-    introduction to that work is [available here](/forum_EP.pdf).
-    Alongside it I sat on the committee board of
-    [LuxDoc](https://luxdoc.github.io), the University's PhD students' association,
-    latterly as President, co-organising the Luxembourgish Science Slam and the
-    Three Minute Thesis competition.
+    Three years spent looking for faster ways to simulate how molecules move
+    when the usual shortcuts stop working — the molecular Aharonov–Bohm effect.
+    I left before writing it up. There's a short, readable version of the work
+    [here](/forum_EP.pdf).
+    On the side I sat on the board of [LuxDoc](https://luxdoc.github.io), the
+    University's doctoral students' association, and ended up running it, which
+    meant organising the Luxembourg Science Slam and the Three Minute Thesis
+    contest.
 
 - name: Grenoble INP & Institut Néel
   dates: "2018"
   qualification: Erasmus exchange
   description: >-
-    Five months of physics coursework at Grenoble INP, then six months at
-    Institut Néel developing my Master's thesis. Comfort zone: successfully exited.
+    Five months of physics courses at Grenoble INP, then six months at Institut
+    Néel writing my Master's thesis. Comfort zone: successfully left.
 
 - name: University of Verona
   dates: "2016 — 2018"
   qualification: MSc in Mathematics
   description: >-
-    Advanced numerical analysis, differential geometry and stochastic PDEs.
-    Partly self-funded as a teaching assistant for Analysis II and Time Series
-    Analysis, while serving a second term as student representative and
-    co-organising FestaScienze.
+    Numerical analysis, differential geometry and stochastic PDEs. I paid part
+    of my way as a teaching assistant for Analysis II and Time Series Analysis,
+    served a second term as student rep, and helped run FestaScienze again.
 
 - name: Utrecht University
   dates: "2018"
   qualification: Summer School in Theoretical Physics
   description: >-
-    Thermal and statistical physics, quantum mechanics and electrodynamics.
-    The final project derived analytic expressions for the electric and magnetic
-    fields produced by a charged particle moving through a conducting medium —
-    the setting of heavy-ion collisions.
+    Thermal and statistical physics, quantum mechanics and electrodynamics. The
+    final project worked out the electric and magnetic fields around a charged
+    particle moving through a conducting medium — the sort of thing that happens
+    in heavy-ion collisions.
 
 - name: Lappeenranta University
   dates: "2018"
   qualification: ECMI Modelling Week
   description: >-
-    A week ending in the numerical solution of the 2D Ising model, by both
-    deterministic and stochastic methods.
+    A week that ended in solving the 2D Ising model numerically, both the
+    deterministic way and the random one.
 
 - name: University of Verona
   dates: "2013 — 2016"
   qualification: BSc in Applied Mathematics
   description: >-
-    Numerical analysis, stochastic processes, econometrics and time series
-    analysis. Student representative, and one of the organisers of FestaScienze.
+    Numerical analysis, stochastic processes, econometrics and time series.
+    Student rep, and one of the people who put on FestaScienze.

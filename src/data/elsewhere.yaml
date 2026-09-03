@@ -4,31 +4,31 @@
   kind: Newsletter
   host: Substack
   description: >-
-    Long-form pieces on the people, dates and discoveries that shaped science.
-    New issues land here first.
+    Longer pieces on the people, dates and discoveries that shaped science. New
+    issues land here first.
   link: https://scientificchronicles.substack.com/
 
 - name: "Scientific Chronicles: Anniversaries"
   kind: Archive
   host: Web
   description: >-
-    The companion site — a browsable archive of scientific anniversaries, one
-    day at a time.
+    The companion site: an archive of scientific anniversaries you can browse
+    a day at a time.
   link: https://scientific-chronicles.vercel.app/
 
 - name: Open Finance
   kind: Dashboard
   host: Web
   description: >-
-    Portfolio and expense tracking, live. Register or play with an imaginary
+    Spending and portfolio tracking, live. Sign up, or play with a made-up
     portfolio.
-  link: https://fintools.vercel.app/
+  link: https://app.open-finance.live/
 
 - name: F1 Analytics
   kind: Dashboard
   host: GitHub Pages
   description: >-
-    Formula 1 seasons pulled apart with data visualisation. Archived, but still
+    Formula 1 seasons pulled apart with charts. Not updated any more, but still
     standing.
   link: https://f1analytics.github.io
 
@@ -36,8 +36,7 @@
   kind: Blog
   host: GitHub Pages
   description: >-
-    An earlier home for book notes and reviews. No longer updated; the good bits
-    have moved here.
+    An earlier home for book notes and reviews. The good bits have moved here.
   link: https://the52ndbook.github.io
 
 # Add your Medium profile here when you want it listed:

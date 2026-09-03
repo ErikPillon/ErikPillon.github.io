@@ -12,13 +12,13 @@ const groups = [
     num: '01',
     key: 'building',
     title: 'Building now',
-    note: 'live, half-live, and stubbornly in progress',
+    note: 'live, half-live, and stubbornly unfinished',
   },
   {
     num: '02',
     key: 'scicomm',
     title: 'Science communication',
-    note: 'a habit picked up during the PhD that never quite wore off',
+    note: 'a habit I picked up while doing research and never shook off',
   },
 ] as const;
 
@@ -39,10 +39,10 @@ const counts = {
       <p class="label">Projects</p>
       <h1 class="display page-head__title">Things I have made, or am still making.</h1>
       <p class="lede">
-        Nothing here is a product. These are the places where a question got interesting enough that I
-        opened an editor — a personal finance tool, a second brain, a scoring engine for quiz night,
-        and a decade of science outreach. Some are live, some are honest wrecks, and the archive is
-        kept on purpose.
+        None of this is a product. These are the things I got curious enough about to actually start
+        building: a personal finance app, a second brain, a scoring app for quiz night, and about ten
+        years of trying to get people interested in science. Some are live, some are a mess, and the
+        archive is there on purpose.
       </p>
       <p class="counts mono">
         <span class="status" data-status="live">{counts.live} live</span>
@@ -72,7 +72,7 @@ const counts = {
     <div class="wrap">
       <SectionHead num="03" title="Archive" />
       <p class="comment section__note">
-        no longer maintained, kept because deleting your own history is bad practice
+        not updated any more, but I don't like deleting things
       </p>
       <div class="archive">
         {archive.map((project) => <ProjectCard project={project} variant="row" />)}

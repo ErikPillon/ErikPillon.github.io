@@ -1,0 +1,172 @@
+---
+import { analytics } from '../site';
+
+/**
+ * Google Analytics, consent-first.
+ *
+ * Nothing from Google is requested until a visitor clicks accept — no script
+ * tag, no cookies, not even a cookieless ping. The choice is remembered in
+ * localStorage and can be changed again from the footer.
+ *
+ * Only rendered in production builds, so local development never counts as
+ * traffic. To check the banner, run `npm run build && npm run preview`.
+ */
+const id = analytics.measurementId;
+const enabled = import.meta.env.PROD && Boolean(id);
+---
+
+{
+  enabled && (
+    <>
+      <aside class="consent" data-consent role="region" aria-label="Analytics consent" hidden>
+        <p class="consent__label">// one small question</p>
+        <p class="consent__text">
+          I use Google Analytics to see how many people end up here and which pages get read. It
+          sets cookies. Nothing loads unless you say yes.
+        </p>
+        <div class="consent__actions">
+          <button class="consent__btn consent__btn--yes" type="button" data-consent-accept>
+            Yes, that's fine
+          </button>
+          <button class="consent__btn" type="button" data-consent-decline>
+            No thanks
+          </button>
+        </div>
+      </aside>
+
+      <script is:inline define:vars={{ id }}>
+        (function () {
+          var KEY = 'analytics-consent';
+          var banner = document.querySelector('[data-consent]');
+          if (!banner) return;
+
+          function loadGoogleAnalytics() {
+            if (window.__gaLoaded) return;
+            window.__gaLoaded = true;
+
+            var tag = document.createElement('script');
+            tag.async = true;
+            tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+            document.head.appendChild(tag);
+
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () {
+              window.dataLayer.push(arguments);
+            };
+            window.gtag('js', new Date());
+            window.gtag('config', id);
+          }
+
+          function remember(value) {
+            try {
+              localStorage.setItem(KEY, value);
+            } catch (e) {
+              /* storage blocked — the banner will just ask again next time */
+            }
+            banner.hidden = true;
+          }
+
+          var stored = null;
+          try {
+            stored = localStorage.getItem(KEY);
+          } catch (e) {
+            /* private mode — treat as undecided */
+          }
+
+          if (stored === 'granted') loadGoogleAnalytics();
+          else if (stored !== 'denied') banner.hidden = false;
+
+          banner.querySelector('[data-consent-accept]').addEventListener('click', function () {
+            remember('granted');
+            loadGoogleAnalytics();
+          });
+
+          banner.querySelector('[data-consent-decline]').addEventListener('click', function () {
+            remember('denied');
+          });
+
+          // The footer link reopens the banner so a choice is never final.
+          document.querySelectorAll('[data-consent-open]').forEach(function (link) {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              banner.hidden = false;
+              banner.querySelector('[data-consent-accept]').focus();
+            });
+          });
+        })();
+      </script>
+    </>
+  )
+}
+
+<style>
+  .consent {
+    position: fixed;
+    z-index: 100;
+    left: var(--gutter);
+    bottom: clamp(1rem, 3vw, 1.75rem);
+    width: min(24rem, calc(100vw - var(--gutter) * 2));
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1.1rem 1.2rem 1.15rem;
+  }
+
+  /* The element is display:block by default, so hidden needs to win. */
+  .consent[hidden] {
+    display: none;
+  }
+
+  .consent__label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    margin-bottom: 0.6rem;
+  }
+
+  .consent__text {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--ink-2);
+    text-wrap: pretty;
+  }
+
+  .consent__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Both choices get the same weight on purpose. */
+  .consent__btn {
+    flex: 1 1 auto;
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+    padding: 0.5rem 0.85rem;
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+  }
+
+  .consent__btn:hover {
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+
+  .consent__btn--yes {
+    background: var(--accent-soft);
+    border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    color: var(--accent-ink);
+  }
+
+  .consent__btn--yes:hover {
+    background: color-mix(in srgb, var(--accent) 18%, transparent);
+  }
+</style>

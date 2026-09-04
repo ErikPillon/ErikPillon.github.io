@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import EasterEggs from '../components/EasterEggs.astro';
+import Analytics from '../components/Analytics.astro';
 import { site } from '../site';
 
 interface Props {
@@ -81,5 +82,6 @@ const ogImage = new URL(image, Astro.site ?? site.url);
     </main>
     <Footer />
     <EasterEggs />
+    <Analytics />
   </body>
 </html>

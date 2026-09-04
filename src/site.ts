@@ -9,6 +9,14 @@ export const site = {
   locale: 'en',
 } as const;
 
+/**
+ * Google Analytics 4. The script is only injected after a visitor accepts —
+ * see src/components/Analytics.astro. Set to '' to turn analytics off entirely.
+ */
+export const analytics = {
+  measurementId: 'G-TVDC8TKG2W',
+} as const;
+
 export const nav = [
   { href: '/', label: 'Home' },
   { href: '/projects', label: 'Projects' },

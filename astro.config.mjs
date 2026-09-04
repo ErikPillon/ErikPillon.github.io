@@ -22,7 +22,10 @@ const legacyPostRedirects = Object.fromEntries(
 export default defineConfig({
   site: 'https://erikpillon.github.io',
   trailingSlash: 'ignore',
-  integrations: [sitemap()],
+  integrations: [
+    // The easter-egg page is deliberately not advertised.
+    sitemap({ filter: (page) => !page.includes('%E2%88%AE') && !page.includes('\u222e') }),
+  ],
   redirects: {
     '/blog': '/writing',
     '/project': '/projects',

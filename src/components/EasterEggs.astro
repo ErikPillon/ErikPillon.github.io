@@ -1,0 +1,56 @@
+---
+// Nothing load-bearing lives in here. Keep looking.
+---
+
+<script>
+  const ACCENT = 'color:#b1412a';
+  const DIM = 'color:#8a8478';
+
+  // ── for whoever opens the console ──────────────────────────────────────────
+  console.log(
+    [
+      '%c∮ A·dl ≠ 0',
+      '%cI think like a physicist, but I code like a mathematician.',
+      '%cYou opened the console. Of course you did.',
+      'Source: https://github.com/ErikPillon/ErikPillon.github.io',
+      '',
+      'Three more things are hidden here.',
+      'One needs a keyboard. One needs three clicks. One is already on screen.',
+    ].join('\n'),
+    `${ACCENT};font-size:15px;font-weight:600`,
+    'color:inherit;font-style:italic',
+    DIM,
+  );
+
+  // ── ↑↑↓↓←→←→BA flips the theme ─────────────────────────────────────────────
+  const KONAMI = ['arrowup', 'arrowup', 'arrowdown', 'arrowdown', 'arrowleft', 'arrowright', 'arrowleft', 'arrowright', 'b', 'a'];
+  let step = 0;
+
+  addEventListener('keydown', (event) => {
+    const key = event.key.toLowerCase();
+    if (key === KONAMI[step]) step += 1;
+    else step = key === KONAMI[0] ? 1 : 0;
+    if (step < KONAMI.length) return;
+
+    step = 0;
+    const systemDark = matchMedia('(prefers-color-scheme: dark)').matches;
+    const current = document.documentElement.dataset.theme ?? (systemDark ? 'dark' : 'light');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    try {
+      localStorage.setItem('theme', next);
+    } catch {
+      /* storage blocked — the flip just won't stick */
+    }
+    console.log(`%c↑↑↓↓←→←→BA — ${next} mode. The thirty lives are not included.`, ACCENT);
+  });
+
+  // ── triple-click a big heading to crank Fraunces' WONK axis ────────────────
+  addEventListener('click', (event) => {
+    if (event.detail < 3) return;
+    const target = event.target;
+    if (!(target instanceof Element) || !target.closest('.display')) return;
+    const on = document.documentElement.toggleAttribute('data-wonk');
+    console.log(`%cWONK ${on ? 'maxed out' : 'back to normal'}. Triple-click again to undo.`, ACCENT);
+  });
+</script>

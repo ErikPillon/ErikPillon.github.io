@@ -154,6 +154,20 @@ h4 {
   letter-spacing: -0.015em;
   font-variation-settings: 'SOFT' 20, 'WONK' 0;
   text-wrap: balance;
+  /* No transition here on purpose: transitioning font-variation-settings on
+     headings leaves them stuck on the old axis values, so the wonk toggle
+     below would silently do nothing. It snaps instead. */
+}
+
+/* Triple-click any .display heading and every heading goes as wonky as
+   Fraunces allows. Set from EasterEggs.astro; !important because several
+   components pin their own axis values. */
+:root[data-wonk] h1,
+:root[data-wonk] h2,
+:root[data-wonk] h3,
+:root[data-wonk] h4,
+:root[data-wonk] .display {
+  font-variation-settings: 'SOFT' 100, 'WONK' 1 !important;
 }
 
 .display {

@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="∮"
+  description="You found the contour integral."
+  noindex
+>
+  <section class="section section--flush found grid-paper">
+    <div class="wrap">
+      <p class="label">You clicked the little symbol</p>
+
+      <h1 class="display found__title">∮ A·dl</h1>
+
+      <p class="comment found__note">
+        the one thing on this site that isn't about insurance
+      </p>
+
+      <div class="found__body">
+        <div class="prose prose--tight">
+          <p>
+            That's a contour integral — you add something up all the way around a closed loop and
+            come back to where you started. For three years it was most of my life.
+          </p>
+          <p>
+            Send an electron around a loop with a magnetic field sealed inside, where the electron
+            never goes. Classically nothing should happen: no field where the particle is, no force,
+            no effect. It happens anyway. The electron picks up a phase shift proportional to that
+            integral, and you can see it in the interference pattern.
+          </p>
+          <p>
+            <strong>The field is zero everywhere the electron travels. It still knows the solenoid
+            is there.</strong> That's the Aharonov–Bohm effect, and I spent those years trying to
+            simulate the molecular version of it faster than anyone had managed.
+          </p>
+          <p>
+            I left before writing up the thesis. The physics is still lovely.{' '}
+            <a class="link" href="/forum_EP.pdf">The readable version is here (PDF)</a>.
+          </p>
+        </div>
+
+        <figure class="diagram">
+          <svg viewBox="0 0 200 160" role="img" aria-label="An electron path looping around a solenoid that carries a magnetic field confined inside it.">
+            <!-- the loop the electron takes -->
+            <circle class="loop" cx="100" cy="76" r="52" />
+            <!-- direction of travel -->
+            <path class="tip" d="M148 62 L152 76 L138 78" />
+            <!-- the solenoid: field lives only in here -->
+            <circle class="core" cx="100" cy="76" r="13" />
+            <text class="glyph" x="100" y="82" text-anchor="middle">B</text>
+            <text class="note" x="100" y="150" text-anchor="middle">field: inside only</text>
+            <text class="note" x="100" y="18" text-anchor="middle">electron: outside only</text>
+          </svg>
+          <figcaption class="comment">no field on the path. phase shift anyway.</figcaption>
+        </figure>
+      </div>
+
+      <p class="found__more">
+        While you're here: there are two more. One wants{' '}
+        <span class="mono found__keys">↑↑↓↓←→←→BA</span>. The other wants three fast clicks on any
+        big heading — including the one above.
+      </p>
+
+      <div class="found__actions">
+        <a class="arrow-link" href="/"><span>Back to the actual site</span><span>→</span></a>
+        <a class="arrow-link" href="/about"><span>About</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .found {
+    padding-block: clamp(3rem, 8vw, 5rem) clamp(3rem, 8vw, 5rem);
+  }
+
+  .found__title {
+    font-size: clamp(3rem, 11vw, 6.5rem);
+    margin: 1rem 0 1.1rem;
+    font-variation-settings: 'SOFT' 60, 'WONK' 1;
+  }
+
+  .found__note {
+    margin-bottom: 2.5rem;
+  }
+
+  .found__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(14rem, 0.8fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: start;
+  }
+
+  .prose--tight {
+    max-width: 54ch;
+    font-size: 1rem;
+  }
+
+  .prose--tight > * + * {
+    margin-top: 1.1em;
+  }
+
+  .diagram {
+    margin: 0;
+  }
+
+  .diagram svg {
+    width: 100%;
+    max-width: 20rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--surface) 70%, transparent);
+    padding: 0.5rem;
+  }
+
+  .loop {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.25;
+    stroke-dasharray: 3 4;
+  }
+
+  .tip {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .core {
+    fill: color-mix(in srgb, var(--accent) 16%, transparent);
+    stroke: var(--accent);
+    stroke-width: 1.25;
+  }
+
+  .glyph {
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    fill: var(--accent-ink);
+  }
+
+  .note {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    letter-spacing: 0.06em;
+    fill: var(--ink-3);
+  }
+
+  .diagram figcaption {
+    margin-top: 0.7rem;
+    font-size: 0.75rem;
+  }
+
+  .found__more {
+    margin-top: 2.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    max-width: var(--measure);
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+
+  .found__keys {
+    color: var(--accent-ink);
+    white-space: nowrap;
+  }
+
+  .found__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.75rem;
+  }
+
+  @media (max-width: 52rem) {
+    .found__body {
+      grid-template-columns: 1fr;
+    }
+
+    .diagram svg {
+      max-width: 16rem;
+    }
+  }
+</style>

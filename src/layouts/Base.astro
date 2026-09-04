@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import EasterEggs from '../components/EasterEggs.astro';
 import { site } from '../site';
 
 interface Props {
@@ -11,9 +12,17 @@ interface Props {
   image?: string;
   /** Renders the wordmark large in the nav on the landing page only. */
   home?: boolean;
+  /** Keep a page out of search results and the sitemap. */
+  noindex?: boolean;
 }
 
-const { title, description = site.description, image = '/images/nerdy.jpeg', home = false } = Astro.props;
+const {
+  title,
+  description = site.description,
+  image = '/images/nerdy.jpeg',
+  home = false,
+  noindex = false,
+} = Astro.props;
 
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — ${site.tagline}`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? site.url);
@@ -29,6 +38,7 @@ const ogImage = new URL(image, Astro.site ?? site.url);
     <link rel="canonical" href={canonical} />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <meta name="author" content={site.author} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <meta name="generator" content={Astro.generator} />
 
     <meta property="og:type" content="website" />
@@ -70,5 +80,6 @@ const ogImage = new URL(image, Astro.site ?? site.url);
       <slot />
     </main>
     <Footer />
+    <EasterEggs />
   </body>
 </html>

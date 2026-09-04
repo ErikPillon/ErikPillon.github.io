@@ -13,11 +13,14 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
 
 <header class="nav">
   <div class="wrap nav__inner">
-    <a href="/" class="wordmark" aria-label={`${site.title} — home`}>
-      <span class="wordmark__name">Erik Pillon</span>
+    <div class="brand">
+      <a href="/" class="wordmark" aria-label={`${site.title} — home`}>
+        <span class="wordmark__name">Erik Pillon</span>
+      </a>
       <span class="wordmark__dot" aria-hidden="true">·</span>
-      <span class="wordmark__meta">∮</span>
-    </a>
+      {/* Unlabelled on purpose. It goes somewhere. */}
+      <a href="/∮/" class="wordmark__meta" aria-label="Colophon">∮</a>
+    </div>
 
     <nav class="nav__links" aria-label="Main">
       {
@@ -52,10 +55,13 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
     min-height: 3.75rem;
   }
 
-  .wordmark {
+  .brand {
     display: inline-flex;
     align-items: baseline;
     gap: 0.4rem;
+  }
+
+  .wordmark {
     text-decoration: none;
     font-family: var(--font-display);
     font-size: 1.02rem;
@@ -83,6 +89,13 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
 
   .wordmark__meta {
     opacity: 0.7;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .wordmark__meta:hover {
+    opacity: 1;
+    transform: translateY(-1px) rotate(-8deg);
   }
 
   .nav__links {

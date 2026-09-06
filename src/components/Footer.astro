@@ -32,15 +32,6 @@ const year = new Date().getFullYear();
         <li><a class="footer__link" href="/writing"><span class="footer__label">Writing</span></a></li>
         <li><a class="footer__link" href="/about"><span class="footer__label">About</span></a></li>
         <li><a class="footer__link" href="/rss.xml"><span class="footer__label">RSS</span></a></li>
-        {
-          import.meta.env.PROD && (
-            <li>
-              <a class="footer__link" href="#" data-consent-open>
-                <span class="footer__label">Cookie choice</span>
-              </a>
-            </li>
-          )
-        }
       </ul>
     </div>
   </div>
@@ -48,7 +39,7 @@ const year = new Date().getFullYear();
   <div class="wrap footer__base">
     <p class="mono">© {year} {site.author}</p>
     <p class="mono footer__colophon">
-      Built with Astro · Fraunces &amp; IBM Plex · <span aria-hidden="true">∮</span> analytics only if you say yes
+      Built with Astro · Fraunces &amp; IBM Plex <span aria-hidden="true">∮</span>
     </p>
   </div>
 </footer>

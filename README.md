@@ -81,8 +81,8 @@ public/             copied to the site root verbatim (images, PDFs, favicon)
 - Old Jekyll permalinks (`/blog/:slug`) redirect to `/writing/:slug`; the map is in
   `astro.config.mjs`. Don't delete entries — they are the only thing keeping inbound links alive.
 - Light/dark follows the system by default; the toggle overrides it and persists in `localStorage`.
-- Google Analytics (`G-TVDC8TKG2W`, set in `src/site.ts`) is **consent-first**: the gtag script is
-  never requested until a visitor clicks accept, so no cookies are set and no request reaches Google
-  before then. The choice lives in `localStorage` and can be changed from the footer. Analytics is
-  compiled out of dev builds entirely — to see the banner, run `npm run build && npm run preview`.
-  Set `measurementId` to `''` to remove analytics from the site.
+- Google Analytics (`G-TVDC8TKG2W`, set in `src/site.ts`) loads on every page view. It is compiled
+  out of dev builds, so local development never counts as traffic. Set `measurementId` to `''` to
+  remove analytics — script, cookies and all — from the site.
+- There is no cookie banner. GA sets cookies on arrival, which is worth knowing if EU consent rules
+  ever become a concern for the site.

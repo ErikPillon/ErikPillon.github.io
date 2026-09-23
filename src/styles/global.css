@@ -483,6 +483,29 @@ main {
   margin-inline: auto;
 }
 
+/* Generated charts ship as a light/dark pair; show the one matching the theme. */
+.prose img.chart--dark {
+  display: none;
+}
+
+:root[data-theme='dark'] .prose img.chart--light {
+  display: none;
+}
+
+:root[data-theme='dark'] .prose img.chart--dark {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .prose img.chart--light {
+    display: none;
+  }
+
+  :root:not([data-theme='light']) .prose img.chart--dark {
+    display: block;
+  }
+}
+
 .prose hr {
   border: 0;
   border-top: 1px solid var(--rule);
